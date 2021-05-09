@@ -1,0 +1,77 @@
+.shoe{
+    background-color: #fff;
+    
+   width: 95%;
+   margin:40px auto;
+    &__titleClothes{
+        margin:60px 0 40px 0;
+    }
+    h1{
+        text-align: center;
+        font-size:1.3rem;
+        font-weight: 700;
+    }
+    &__items{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        
+       
+        &__item{
+            width:250px;
+        
+            margin:20px 0px;
+            transition: all .5s;
+            overflow: hidden;
+            &:hover{
+                transform: scale(1.1);
+            }
+            &__price{
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                border-top: 1px solid #ccc;
+                padding-top: 5px;
+                margin-top:10px;
+                &__money{
+                    cursor: pointer;
+                    del{
+                        margin-right:15px;
+                        font-size:13px;
+                    }
+                }
+                &__iconCard{
+                    cursor: pointer;
+                    .MuiSvgIcon-root{
+                        color:#ccc;
+                    }
+                }
+            }
+            &__image{
+                width:250px;
+                height: 200px;
+                cursor: pointer;
+            
+                img{
+                    width:100%;
+                    height:100%;
+                    object-fit: cover;
+                }
+            }
+            &__name{
+               
+                h3{
+                    font-size:12px;
+                    margin:5px 0;
+                }
+                h1{
+                    font-size:14px;
+                    text-align: left;
+                    font-weight: 600;
+                }
+            }
+         
+        }
+    }
+}
