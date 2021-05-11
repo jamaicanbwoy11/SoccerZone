@@ -1,15 +1,21 @@
 import './App.scss';
-import Carousel from './Components/Carousel/Carousel';
-import Header from './Components/Header/Header';
-import Shoe from './Components/Shoe/Shoe';
 
+import Header from './Components/Header/Header';
+import { BrowserRouter as Router,Switch, Route } from "react-router-dom";
+import HomePages from './Pages/HomePages/HomePages';
+import ShoesBrand from './Pages/ShoesBrand/ShoesBrand';
 function App() {
   return (
+    <Router>
     <div className="App" >
       <Header/>
-      <Carousel/>
-      <Shoe/>
+      <Switch>
+        <Route path="/:id" component={ShoesBrand}/>
+        <Route exact path="/" component={HomePages} />
+      </Switch>
+  
     </div>
+    </Router>
   );
 }
 

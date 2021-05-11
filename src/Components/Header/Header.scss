@@ -4,12 +4,15 @@ $bg-linear: linear-gradient(to right, #c9aaff, #f4ff97);
 
 
 .header{
+  
     &__top{
         display: flex;
         justify-content: space-between;
         align-items: center;
         background-color: #F5F5F5;
         padding:6px 40px;
+
+     
         nav{
             ul{
                 display: flex;
@@ -40,6 +43,14 @@ $bg-linear: linear-gradient(to right, #c9aaff, #f4ff97);
         padding:6px 40px;
 
         background-color: #fff;
+
+        // position: -webkit-sticky; /* Safari */  
+        // position: fixed;
+        // left:0;
+        // right:0;
+        // top:0;
+       
+        z-index: 9999;
         &__logo{
             display: flex;
             align-items: center;

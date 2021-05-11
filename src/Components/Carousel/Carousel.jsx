@@ -4,13 +4,13 @@ import './Carousel.scss';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 
-import slick1 from '../../Assets/Images/lebron18.jpg';
-import slick2 from '../../Assets/Images/freak-baner.jpg';
-import slick3 from '../../Assets/Images/Kyrie2.jpg';
-import slick4 from '../../Assets/Images/LEBRON.jpg';
-import slick5 from '../../Assets/Images/NBA2.jpg';
-import slick6 from '../../Assets/Images/WESTBROOK2.jpg';
-import slick7 from '../../Assets/Images/1b.jpg';
+import slick1 from '../../Assets/Images/Carousel/lebron18.jpg';
+import slick2 from '../../Assets/Images/Carousel/freak-baner.jpg';
+import slick3 from '../../Assets/Images/Carousel/Kyrie2.jpg';
+import slick4 from '../../Assets/Images/Carousel/LEBRON.jpg';
+import slick5 from '../../Assets/Images/Carousel/NBA2.jpg';
+import slick6 from '../../Assets/Images/Carousel/WESTBROOK2.jpg';
+import slick7 from '../../Assets/Images/Carousel/1b.jpg';
 import Slider from 'react-slick';
 function Carousel() {
   let settings = {
