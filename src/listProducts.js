@@ -18,6 +18,33 @@ export const dataProduct = [
         brand:'KD',
         linkImage:'https://it.basketzone.net/zdjecia/2019/06/18/306/59/NIKE_ZOOM_KD_12_UNIVERSITY_REDs-mini.jpg',
         type:1,
+        imageDetail:[
+            {
+                id:0,
+                linkImage:'https://it.basketzone.net/zdjecia/2019/06/18/306/59/NIKE_ZOOM_KD_12_UNIVERSITY_REDs-mini.jpg', 
+                check:true,               
+            },
+            {
+                id:1,
+                linkImage:'https://basketzone.pl/zdjecia/2019/06/27/306/29/Q9301air_jordan_11506-mini.jpg',
+                check:false,
+            },
+            {
+                id:2,
+                linkImage:'https://es.basketzone.net/zdjecia/2019/06/27/306/29/Q9301air_jordan_11505-mini.jpg',
+                check:false,
+            },
+            {
+                id:3,
+                linkImage:'https://sk.basketzone.net/zdjecia/2019/06/27/306/29/Q9301air_jordan_11508-mini.jpg',
+                check:false,
+            },
+            {
+                id:4,
+                linkImage:'https://se.basketzone.net/zdjecia/2019/06/27/306/29/Q9301air_jordan_11509-mini.jpg',
+                check:false,
+            },
+        ]
     },
     {
         id:1,
@@ -970,16 +997,7 @@ export const dataProduct = [
         linkImage:'https://sk.basketzone.net/zdjecia/2021/01/25/201/06/NIKE_ZOOM_FREAK_2_BRED_GIANNIS_ANTETOKOUNMPOs-mini.jpg?mini',
         type:1,
     },
-    {
-        id:96,
-        name:'NIKE ZOOM FREAK 1 GREECE GIANNIS ANTETOKOUMPO',
-        typeName:'BASKETBALL SHOES',
-        price:120,
-        priceDiscount:null,
-        brand:'ANTETOKOUNMPO',
-        linkImage:'https://es.kicksmaniac.com/zdjecia/2019/10/03/310/06/NIKE_ZOOM_FREAK_1_GREECEs-mini.jpg?mini',
-        type:1,
-    },
+ 
     {
         id:96,
         name:'NIKE ZOOM FREAK 2 WHITE CEMENT GIANNIS ANTETOKOUMPO',
@@ -1169,6 +1187,16 @@ export const dataProduct = [
         brand:'KD',
         linkImage:'https://no.basketzone.net/zdjecia/2019/09/12/909/40/NIKE_KD_FULL_COURT_8P_AMBERs-mini.jpg?mini',
         type:2,
+    },
+    {
+        id:115,
+        name:'NIKE ZOOM FREAK 1 GREECE GIANNIS ANTETOKOUMPO',
+        typeName:'BASKETBALL SHOES',
+        price:120,
+        priceDiscount:null,
+        brand:'ANTETOKOUNMPO',
+        linkImage:'https://es.kicksmaniac.com/zdjecia/2019/10/03/310/06/NIKE_ZOOM_FREAK_1_GREECEs-mini.jpg?mini',
+        type:1,
     },
 ];
 

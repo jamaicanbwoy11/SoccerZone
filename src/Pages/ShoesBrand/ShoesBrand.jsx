@@ -37,9 +37,19 @@ function ShoesBrand(props) {
       .map((item) => {
         return (
           <div key={item.id} className="shoe__items__item">
-            <div className="shoe__items__item__image">
-              <img src={item.linkImage} alt={`img-shoe${item.id}`} />
-            </div>
+            <Link
+              to={`/shoe-detail/${item.id}`}
+              onClick={() =>
+                window.scrollTo({
+                  top: 0,
+                  behavior: `smooth`,
+                })
+              }
+            >
+              <div className="shoe__items__item__image">
+                <img src={item.linkImage} alt={`img-shoe${item.id}`} />
+              </div>
+            </Link>
             <div className="shoe__items__item__name">
               <h3>{item.typeName}</h3>
               <h1>{item.name}</h1>
