@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import './Header.scss';
 import SearchIcon from '@material-ui/icons/Search';
 import FavoriteBorderIcon from '@material-ui/icons/FavoriteBorder';
@@ -6,6 +6,25 @@ import StorefrontIcon from '@material-ui/icons/Storefront';
 import Logo from '../../Assets/Images/Logo Thai Vipng1.png';
 import { Link } from 'react-router-dom';
 function Header() {
+  const [headerMid, setHeaderMid] = useState(false);
+  useEffect(() => {
+    let headerMid = document.querySelector('.header__mid');
+    window.addEventListener('scroll', () => {
+      if (window.scrollY > 180) {
+        setHeaderMid(true);
+        headerMid.setAttribute(
+          'style',
+          'border-bottom:1px solid #d8d5d5;transition:all .5s; animation: headerMidDown 0.4s linear 0s 1;'
+        );
+      } else {
+        setHeaderMid(false);
+        headerMid.setAttribute(
+          'style',
+          'border-bottom:none;transition:all .5s;animation: headerMidUp 0.4s linear 0s 1;'
+        );
+      }
+    });
+  }, []);
   return (
     <div className="header">
       {/* Logo Jordan */}
@@ -27,7 +46,7 @@ function Header() {
           </ul>
         </nav>
       </div>
-      <div className="header__mid">
+      <div className={`header__mid ${headerMid && 'header__midFixed'}`}>
         <div className="header__mid__logo">
           <svg
             class="pre-logo-svg"

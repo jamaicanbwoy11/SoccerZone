@@ -43,7 +43,8 @@ $bg-linear: linear-gradient(to right, #c9aaff, #f4ff97);
         padding:6px 40px;
 
         background-color: #fff;
-
+        
+        // animation: headerMidDown 1s linear 0s 1;
         // position: -webkit-sticky; /* Safari */  
         // position: fixed;
         // left:0;
@@ -113,6 +114,12 @@ $bg-linear: linear-gradient(to right, #c9aaff, #f4ff97);
             }
         }
     }
+    &__midFixed{
+        position: fixed;
+        top:0;
+        left:0;
+        right:0;
+    }
     &__bottom{
        
         background-color: #F5F5F5;
@@ -137,4 +144,20 @@ $bg-linear: linear-gradient(to right, #c9aaff, #f4ff97);
      
     }
 
+}
+@keyframes headerMidDown {
+    0%{
+        transform: translateY(-100px);
+    }
+    100%{
+        transform: translateY(0px);
+    }
+}
+@keyframes headerMidUp {
+    0%{
+        transform: translateY(100px);
+    }
+    100%{
+        transform: translateY(0px);
+    }
 }
