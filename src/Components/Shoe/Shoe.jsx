@@ -1,11 +1,22 @@
 import React from 'react';
-import { useSelector } from 'react-redux';
+import { useDispatch, useSelector } from 'react-redux';
 import './Shoe.scss';
 import StorefrontIcon from '@material-ui/icons/Storefront';
 import { Link } from 'react-router-dom';
+import { createAction } from '../../Redux/Action';
 function Shoe() {
   const shoeItem = useSelector((state) => state.ShoesReducer.shoe);
   const player = useSelector((state) => state.ShoesReducer.player);
+
+  const dispatch = useDispatch();
+  //Dispatch Shoe In Store Redux
+  const handleShoeDetail = (item) => {
+    window.scrollTo({
+      top: 0,
+      behavior: `smooth`,
+    });
+    dispatch(createAction('ITEM-DETAIL', item));
+  };
   const renderListShoe = () => {
     return shoeItem
       .filter((item) => item.type === 1)
@@ -15,12 +26,7 @@ function Shoe() {
           <div key={item.id} className="shoe__items__item">
             <Link
               to={`/shoe-detail/${item.id}`}
-              onClick={() =>
-                window.scrollTo({
-                  top: 0,
-                  behavior: `smooth`,
-                })
-              }
+              onClick={() => handleShoeDetail(item)}
             >
               <div className="shoe__items__item__image">
                 <img src={item.linkImage} alt={`img-shoe${item.id}`} />
@@ -74,12 +80,7 @@ function Shoe() {
           <div key={item.id} className="shoe__items__item">
             <Link
               to={`/shoe-detail/${item.id}`}
-              onClick={() =>
-                window.scrollTo({
-                  top: 0,
-                  behavior: `smooth`,
-                })
-              }
+              onClick={() => handleShoeDetail(item)}
             >
               <div className="shoe__items__item__image">
                 <img src={item.linkImage} alt={`img-shoe${item.id}`} />
@@ -133,12 +134,7 @@ function Shoe() {
           <div key={item.id} className="shoe__items__item">
             <Link
               to={`/shoe-detail/${item.id}`}
-              onClick={() =>
-                window.scrollTo({
-                  top: 0,
-                  behavior: `smooth`,
-                })
-              }
+              onClick={() => handleShoeDetail(item)}
             >
               <div className="shoe__items__item__image">
                 <img src={item.linkImage} alt={`img-shoe${item.id}`} />

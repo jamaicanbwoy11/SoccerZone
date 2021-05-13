@@ -1,14 +1,25 @@
 import React from 'react';
-import { useSelector } from 'react-redux';
+import { useDispatch, useSelector } from 'react-redux';
 import StorefrontIcon from '@material-ui/icons/Storefront';
 import './ShoesBrand.scss';
 import { Link } from 'react-router-dom';
+import { createAction } from '../../Redux/Action';
 
 function ShoesBrand(props) {
   const dataShoes = useSelector((item) => item.ShoesReducer.shoe);
   const idParams = props.match.params.id;
 
   const player = useSelector((state) => state.ShoesReducer.player);
+
+  const dispatch = useDispatch();
+  //Dispatch Shoe In Store Redux
+  const handleShoeDetail = (item) => {
+    window.scrollTo({
+      top: 0,
+      behavior: `smooth`,
+    });
+    dispatch(createAction('ITEM-DETAIL', item));
+  };
   //Render Player
   const renderPlayer = () => {
     return player.map((item) => {
@@ -39,12 +50,7 @@ function ShoesBrand(props) {
           <div key={item.id} className="shoe__items__item">
             <Link
               to={`/shoe-detail/${item.id}`}
-              onClick={() =>
-                window.scrollTo({
-                  top: 0,
-                  behavior: `smooth`,
-                })
-              }
+              onClick={() => handleShoeDetail(item)}
             >
               <div className="shoe__items__item__image">
                 <img src={item.linkImage} alt={`img-shoe${item.id}`} />
