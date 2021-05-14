@@ -62,6 +62,7 @@
             }
             &__image{
                 margin-right: 5px;
+                margin-bottom: 10px;
                 width:190px;
                 height: 140px;
                 cursor: pointer;
@@ -104,6 +105,7 @@
         margin:40px 0 250px 0;
         &__item{
             display: flex;
+         
             &__name{
                 margin:20px;
                 h1{
@@ -162,7 +164,7 @@
             }
             &__image{
                 width:800px;
-                height: 400px;
+                height: 430px;
                 cursor: pointer;
                 img{
                     width:100%;
@@ -172,9 +174,9 @@
                 &__detail{
                     display: flex;
                     align-items: center;
-                    justify-content: space-between;
+                    justify-content: flex-start;
 
-               
+                    margin-top:2px;
                     &__imageDetail{
                         width: 100%;
                         max-width:139px;

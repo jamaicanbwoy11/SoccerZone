@@ -435,6 +435,14 @@ export const dataProduct = [
         brand:'JORDAN',
         linkImage:'https://kicksmaniac.com/zdjecia/2017/07/20/407/25/NIKE_AIR_JORDAN_SPORTSWEAR_WINGS_FLEECE_HOODIE_BLACKs-mini.jpg?mini',
         type:2,
+        imageDetail:[
+            {
+                id:0,
+                linkImage:'https://nl.kicksmaniac.com/zdjecia/2017/07/20/407/25/tn_Q6095860200_010.1-mini.jpg?mini&v=3', 
+                check:true,               
+            },
+      
+        ]
     },
     {
         id:13,
@@ -445,6 +453,14 @@ export const dataProduct = [
         brand:'JORDAN',
         linkImage:'https://nl.kicksmaniac.com/zdjecia/2018/01/15/401/17/M_JSW_TEE_JMPMN_AIR_EMBRDs-mini.jpg?mini',
         type:2,
+        imageDetail:[
+            {
+                id:0,
+                linkImage:'https://nl.kicksmaniac.com/zdjecia/2018/01/15/401/17/M_JSW_TEE_JMPMN_AIR_EMBRDs-mini.jpg?mini', 
+                check:true,               
+            },
+      
+        ]
     },
     {
         id:14,
@@ -455,6 +471,19 @@ export const dataProduct = [
         brand:'LEBRON',
         linkImage:'https://basketzone.pl/zdjecia/2018/09/10/809/57/NIKE_NBA_LOS_ANGELES_LAKERS_PRACTICE_SHORTS_FIELD_PURPLEs-mini.jpg?mini',
         type:2,
+        imageDetail:[
+            {
+                id:0,
+                linkImage:'https://fr.kicksmaniac.com/zdjecia/2018/09/10/809/57/tn_QQ8179AJ5077_504.1-mini.jpg?mini&v=3', 
+                check:true,               
+            },
+            {
+                id:1,
+                linkImage:'https://de.basketzone.net/zdjecia/2018/09/10/809/57/tn_Q8179AJ5077_504.2-mini.jpg?mini&v=3', 
+                check:false,               
+            }
+      
+        ]
     },
     {
         id:15,
@@ -465,6 +494,13 @@ export const dataProduct = [
         brand:'ANTETOKOUNMPO',
         linkImage:'https://de.basketzone.net/zdjecia/2018/12/11/1112/25/NIKE_NBA_MILWAUKEE_BUCKS_GIANNIS_ANTETOKOUNMPO_SWINGMAN_JERSEY_SUNDIALs-mini.jpg?mini',
         type:2,
+        imageDetail:[
+            {
+                id:0,
+                linkImage:'https://se.basketzone.net/zdjecia/2018/12/11/1112/25/tn_Q8586AJ4624_717.1-mini.jpg?mini&v=3', 
+                check:true,               
+            },
+        ]
     },
     {
         id:16,
@@ -475,6 +511,13 @@ export const dataProduct = [
         brand:'JORDAN',
         linkImage:'https://basketzone.net/zdjecia/zdjecia/2015/04/03/NIKE_JORDAN_DRI-FIT_NO-SHOW_3PK_SOCKS_546479-012-mini.jpg?mini',
         type:2,
+        imageDetail:[
+            {
+                id:0,
+                linkImage:'https://pl.kicksmaniac.com/zdjecia/zdjecia/2015/04/03/tn_QQ3445546479-012-PHCBH001-mini.jpg?mini&v=3', 
+                check:true,               
+            },
+        ]
     },
     {
         id:17,
@@ -485,6 +528,13 @@ export const dataProduct = [
         brand:'JORDAN',
         linkImage:'https://kicksmaniac.com/zdjecia/2019/10/14/1010/08/NIKE_AIR_JORDAN_EVERYDAY_WATERFALL_SOCKS_BLACKs-mini.jpg?mini',
         type:2,
+        imageDetail:[
+            {
+                id:0,
+                linkImage:'https://no.basketzone.net/zdjecia/2019/10/14/1010/08/tn_Q9907SX6274_010.1-mini.jpg?mini&v=3', 
+                check:true,               
+            },
+        ]
     },
     {
         id:18,
@@ -495,6 +545,13 @@ export const dataProduct = [
         brand:'JORDAN',
         linkImage:'https://fr.basketzone.net/zdjecia/2018/07/16/907/54/NIKE_AIR_JORDAN_EVERYDAY_WATERFALL_SOCKS_WHITEs-mini.jpg?mini',
         type:2,
+        imageDetail:[
+            {
+                id:0,
+                linkImage:'https://it.basketzone.net/zdjecia/2018/07/16/907/54/tn_Q7831SX6274_100.1-mini.jpg?mini&v=3', 
+                check:true,               
+            },
+        ]
     },
     {
         id:19,
@@ -505,6 +562,13 @@ export const dataProduct = [
         brand:'JORDAN',
         linkImage:'https://se.basketzone.net/zdjecia/2017/09/07/1009/00/NIKE_AIR_JORDAN_JUMPMAN_NO_SHOW_SOCKS_BLACKs-mini.jpg?mini',
         type:2,
+        imageDetail:[
+            {
+                id:0,
+                linkImage:'https://de.basketzone.net/zdjecia/2017/09/07/1009/20/tn_Q6153sx5546_010.1-mini.jpg?mini&v=3', 
+                check:true,               
+            },
+        ]
     },
     {
         id:20,
@@ -515,6 +579,13 @@ export const dataProduct = [
         brand:'JORDAN',
         linkImage:'https://dk.basketzone.net/zdjecia/2017/04/20/904/42/NIKE_AIR_JORDAN_JUMPMAN_NO_SHOW_SOCKS_BLACK_WHITE_GYM_REDs-mini.jpg?mini',
         type:2,
+        imageDetail:[
+            {
+                id:0,
+                linkImage:'https://dk.basketzone.net/zdjecia/2017/04/20/904/17/tn_Q5742SX5546_011.1-mini.jpg?mini&v=3', 
+                check:true,               
+            },
+        ]
     },
     {
         id:21,
@@ -535,6 +606,33 @@ export const dataProduct = [
         brand:'AIR',
         linkImage:'https://fr.basketzone.net/zdjecia/2018/02/02/802/01/NIKE_AIR_MAX_90_ESSENTIAL_ALL_BLACKs-mini.jpg?mini',
         type:3,
+        imageDetail:[
+            {
+                id:0,
+                linkImage:'https://de.kicksmaniac.com/zdjecia/zdjecia/2013/09/24/tn_QQ2163jordanshoes_5585-mini.jpg?mini&v=3', 
+                check:true,               
+            },
+            {
+                id:1,
+                linkImage:'https://it.kicksmaniac.com/zdjecia/zdjecia/2013/09/24/tn_QQ2163jordanshoes_5586-mini.jpg?mini&v=3', 
+                check:true,               
+            },
+            {
+                id:2,
+                linkImage:'https://fr.basketzone.net/zdjecia/zdjecia/2013/09/24/tn_QQ2163jordanshoes_5587-mini.jpg?mini&v=3', 
+                check:true,               
+            },
+            {
+                id:3,
+                linkImage:'https://tr.basketzone.net/zdjecia/zdjecia/2013/09/24/tn_QQ2163jordanshoes_5588-mini.jpg?mini&v=3', 
+                check:true,               
+            },
+            {
+                id:4,
+                linkImage:'https://se.basketzone.net/zdjecia/zdjecia/2013/09/24/tn_QQ2163jordanshoes_5589-mini.jpg?mini&v=3', 
+                check:true,               
+            },
+        ]
     },
     {
         id:23,
@@ -545,6 +643,33 @@ export const dataProduct = [
         brand:'AIR',
         linkImage:'https://nl.kicksmaniac.com/zdjecia/2019/03/15/403/36/NIKE_AIR_SKYLON_II_ARMORY_NAVYs-mini.jpg?mini',
         type:3,
+        imageDetail:[
+            {
+                id:0,
+                linkImage:'https://it.kicksmaniac.com/zdjecia/2019/05/04/1105/02/tn_Q9016jordan_shoes1-mini.jpg?mini&v=3', 
+                check:true,               
+            },
+            {
+                id:1,
+                linkImage:'https://it.basketzone.net/zdjecia/2019/05/04/1105/02/tn_QQ9016jordan_shoes2-mini.jpg?mini&v=3', 
+                check:true,               
+            },
+            {
+                id:2,
+                linkImage:'https://nl.kicksmaniac.com/zdjecia/2019/05/04/1105/02/tn_QQ9016jordan_shoes3-mini.jpg?mini&v=3', 
+                check:true,               
+            },
+            {
+                id:3,
+                linkImage:'https://basketzone.net/zdjecia/2019/05/04/1105/02/tn_QQ9016jordan_shoes4-mini.jpg?mini&v=3', 
+                check:true,               
+            },
+            {
+                id:4,
+                linkImage:'https://nl.kicksmaniac.com/zdjecia/2019/05/04/1105/02/tn_QQ9016jordan_shoes5-mini.jpg?mini&v=3', 
+                check:true,               
+            },
+        ]
     },
     {
         id:24,
@@ -555,6 +680,33 @@ export const dataProduct = [
         brand:'AIR',
         linkImage:'https://sk.basketzone.net/zdjecia/2019/02/20/302/26/NIKE_AIR_MAX_90_ESSENTIAL_WOLF_GREYs-mini.jpg?mini',
         type:3,
+        imageDetail:[
+            {
+                id:0,
+                linkImage:'https://hu.basketzone.net/zdjecia/2019/04/11/204/44/tn_Q8873jordan_shoes26-mini.jpg?mini&v=3', 
+                check:true,               
+            },
+            {
+                id:1,
+                linkImage:'https://fr.basketzone.net/zdjecia/2019/04/11/204/44/tn_QQ8873jordan_shoes27-mini.jpg?mini&v=3', 
+                check:true,               
+            },
+            {
+                id:2,
+                linkImage:'https://hu.basketzone.net/zdjecia/2019/04/11/204/44/tn_QQ8873jordan_shoes28-mini.jpg?mini&v=3', 
+                check:true,               
+            },
+            {
+                id:3,
+                linkImage:'https://cz.basketzone.net/zdjecia/2019/04/11/204/44/tn_QQ8873jordan_shoes29-mini.jpg?mini&v=3', 
+                check:true,               
+            },
+            {
+                id:4,
+                linkImage:'https://tr.basketzone.net/zdjecia/2019/04/11/204/44/tn_QQ8873jordan_shoes30-mini.jpg?mini&v=3', 
+                check:true,               
+            },
+        ]
     },
     {
         id:25,
@@ -565,6 +717,33 @@ export const dataProduct = [
         brand:'AIR',
         linkImage:'https://de.basketzone.net/zdjecia/2019/03/15/503/37/NIKE_AIR_SKYLON_IIs-mini.jpg?mini',
         type:3,
+        imageDetail:[
+            {
+                id:0,
+                linkImage:'https://fr.basketzone.net/zdjecia/2019/04/25/404/11/tn_Q9015jordan_shoes8-mini.jpg?mini&v=3', 
+                check:true,               
+            },
+            {
+                id:1,
+                linkImage:'https://cz.basketzone.net/zdjecia/2019/04/25/404/11/tn_QQ9015jordan_shoes9-mini.jpg?mini&v=3', 
+                check:true,               
+            },
+            {
+                id:2,
+                linkImage:'https://tr.basketzone.net/zdjecia/2019/04/25/404/11/tn_QQ9015jordan_shoes10-mini.jpg?mini&v=3', 
+                check:true,               
+            },
+            {
+                id:3,
+                linkImage:'https://basketzone.pl/zdjecia/2019/04/25/404/11/tn_QQ9015jordan_shoes11-mini.jpg?mini&v=3', 
+                check:true,               
+            },
+            {
+                id:4,
+                linkImage:'https://nl.basketzone.net/zdjecia/2019/04/25/404/11/tn_QQ9015jordan_shoes12-mini.jpg?mini&v=3', 
+                check:true,               
+            },
+        ]
     },
     {
         id:26,
@@ -575,6 +754,33 @@ export const dataProduct = [
         brand:'AIR',
         linkImage:'https://it.kicksmaniac.com/zdjecia/2019/03/27/403/31/NIKE_GRANDSTAND_II_WHITEs-mini.jpg?mini',
         type:3,
+        imageDetail:[
+            {
+                id:0,
+                linkImage:'https://de.basketzone.net/zdjecia/2019/05/04/105/08/tn_Q9013jordan_shoes22-mini.jpg?mini&v=3', 
+                check:true,               
+            },
+            {
+                id:1,
+                linkImage:'https://basketzone.net/zdjecia/2019/05/04/105/08/tn_QQ9013jordan_shoes23-mini.jpg?mini&v=3', 
+                check:true,               
+            },
+            {
+                id:2,
+                linkImage:'https://cz.basketzone.net/zdjecia/2019/05/04/105/08/tn_QQ9013jordan_shoes24-mini.jpg?mini&v=3', 
+                check:true,               
+            },
+            {
+                id:3,
+                linkImage:'https://hu.basketzone.net/zdjecia/2019/05/04/105/08/tn_QQ9013jordan_shoes25-mini.jpg?mini&v=3', 
+                check:true,               
+            },
+            {
+                id:4,
+                linkImage:'https://sk.basketzone.net/zdjecia/2019/05/04/105/08/tn_QQ9013jordan_shoes26-mini.jpg?mini&v=3', 
+                check:true,               
+            },
+        ]
     },
     {
         id:27,
@@ -585,6 +791,33 @@ export const dataProduct = [
         brand:'BALANCE',
         linkImage:'https://se.basketzone.net/zdjecia/2019/04/12/304/21/NEW_BALANCE_X_90_BURGUNDYs-mini.jpg?mini',
         type:3,
+        imageDetail:[
+            {
+                id:0,
+                linkImage:'https://cz.basketzone.net/zdjecia/2019/05/14/1005/11/tn_Q9049jordan_shoes30-mini.jpg?mini&v=3', 
+                check:true,               
+            },
+            {
+                id:1,
+                linkImage:'https://es.kicksmaniac.com/zdjecia/2019/05/14/1005/11/tn_QQ9049jordan_shoes31-mini.jpg?mini&v=3', 
+                check:true,               
+            },
+            {
+                id:2,
+                linkImage:'https://es.basketzone.net/zdjecia/2019/05/14/1005/11/tn_QQ9049jordan_shoes32-mini.jpg?mini&v=3', 
+                check:true,               
+            },
+            {
+                id:3,
+                linkImage:'https://basketzone.pl/zdjecia/2019/05/14/1005/11/tn_QQ9049jordan_shoes33-mini.jpg?mini&v=3', 
+                check:true,               
+            },
+            {
+                id:4,
+                linkImage:'https://no.basketzone.net/zdjecia/2019/05/14/1005/11/tn_QQ9049jordan_shoes34-mini.jpg?mini&v=3', 
+                check:true,               
+            },
+        ]
     },
     {
         id:28,
@@ -595,6 +828,33 @@ export const dataProduct = [
         brand:'ADIDAS',
         linkImage:'https://dk.basketzone.net/zdjecia/2018/10/26/310/58/ADIDAS_TUBULAR_SHADOW_REDs-mini.jpg?mini',
         type:3,
+        imageDetail:[
+            {
+                id:0,
+                linkImage:'https://nl.basketzone.net/zdjecia/2019/02/25/402/57/tn_Q7319jordan_shoes1-mini.jpg?mini&v=3', 
+                check:true,               
+            },
+            {
+                id:1,
+                linkImage:'https://se.basketzone.net/zdjecia/2019/02/25/402/57/tn_QQ7319jordan_shoes2-mini.jpg?mini&v=3', 
+                check:true,               
+            },
+            {
+                id:2,
+                linkImage:'https://it.kicksmaniac.com/zdjecia/2019/02/25/402/57/tn_QQ7319jordan_shoes3-mini.jpg?mini&v=3', 
+                check:true,               
+            },
+            {
+                id:3,
+                linkImage:'https://kicksmaniac.com/zdjecia/2019/02/25/402/57/tn_QQ7319jordan_shoes4-mini.jpg?mini&v=3', 
+                check:true,               
+            },
+            {
+                id:4,
+                linkImage:'https://kicksmaniac.com/zdjecia/2019/02/25/402/57/tn_QQ7319jordan_shoes5-mini.jpg?mini&v=3', 
+                check:true,               
+            },
+        ]
     },
     {
         id:29,
@@ -605,6 +865,33 @@ export const dataProduct = [
         brand:'BALANCE',
         linkImage:'https://es.basketzone.net/zdjecia/2019/04/11/304/03/NEW_BALANCE_574_BURGUNDYs-mini.jpg?mini',
         type:3,
+        imageDetail:[
+            {
+                id:0,
+                linkImage:'https://basketzone.pl/zdjecia/2019/06/01/1106/03/tn_Q9066jordan_shoes29-mini.jpg?mini&v=3', 
+                check:true,               
+            },
+            {
+                id:1,
+                linkImage:'https://de.basketzone.net/zdjecia/2019/06/01/1106/03/tn_QQ9066jordan_shoes30-mini.jpg?mini&v=3', 
+                check:true,               
+            },
+            {
+                id:2,
+                linkImage:'https://sk.basketzone.net/zdjecia/2019/06/01/1106/03/tn_QQ9066jordan_shoes31-mini.jpg?mini&v=3', 
+                check:true,               
+            },
+            {
+                id:3,
+                linkImage:'https://kicksmaniac.com/zdjecia/2019/06/01/1106/03/tn_QQ9066jordan_shoes32-mini.jpg?mini&v=3', 
+                check:true,               
+            },
+            {
+                id:4,
+                linkImage:'https://dk.basketzone.net/zdjecia/2019/06/01/1106/03/tn_QQ9066jordan_shoes33-mini.jpg?mini&v=3', 
+                check:true,               
+            },
+        ]
     },
     {
         id:30,
@@ -615,6 +902,33 @@ export const dataProduct = [
         brand:'BALANCE',
         linkImage:'https://basketzone.net/zdjecia/2019/04/11/404/45/NEW_BALANCE_373_BLACKs-mini.jpg?mini',
         type:3,
+        imageDetail:[
+            {
+                id:0,
+                linkImage:'https://kicksmaniac.com/zdjecia/2019/05/09/1005/08/tn_Q9093jordan_shoes22-mini.jpg?mini&v=3', 
+                check:true,               
+            },
+            {
+                id:1,
+                linkImage:'https://cz.basketzone.net/zdjecia/2019/05/09/1005/08/tn_QQ9093jordan_shoes23-mini.jpg?mini&v=3', 
+                check:true,               
+            },
+            {
+                id:2,
+                linkImage:'https://se.basketzone.net/zdjecia/2019/05/09/1005/08/tn_QQ9093jordan_shoes24-mini.jpg?mini&v=3', 
+                check:true,               
+            },
+            {
+                id:3,
+                linkImage:'https://fr.kicksmaniac.com/zdjecia/2019/05/09/1005/08/tn_QQ9093jordan_shoes25-mini.jpg?mini&v=3', 
+                check:true,               
+            },
+            {
+                id:4,
+                linkImage:'https://de.basketzone.net/zdjecia/2019/05/09/1005/08/tn_QQ9093jordan_shoes28-mini.jpg?mini&v=3', 
+                check:true,               
+            },
+        ]
     },
     {
         id:31,
@@ -625,6 +939,33 @@ export const dataProduct = [
         brand:'BALANCE',
         linkImage:'https://es.basketzone.net/zdjecia/2019/03/27/403/33/NIKE_AIR_MAX_90_ESSENTIAL_TRIPLE_WHITEs-mini.jpg?mini',
         type:3,
+        imageDetail:[
+            {
+                id:0,
+                linkImage:'https://no.basketzone.net/zdjecia/2016/03/28/603/40/tn_Q4312jordanshoes_14386-mini.jpg?mini&v=3', 
+                check:true,               
+            },
+            {
+                id:1,
+                linkImage:'https://it.kicksmaniac.com/zdjecia/2016/03/28/603/40/tn_QQ4312jordanshoes_14387-mini.jpg?mini&v=3', 
+                check:true,               
+            },
+            {
+                id:2,
+                linkImage:'https://basketzone.net/zdjecia/2016/03/28/603/40/tn_QQ4312jordanshoes_14388-mini.jpg?mini&v=3', 
+                check:true,               
+            },
+            {
+                id:3,
+                linkImage:'https://it.kicksmaniac.com/zdjecia/2016/03/28/603/40/tn_QQ4312jordanshoes_14389-mini.jpg?mini&v=3', 
+                check:true,               
+            },
+            {
+                id:4,
+                linkImage:'https://es.basketzone.net/zdjecia/2016/03/28/603/40/tn_QQ4312jordanshoes_14390-mini.jpg?mini&v=3', 
+                check:true,               
+            },
+        ]
     },
     {
         id:32,

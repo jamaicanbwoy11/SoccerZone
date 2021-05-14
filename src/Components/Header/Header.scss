@@ -87,12 +87,15 @@ $bg-linear: linear-gradient(to right, #c9aaff, #f4ff97);
             &__search{
                 cursor: pointer;
                 position: relative;
-                & > .MuiSvgIcon-root{
-                    position: absolute;
-                    top:5px;
-                    left:10px;
-                    font-size:1.8rem;
+                &__icon{
+                    & > .MuiSvgIcon-root{
+                        position: absolute;
+                        top:5px;
+                        left:10px;
+                        font-size:1.8rem;
+                    }
                 }
+           
                 input{
                     border:none;
                     border-radius: 20px;

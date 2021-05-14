@@ -1,12 +1,16 @@
-import React, { useEffect, useState } from 'react';
+import React, { useEffect, useRef, useState } from 'react';
 import './Header.scss';
 import SearchIcon from '@material-ui/icons/Search';
 import FavoriteBorderIcon from '@material-ui/icons/FavoriteBorder';
 import StorefrontIcon from '@material-ui/icons/Storefront';
 import Logo from '../../Assets/Images/Logo Thai Vipng1.png';
 import { Link } from 'react-router-dom';
+import { useDispatch } from 'react-redux';
+import { createAction } from '../../Redux/Action';
 function Header() {
   const [headerMid, setHeaderMid] = useState(false);
+  const inputEl = useRef(null);
+  const dispatch = useDispatch();
   useEffect(() => {
     let headerMid = document.querySelector('.header__mid');
     window.addEventListener('scroll', () => {
@@ -25,6 +29,18 @@ function Header() {
       }
     });
   }, []);
+
+  const [valueInput, setValueInput] = useState('');
+  //Handle Onchange Search
+  const handleOnChangeSearch = (e) => {
+    let value = e.target.value;
+    setValueInput(value);
+  };
+
+  const handleSearch = () => {
+    dispatch(createAction('SEARCH', valueInput));
+    inputEl.current.value = '';
+  };
   return (
     <div className="header">
       {/* Logo Jordan */}
@@ -85,8 +101,17 @@ function Header() {
         </nav>
         <div className="header__mid__searchAndStore">
           <div className="header__mid__searchAndStore__search">
-            <SearchIcon />
-            <input placeholder="Search" />
+            <Link to="/search" onClick={() => handleSearch()}>
+              <div className="header__mid__searchAndStore__search__icon">
+                <SearchIcon />
+              </div>
+            </Link>
+
+            <input
+              placeholder="Search"
+              onChange={(e) => handleOnChangeSearch(e)}
+              ref={inputEl}
+            />
           </div>
           <div className="header__mid__searchAndStore__store">
             <FavoriteBorderIcon />
