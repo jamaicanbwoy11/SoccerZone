@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom';
 import { createAction } from '../../Redux/Action';
 import StorefrontIcon from '@material-ui/icons/Storefront';
 import './ShoeDetail.scss';
+import ShoppingCartIcon from '@material-ui/icons/ShoppingCart';
 // import StorefrontIcon from '@material-ui/icons/Storefront';
 function ShoeDetail(props) {
   const shoeDetail = useSelector((item) => item.ShoesReducer.shoe);
@@ -100,6 +101,12 @@ function ShoeDetail(props) {
                   )}
                 </span>
               </p>
+              <div className="shoeDetail__items__item__name__addToCart">
+                <p>ADD TO CART</p>
+                <div>
+                  <ShoppingCartIcon />
+                </div>
+              </div>
             </div>
           </div>
         );

@@ -21,7 +21,7 @@ export const dataProduct = [
         imageDetail:[
             {
                 id:0,
-                linkImage:'https://it.basketzone.net/zdjecia/2019/06/18/306/59/NIKE_ZOOM_KD_12_UNIVERSITY_REDs-mini.jpg', 
+                linkImage:'https://de.kicksmaniac.com/zdjecia/2019/06/27/306/29/tn_Q9301air_jordan_11504-mini.jpg?mini&v=3', 
                 check:true,               
             },
             {
@@ -55,6 +55,33 @@ export const dataProduct = [
         brand:'KYRIE',
         linkImage:'https://sk.basketzone.net/zdjecia/2020/07/31/207/37/NIKE_KYRIE_FLYTRAP_III_SOUTH_BEACHs-mini.jpg?mini',
         type:1,
+        imageDetail:[
+            {
+                id:0,
+                linkImage:'https://hu.basketzone.net/zdjecia/2020/08/01/708/57/tn_Q11029air_jordan_18399-mini.jpg?mini&v=3', 
+                check:true,               
+            },
+            {
+                id:1,
+                linkImage:'https://fr.kicksmaniac.com/zdjecia/2020/08/01/708/57/tn_QQ11029air_jordan_18400-mini.jpg?mini&v=3',
+                check:false,
+            },
+            {
+                id:2,
+                linkImage:'https://basketzone.net/zdjecia/2020/08/01/708/57/tn_QQ11029air_jordan_18401-mini.jpg?mini&v=3',
+                check:false,
+            },
+            {
+                id:3,
+                linkImage:'https://hu.basketzone.net/zdjecia/2020/08/01/708/57/tn_QQ11029air_jordan_18402-mini.jpg?mini&v=3',
+                check:false,
+            },
+            {
+                id:4,
+                linkImage:'https://fr.basketzone.net/zdjecia/2020/08/01/708/57/tn_QQ11029air_jordan_18403-mini.jpg?mini&v=3',
+                check:false,
+            },
+        ]
     },
     {
         id:2,
@@ -65,6 +92,33 @@ export const dataProduct = [
         brand:'LEBRON',
         linkImage:'https://basketzone.net/zdjecia/2020/11/11/211/21/NIKE_LEBRON_18_MULTICOLORs-mini.jpg?mini',
         type:1,
+        imageDetail:[
+            {
+                id:0,
+                linkImage:'https://it.basketzone.net/zdjecia/2020/11/11/311/15/tn_Q11384air_jordan_18817-mini.jpg?mini&v=3', 
+                check:true,               
+            },
+            {
+                id:1,
+                linkImage:'https://no.basketzone.net/zdjecia/2020/11/11/311/15/tn_QQ11384air_jordan_18818-mini.jpg?mini&v=3',
+                check:false,
+            },
+            {
+                id:2,
+                linkImage:'https://de.basketzone.net/zdjecia/2020/11/11/311/15/tn_QQ11384air_jordan_18819-mini.jpg?mini&v=3',
+                check:false,
+            },
+            {
+                id:3,
+                linkImage:'https://cz.basketzone.net/zdjecia/2020/11/11/311/15/tn_QQ11384air_jordan_18820-mini.jpg?mini&v=3',
+                check:false,
+            },
+            {
+                id:4,
+                linkImage:'https://nl.basketzone.net/zdjecia/2020/11/11/311/15/tn_QQ11384air_jordan_18821-mini.jpg?mini&v=3',
+                check:false,
+            },
+        ]
     },
     {
         id:3,
@@ -75,6 +129,33 @@ export const dataProduct = [
         brand:'JORDAN',
         linkImage:'https://it.basketzone.net/zdjecia/2018/12/05/412/24/AIR_JORDAN_3_RETROs-mini.jpg?mini',
         type:1,
+        imageDetail:[
+            {
+                id:0,
+                linkImage:'https://tr.basketzone.net/zdjecia/2018/12/18/412/13/tn_Q8609air_jordan_602-mini.jpg?mini&v=3', 
+                check:true,               
+            },
+            {
+                id:1,
+                linkImage:'https://fr.kicksmaniac.com/zdjecia/2018/12/18/412/13/tn_QQ8609air_jordan_603-mini.jpg?mini&v=3',
+                check:false,
+            },
+            {
+                id:2,
+                linkImage:'https://cz.basketzone.net/zdjecia/2018/12/18/412/13/tn_QQ8609air_jordan_604-mini.jpg?mini&v=3',
+                check:false,
+            },
+            {
+                id:3,
+                linkImage:'https://tr.basketzone.net/zdjecia/2018/12/18/412/13/tn_QQ8609air_jordan_605-mini.jpg?mini&v=3',
+                check:false,
+            },
+            {
+                id:4,
+                linkImage:'https://no.basketzone.net/zdjecia/2018/12/18/412/13/tn_QQ8609air_jordan_606-mini.jpg?mini&v=3',
+                check:false,
+            },
+        ]
     },
     {
         id:4,
@@ -85,6 +166,33 @@ export const dataProduct = [
         brand:'KYRIE',
         linkImage:'https://fr.kicksmaniac.com/zdjecia/2020/09/22/1209/25/NIKE_KYRIE_LOW_3_TIE_DYEs-mini.jpg?mini',
         type:1,
+        imageDetail:[
+            {
+                id:0,
+                linkImage:'https://tr.basketzone.net/zdjecia/2020/09/22/509/34/tn_Q11186air_jordan_18641-mini.jpg?mini&v=3', 
+                check:true,               
+            },
+            {
+                id:1,
+                linkImage:'https://tr.basketzone.net/zdjecia/2020/09/22/509/34/tn_QQ11186air_jordan_18642-mini.jpg?mini&v=3',
+                check:false,
+            },
+            {
+                id:2,
+                linkImage:'https://sk.basketzone.net/zdjecia/2020/09/22/509/34/tn_QQ11186air_jordan_18643-mini.jpg?mini&v=3',
+                check:false,
+            },
+            {
+                id:3,
+                linkImage:'https://es.kicksmaniac.com/zdjecia/2020/09/22/509/34/tn_QQ11186air_jordan_18644-mini.jpg?mini&v=3',
+                check:false,
+            },
+            {
+                id:4,
+                linkImage:'https://basketzone.pl/zdjecia/2020/09/22/509/34/tn_QQ11186air_jordan_18645-mini.jpg?mini&v=3',
+                check:false,
+            },
+        ]
     },
     {
         id:5,
@@ -95,6 +203,33 @@ export const dataProduct = [
         brand:'LEBRON',
         linkImage:'https://tr.basketzone.net/zdjecia/2020/09/22/1209/17/NIKE_LEBRON_17_LOW_GLOW_IN_THE_DARKs-mini.jpg?mini',
         type:1,
+        imageDetail:[
+            {
+                id:0,
+                linkImage:'https://nl.basketzone.net/zdjecia/2020/09/22/509/39/tn_Q11180air_jordan_18662-mini.jpg?mini&v=3', 
+                check:true,               
+            },
+            {
+                id:1,
+                linkImage:'https://es.kicksmaniac.com/zdjecia/2020/09/22/509/39/tn_QQ11180air_jordan_18663-mini.jpg?mini&v=3',
+                check:false,
+            },
+            {
+                id:2,
+                linkImage:'https://nl.basketzone.net/zdjecia/2020/09/22/509/39/tn_QQ11180air_jordan_18664-mini.jpg?mini&v=3',
+                check:false,
+            },
+            {
+                id:3,
+                linkImage:'https://de.basketzone.net/zdjecia/2020/09/22/509/39/tn_QQ11180air_jordan_18665-mini.jpg?mini&v=3',
+                check:false,
+            },
+            {
+                id:4,
+                linkImage:'https://kicksmaniac.com/zdjecia/2020/09/22/509/39/tn_QQ11180air_jordan_18666-mini.jpg?mini&v=3',
+                check:false,
+            },
+        ]
     },
     {
         id:6,
@@ -105,6 +240,33 @@ export const dataProduct = [
         brand:'JORDAN',
         linkImage:'https://de.basketzone.net/zdjecia/2021/01/21/401/47/NIKE_AIR_JORDAN_MAX_AURA_2_COOL_GREYs-mini.jpg?mini',
         type:1,
+        imageDetail:[
+            {
+                id:0,
+                linkImage:'https://it.basketzone.net/zdjecia/2021/02/01/302/47/tn_Q11642air_jordan_19175-mini.jpg?mini&v=3', 
+                check:true,               
+            },
+            {
+                id:1,
+                linkImage:'https://tr.basketzone.net/zdjecia/2021/02/01/302/47/tn_QQ11642air_jordan_19176-mini.jpg?mini&v=3',
+                check:false,
+            },
+            {
+                id:2,
+                linkImage:'https://tr.basketzone.net/zdjecia/2021/02/01/302/47/tn_QQ11642air_jordan_19177-mini.jpg?mini&v=3',
+                check:false,
+            },
+            {
+                id:3,
+                linkImage:'https://fr.basketzone.net/zdjecia/2021/02/01/302/47/tn_QQ11642air_jordan_19178-mini.jpg?mini&v=3',
+                check:false,
+            },
+            {
+                id:4,
+                linkImage:'https://de.kicksmaniac.com/zdjecia/2021/02/01/302/47/tn_QQ11642air_jordan_19179-mini.jpg?mini&v=3',
+                check:false,
+            },
+        ]
     },
     {
         id:7,
@@ -115,6 +277,33 @@ export const dataProduct = [
         brand:'JORDAN',
         linkImage:'https://kicksmaniac.com/zdjecia/2020/12/16/412/25/NIKE_AIR_JORDAN_MAX_AURA_2_BREDs-mini.jpg?mini',
         type:1,
+        imageDetail:[
+            {
+                id:0,
+                linkImage:'https://no.basketzone.net/zdjecia/2020/12/16/612/57/tn_Q11532air_jordan_19020-mini.jpg?mini&v=3', 
+                check:true,               
+            },
+            {
+                id:1,
+                linkImage:'https://no.basketzone.net/zdjecia/2020/12/16/612/57/tn_QQ11532air_jordan_19021-mini.jpg?mini&v=3',
+                check:false,
+            },
+            {
+                id:2,
+                linkImage:'https://cz.basketzone.net/zdjecia/2020/12/16/612/57/tn_QQ11532air_jordan_19022-mini.jpg?mini&v=3',
+                check:false,
+            },
+            {
+                id:3,
+                linkImage:'https://basketzone.pl/zdjecia/2020/12/16/612/57/tn_QQ11532air_jordan_19023-mini.jpg?mini&v=3',
+                check:false,
+            },
+            {
+                id:4,
+                linkImage:'https://cz.basketzone.net/zdjecia/2020/12/16/612/57/tn_QQ11532air_jordan_19024-mini.jpg?mini&v=3',
+                check:false,
+            },
+        ]
     },
     {
         id:8,
@@ -125,6 +314,33 @@ export const dataProduct = [
         brand:'JORDAN',
         linkImage:'https://basketzone.pl/zdjecia/2020/09/04/509/49/NIKE_AIR_JORDAN_1_RETRO_MID_UNION_BLACK_TOEs-mini.jpg?mini',
         type:1,
+        imageDetail:[
+            {
+                id:0,
+                linkImage:'https://basketzone.pl/zdjecia/2020/09/12/509/36/tn_Q11157air_jordan_18616-mini.jpg?mini&v=3', 
+                check:true,               
+            },
+            {
+                id:1,
+                linkImage:'https://de.basketzone.net/zdjecia/2020/09/12/509/36/tn_QQ11157air_jordan_18617-mini.jpg?mini&v=3',
+                check:false,
+            },
+            {
+                id:2,
+                linkImage:'https://no.basketzone.net/zdjecia/2020/09/12/509/36/tn_QQ11157air_jordan_18618-mini.jpg?mini&v=3',
+                check:false,
+            },
+            {
+                id:3,
+                linkImage:'https://sk.basketzone.net/zdjecia/2020/09/12/509/36/tn_QQ11157air_jordan_18619-mini.jpg?mini&v=3',
+                check:false,
+            },
+            {
+                id:4,
+                linkImage:'https://de.basketzone.net/zdjecia/2020/09/12/509/36/tn_QQ11157air_jordan_18620-mini.jpg?mini&v=3',
+                check:false,
+            },
+        ]
     },
     {
         id:9,
@@ -135,6 +351,33 @@ export const dataProduct = [
         brand:'KYRIE',
         linkImage:'https://hu.basketzone.net/zdjecia/2019/08/01/1108/54/NIKE_KYRIE_FLYTRAP_II_DUKE_BLUE_DEVILSs-mini.jpg?mini',
         type:1,
+        imageDetail:[
+            {
+                id:0,
+                linkImage:'https://de.basketzone.net/zdjecia/2019/08/14/1108/29/tn_Q9438air_jordan_16476-mini.jpg?mini&v=3', 
+                check:true,               
+            },
+            {
+                id:1,
+                linkImage:'https://hu.basketzone.net/zdjecia/2019/08/14/1108/29/tn_QQ9438air_jordan_16477-mini.jpg?mini&v=3',
+                check:false,
+            },
+            {
+                id:2,
+                linkImage:'https://fr.basketzone.net/zdjecia/2019/08/14/1108/29/tn_QQ9438air_jordan_16478-mini.jpg?mini&v=3',
+                check:false,
+            },
+            {
+                id:3,
+                linkImage:'https://es.basketzone.net/zdjecia/2019/08/14/1108/29/tn_QQ9438air_jordan_16479-mini.jpg?mini&v=3',
+                check:false,
+            },
+            {
+                id:4,
+                linkImage:'https://tr.basketzone.net/zdjecia/2019/08/14/1108/29/tn_QQ9438air_jordan_16480-mini.jpg?mini&v=3',
+                check:false,
+            },
+        ]
     },
     {
         id:10,
@@ -145,6 +388,33 @@ export const dataProduct = [
         brand:'KD',
         linkImage:'https://it.basketzone.net/zdjecia/2020/12/16/312/35/NIKE_ZOOM_KD_13_HARDWOOD_CLASSICSs-mini.jpg?mini',
         type:1,
+        imageDetail:[
+            {
+                id:0,
+                linkImage:'https://de.kicksmaniac.com/zdjecia/2020/12/16/612/47/tn_Q11542air_jordan_19045-mini.jpg?mini&v=3', 
+                check:true,               
+            },
+            {
+                id:1,
+                linkImage:'https://sk.basketzone.net/zdjecia/2020/12/16/612/47/tn_QQ11542air_jordan_19046-mini.jpg?mini&v=3',
+                check:false,
+            },
+            {
+                id:2,
+                linkImage:'https://fr.kicksmaniac.com/zdjecia/2020/12/16/612/47/tn_QQ11542air_jordan_19047-mini.jpg?mini&v=3',
+                check:false,
+            },
+            {
+                id:3,
+                linkImage:'https://tr.basketzone.net/zdjecia/2020/12/16/612/47/tn_QQ11542air_jordan_19048-mini.jpg?mini&v=3',
+                check:false,
+            },
+            {
+                id:4,
+                linkImage:'https://basketzone.pl/zdjecia/2020/12/16/612/47/tn_QQ11542air_jordan_19049-mini.jpg?mini&v=3',
+                check:false,
+            },
+        ]
     },
     {
         id:11,
