@@ -40,6 +40,10 @@ function Header() {
   const handleSearch = () => {
     dispatch(createAction('SEARCH', valueInput));
     inputEl.current.value = '';
+    window.scrollTo({
+      top: '0',
+      behavior: 'smooth',
+    });
   };
   return (
     <div className="header">
