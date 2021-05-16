@@ -93,6 +93,7 @@ $bg-linear: linear-gradient(to right, #c9aaff, #f4ff97);
                         top:5px;
                         left:10px;
                         font-size:1.8rem;
+                        color:#111;
                     }
                 }
            
@@ -110,6 +111,11 @@ $bg-linear: linear-gradient(to right, #c9aaff, #f4ff97);
             &__store{
                 margin-left: 20px;
                 cursor: pointer;
+                display: flex;
+                &__cart{
+                    display: flex;
+                    align-items: center;
+                }
                 .MuiSvgIcon-root:not(:last-child){
                     
                     margin-right: 10px;

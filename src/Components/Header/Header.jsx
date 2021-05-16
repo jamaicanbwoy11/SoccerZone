@@ -5,11 +5,13 @@ import FavoriteBorderIcon from '@material-ui/icons/FavoriteBorder';
 import StorefrontIcon from '@material-ui/icons/Storefront';
 import Logo from '../../Assets/Images/Logo Thai Vipng1.png';
 import { Link } from 'react-router-dom';
-import { useDispatch } from 'react-redux';
+import { useDispatch, useSelector } from 'react-redux';
 import { createAction } from '../../Redux/Action';
 function Header() {
   const [headerMid, setHeaderMid] = useState(false);
   const inputEl = useRef(null);
+  //Store Cart
+  const cart = useSelector((item) => item.ShoesReducer.cart);
   const dispatch = useDispatch();
   useEffect(() => {
     let headerMid = document.querySelector('.header__mid');
@@ -119,7 +121,10 @@ function Header() {
           </div>
           <div className="header__mid__searchAndStore__store">
             <FavoriteBorderIcon />
-            <StorefrontIcon />
+            <div className="header__mid__searchAndStore__store__cart">
+              <StorefrontIcon />
+              {cart.length > 0 && <span> ({cart.length})</span>}
+            </div>
           </div>
         </div>
       </div>

@@ -5,6 +5,7 @@ import { createAction } from '../../Redux/Action';
 import StorefrontIcon from '@material-ui/icons/Storefront';
 import './ShoeDetail.scss';
 import ShoppingCartIcon from '@material-ui/icons/ShoppingCart';
+import { ADD_TO_CART, ITEM_DETAIL } from '../../Redux/Constants';
 // import StorefrontIcon from '@material-ui/icons/Storefront';
 function ShoeDetail(props) {
   const shoeDetail = useSelector((item) => item.ShoesReducer.shoe);
@@ -19,7 +20,7 @@ function ShoeDetail(props) {
       top: 0,
       behavior: `smooth`,
     });
-    dispatch(createAction('ITEM-DETAIL', item));
+    dispatch(createAction(ITEM_DETAIL, item));
   };
   //Render Player
   const renderPlayer = () => {
@@ -42,6 +43,11 @@ function ShoeDetail(props) {
         </div>
       );
     });
+  };
+
+  //Handle Add To Cart
+  const handleAddToCart = (item) => {
+    dispatch(createAction(ADD_TO_CART, item));
   };
   //Render Shoe Detail
   const renderShoeDetail = () => {
@@ -102,7 +108,7 @@ function ShoeDetail(props) {
                 </span>
               </p>
               <div className="shoeDetail__items__item__name__addToCart">
-                <p>ADD TO CART</p>
+                <p onClick={() => handleAddToCart(item)}>ADD TO CART</p>
                 <div>
                   <ShoppingCartIcon />
                 </div>
