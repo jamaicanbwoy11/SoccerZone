@@ -4,6 +4,7 @@ import './Search.scss';
 import { Link } from 'react-router-dom';
 import StorefrontIcon from '@material-ui/icons/Storefront';
 import { createAction } from '../../Redux/Action';
+import { LIST_SEARCH } from '../../Redux/Constants';
 function Search() {
   const shoeItem = useSelector((item) => item.ShoesReducer.shoe);
   const search = useSelector((item) => item.ShoesReducer.search);
@@ -22,6 +23,9 @@ function Search() {
         if (search === '') {
           return val;
         } else if (val.name.toLowerCase().includes(search.toLowerCase())) {
+          //Send List Item Search Redux
+          dispatch(createAction(LIST_SEARCH, val));
+          console.log('val', val);
           return val;
         }
       })
@@ -57,13 +61,13 @@ function Search() {
                   <div className="search__items__item__priceAndPriceDiscount__priceDiscount">
                     <div>
                       <del>
-                        {item.priceDiscount.toLocaleString('en-US', {
+                        {item.price.toLocaleString('en-US', {
                           style: 'currency',
                           currency: 'USD',
                         })}
                       </del>
                       <span>
-                        {item.price.toLocaleString('en-US', {
+                        {item.priceDiscount.toLocaleString('en-US', {
                           style: 'currency',
                           currency: 'USD',
                         })}
@@ -82,6 +86,15 @@ function Search() {
   };
   return (
     <div className="search">
+      <h1 className="search__title">
+        You are looking for:
+        {search === '' ? (
+          '...'
+        ) : (
+          <span className="search__title__found">{search}</span>
+        )}
+      </h1>
+
       <div className="search__items">{renderShoeSearch()}</div>
     </div>
   );

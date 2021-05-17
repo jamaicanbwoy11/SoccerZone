@@ -4,7 +4,12 @@ $bg-linear: linear-gradient(to right, #c9aaff, #f4ff97);
 
 
 .header{
-  
+    &__openMid{
+        position: fixed;
+        top:5px;
+        left:10px;
+        z-index: 99999;
+    }
     &__top{
         display: flex;
         justify-content: space-between;
@@ -43,7 +48,9 @@ $bg-linear: linear-gradient(to right, #c9aaff, #f4ff97);
         padding:6px 40px;
 
         background-color: #fff;
-        
+        &__close{
+            display: none;
+        }
         // animation: headerMidDown 1s linear 0s 1;
         // position: -webkit-sticky; /* Safari */  
         // position: fixed;
@@ -154,6 +161,57 @@ $bg-linear: linear-gradient(to right, #c9aaff, #f4ff97);
     }
 
 }
+@media screen and (max-width:930px) {
+    .header{
+    
+        &__mid{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-evenly;
+        
+            position: fixed;
+            top:0;
+            left:0;
+            z-index: 9999;
+
+            width:280px;
+            height:100%;
+            border-right:1px solid #ccc;
+            &__logo{
+                display: flex;
+                flex-direction: column;
+            }
+            &__close{
+                display: inline-block;
+                position: fixed;
+                left:40px;
+                top:40px;
+                .MuiSvgIcon-root{
+                    &:hover{
+                        color:red;
+                    }
+                }
+            }
+            nav{
+                ul{
+                    display: flex;
+                    flex-direction: column;
+                }
+            }
+            &__searchAndStore{
+                display: flex;
+                flex-direction: column;
+                &__store{
+                    margin-left: 0;
+                    margin-top:20px;
+                }
+            }
+         
+        }
+    }
+}
+
 @keyframes headerMidDown {
     0%{
         transform: translateY(-100px);

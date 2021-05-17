@@ -107,8 +107,11 @@ function ShoeDetail(props) {
                   )}
                 </span>
               </p>
-              <div className="shoeDetail__items__item__name__addToCart">
-                <p onClick={() => handleAddToCart(item)}>ADD TO CART</p>
+              <div
+                className="shoeDetail__items__item__name__addToCart"
+                onClick={() => handleAddToCart(item)}
+              >
+                <p>ADD TO CART</p>
                 <div>
                   <ShoppingCartIcon />
                 </div>

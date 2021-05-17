@@ -1,5 +1,13 @@
 .search{
     margin-top:40px;
+    &__title{
+        font-size: 1.1rem;
+        margin:20px;
+        &__found{
+            font-weight: bolder;
+            margin-left:20px;
+        }
+    }
     &__items{
         display: flex;
         align-items: center;
