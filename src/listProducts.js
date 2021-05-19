@@ -44,6 +44,34 @@ export const dataProduct = [
                 linkImage:'https://se.basketzone.net/zdjecia/2019/06/27/306/29/Q9301air_jordan_11509-mini.jpg',
                 check:false,
             },
+        ],
+        sizeShoes:[
+            {
+                id:0,
+                size:39,
+                check:false,
+            },
+            {
+                id:1,
+                size:40,
+                check:false,
+            },
+            {
+                id:2,
+                size:41,
+                check:false,
+            },
+            {
+                id:3,
+                size:42,
+                check:false,
+            },
+            {
+                id:4,
+                size:43,
+                check:false,
+            },
+
         ]
     },
     {
@@ -81,6 +109,34 @@ export const dataProduct = [
                 linkImage:'https://fr.basketzone.net/zdjecia/2020/08/01/708/57/tn_QQ11029air_jordan_18403-mini.jpg?mini&v=3',
                 check:false,
             },
+        ],
+        sizeShoes:[
+            {
+                id:0,
+                size:39,
+                check:false,
+            },
+            {
+                id:1,
+                size:40,
+                check:false,
+            },
+            {
+                id:2,
+                size:41,
+                check:false,
+            },
+            {
+                id:3,
+                size:42,
+                check:false,
+            },
+            {
+                id:4,
+                size:43,
+                check:false,
+            },
+
         ]
     },
     {
@@ -118,6 +174,34 @@ export const dataProduct = [
                 linkImage:'https://nl.basketzone.net/zdjecia/2020/11/11/311/15/tn_QQ11384air_jordan_18821-mini.jpg?mini&v=3',
                 check:false,
             },
+        ],
+        sizeShoes:[
+            {
+                id:0,
+                size:39,
+                check:false,
+            },
+            {
+                id:1,
+                size:40,
+                check:false,
+            },
+            {
+                id:2,
+                size:41,
+                check:false,
+            },
+            {
+                id:3,
+                size:42,
+                check:false,
+            },
+            {
+                id:4,
+                size:43,
+                check:false,
+            },
+
         ]
     },
     {
@@ -155,6 +239,34 @@ export const dataProduct = [
                 linkImage:'https://no.basketzone.net/zdjecia/2018/12/18/412/13/tn_QQ8609air_jordan_606-mini.jpg?mini&v=3',
                 check:false,
             },
+        ],
+        sizeShoes:[
+            {
+                id:0,
+                size:39,
+                check:false,
+            },
+            {
+                id:1,
+                size:40,
+                check:false,
+            },
+            {
+                id:2,
+                size:41,
+                check:false,
+            },
+            {
+                id:3,
+                size:42,
+                check:false,
+            },
+            {
+                id:4,
+                size:43,
+                check:false,
+            },
+
         ]
     },
     {
@@ -192,6 +304,34 @@ export const dataProduct = [
                 linkImage:'https://basketzone.pl/zdjecia/2020/09/22/509/34/tn_QQ11186air_jordan_18645-mini.jpg?mini&v=3',
                 check:false,
             },
+        ],
+        sizeShoes:[
+            {
+                id:0,
+                size:39,
+                check:false,
+            },
+            {
+                id:1,
+                size:40,
+                check:false,
+            },
+            {
+                id:2,
+                size:41,
+                check:false,
+            },
+            {
+                id:3,
+                size:42,
+                check:false,
+            },
+            {
+                id:4,
+                size:43,
+                check:false,
+            },
+
         ]
     },
     {
@@ -229,6 +369,33 @@ export const dataProduct = [
                 linkImage:'https://kicksmaniac.com/zdjecia/2020/09/22/509/39/tn_QQ11180air_jordan_18666-mini.jpg?mini&v=3',
                 check:false,
             },
+        ],       sizeShoes:[
+            {
+                id:0,
+                size:39,
+                check:false,
+            },
+            {
+                id:1,
+                size:40,
+                check:false,
+            },
+            {
+                id:2,
+                size:41,
+                check:false,
+            },
+            {
+                id:3,
+                size:42,
+                check:false,
+            },
+            {
+                id:4,
+                size:43,
+                check:false,
+            },
+
         ]
     },
     {
@@ -266,6 +433,33 @@ export const dataProduct = [
                 linkImage:'https://de.kicksmaniac.com/zdjecia/2021/02/01/302/47/tn_QQ11642air_jordan_19179-mini.jpg?mini&v=3',
                 check:false,
             },
+        ],       sizeShoes:[
+            {
+                id:0,
+                size:39,
+                check:false,
+            },
+            {
+                id:1,
+                size:40,
+                check:false,
+            },
+            {
+                id:2,
+                size:41,
+                check:false,
+            },
+            {
+                id:3,
+                size:42,
+                check:false,
+            },
+            {
+                id:4,
+                size:43,
+                check:false,
+            },
+
         ]
     },
     {
@@ -303,6 +497,33 @@ export const dataProduct = [
                 linkImage:'https://cz.basketzone.net/zdjecia/2020/12/16/612/57/tn_QQ11532air_jordan_19024-mini.jpg?mini&v=3',
                 check:false,
             },
+        ],       sizeShoes:[
+            {
+                id:0,
+                size:39,
+                check:false,
+            },
+            {
+                id:1,
+                size:40,
+                check:false,
+            },
+            {
+                id:2,
+                size:41,
+                check:false,
+            },
+            {
+                id:3,
+                size:42,
+                check:false,
+            },
+            {
+                id:4,
+                size:43,
+                check:false,
+            },
+
         ]
     },
     {
@@ -340,6 +561,34 @@ export const dataProduct = [
                 linkImage:'https://de.basketzone.net/zdjecia/2020/09/12/509/36/tn_QQ11157air_jordan_18620-mini.jpg?mini&v=3',
                 check:false,
             },
+        ],    
+        sizeShoes:[
+            {
+                id:0,
+                size:39,
+                check:false,
+            },
+            {
+                id:1,
+                size:40,
+                check:false,
+            },
+            {
+                id:2,
+                size:41,
+                check:false,
+            },
+            {
+                id:3,
+                size:42,
+                check:false,
+            },
+            {
+                id:4,
+                size:43,
+                check:false,
+            },
+
         ]
     },
     {
@@ -377,6 +626,34 @@ export const dataProduct = [
                 linkImage:'https://tr.basketzone.net/zdjecia/2019/08/14/1108/29/tn_QQ9438air_jordan_16480-mini.jpg?mini&v=3',
                 check:false,
             },
+        ],
+        sizeShoes:[
+            {
+                id:0,
+                size:39,
+                check:false,
+            },
+            {
+                id:1,
+                size:40,
+                check:false,
+            },
+            {
+                id:2,
+                size:41,
+                check:false,
+            },
+            {
+                id:3,
+                size:42,
+                check:false,
+            },
+            {
+                id:4,
+                size:43,
+                check:false,
+            },
+
         ]
     },
     {
@@ -414,6 +691,34 @@ export const dataProduct = [
                 linkImage:'https://basketzone.pl/zdjecia/2020/12/16/612/47/tn_QQ11542air_jordan_19049-mini.jpg?mini&v=3',
                 check:false,
             },
+        ],
+        sizeShoes:[
+            {
+                id:0,
+                size:39,
+                check:false,
+            },
+            {
+                id:1,
+                size:40,
+                check:false,
+            },
+            {
+                id:2,
+                size:41,
+                check:false,
+            },
+            {
+                id:3,
+                size:42,
+                check:false,
+            },
+            {
+                id:4,
+                size:43,
+                check:false,
+            },
+
         ]
     },
     {
@@ -425,6 +730,28 @@ export const dataProduct = [
         brand:'KYRIE',
         linkImage:'https://cz.basketzone.net/zdjecia/2020/09/10/1209/07/NIKE_KYRIE_6_USA_OLYMPIC_TEAMs-mini.jpg?mini',
         type:1,
+        sizeShoes:[
+            {
+                id:0,
+                size:'M',
+                check:false,
+            },
+            {
+                id:1,
+                size:'L',
+                check:false,
+            },
+            {
+                id:2,
+                size:'XL',
+                check:false,
+            },
+            {
+                id:3,
+                size:'XXL',
+                check:false,
+            },         
+        ]
     },
     {
         id:12,
@@ -442,6 +769,28 @@ export const dataProduct = [
                 check:true,               
             },
       
+        ],
+        sizeShoes:[
+            {
+                id:0,
+                size:'M',
+                check:false,
+            },
+            {
+                id:1,
+                size:'L',
+                check:false,
+            },
+            {
+                id:2,
+                size:'XL',
+                check:false,
+            },
+            {
+                id:3,
+                size:'XXL',
+                check:false,
+            },         
         ]
     },
     {
@@ -460,6 +809,28 @@ export const dataProduct = [
                 check:true,               
             },
       
+        ],
+        sizeShoes:[
+            {
+                id:0,
+                size:'M',
+                check:false,
+            },
+            {
+                id:1,
+                size:'L',
+                check:false,
+            },
+            {
+                id:2,
+                size:'XL',
+                check:false,
+            },
+            {
+                id:3,
+                size:'XXL',
+                check:false,
+            },         
         ]
     },
     {
@@ -483,6 +854,28 @@ export const dataProduct = [
                 check:false,               
             }
       
+        ],
+        sizeShoes:[
+            {
+                id:0,
+                size:'M',
+                check:false,
+            },
+            {
+                id:1,
+                size:'L',
+                check:false,
+            },
+            {
+                id:2,
+                size:'XL',
+                check:false,
+            },
+            {
+                id:3,
+                size:'XXL',
+                check:false,
+            },         
         ]
     },
     {
@@ -500,6 +893,28 @@ export const dataProduct = [
                 linkImage:'https://se.basketzone.net/zdjecia/2018/12/11/1112/25/tn_Q8586AJ4624_717.1-mini.jpg?mini&v=3', 
                 check:true,               
             },
+        ],
+        sizeShoes:[
+            {
+                id:0,
+                size:'M',
+                check:false,
+            },
+            {
+                id:1,
+                size:'L',
+                check:false,
+            },
+            {
+                id:2,
+                size:'XL',
+                check:false,
+            },
+            {
+                id:3,
+                size:'XXL',
+                check:false,
+            },         
         ]
     },
     {
@@ -517,6 +932,28 @@ export const dataProduct = [
                 linkImage:'https://pl.kicksmaniac.com/zdjecia/zdjecia/2015/04/03/tn_QQ3445546479-012-PHCBH001-mini.jpg?mini&v=3', 
                 check:true,               
             },
+        ],
+        sizeShoes:[
+            {
+                id:0,
+                size:'M',
+                check:false,
+            },
+            {
+                id:1,
+                size:'L',
+                check:false,
+            },
+            {
+                id:2,
+                size:'XL',
+                check:false,
+            },
+            {
+                id:3,
+                size:'XXL',
+                check:false,
+            },         
         ]
     },
     {
@@ -534,6 +971,28 @@ export const dataProduct = [
                 linkImage:'https://no.basketzone.net/zdjecia/2019/10/14/1010/08/tn_Q9907SX6274_010.1-mini.jpg?mini&v=3', 
                 check:true,               
             },
+        ],
+        sizeShoes:[
+            {
+                id:0,
+                size:'M',
+                check:false,
+            },
+            {
+                id:1,
+                size:'L',
+                check:false,
+            },
+            {
+                id:2,
+                size:'XL',
+                check:false,
+            },
+            {
+                id:3,
+                size:'XXL',
+                check:false,
+            },         
         ]
     },
     {
@@ -551,6 +1010,28 @@ export const dataProduct = [
                 linkImage:'https://it.basketzone.net/zdjecia/2018/07/16/907/54/tn_Q7831SX6274_100.1-mini.jpg?mini&v=3', 
                 check:true,               
             },
+        ],
+        sizeShoes:[
+            {
+                id:0,
+                size:'M',
+                check:false,
+            },
+            {
+                id:1,
+                size:'L',
+                check:false,
+            },
+            {
+                id:2,
+                size:'XL',
+                check:false,
+            },
+            {
+                id:3,
+                size:'XXL',
+                check:false,
+            },         
         ]
     },
     {
@@ -568,6 +1049,28 @@ export const dataProduct = [
                 linkImage:'https://de.basketzone.net/zdjecia/2017/09/07/1009/20/tn_Q6153sx5546_010.1-mini.jpg?mini&v=3', 
                 check:true,               
             },
+        ],
+        sizeShoes:[
+            {
+                id:0,
+                size:'M',
+                check:false,
+            },
+            {
+                id:1,
+                size:'L',
+                check:false,
+            },
+            {
+                id:2,
+                size:'XL',
+                check:false,
+            },
+            {
+                id:3,
+                size:'XXL',
+                check:false,
+            },         
         ]
     },
     {
@@ -585,6 +1088,28 @@ export const dataProduct = [
                 linkImage:'https://dk.basketzone.net/zdjecia/2017/04/20/904/17/tn_Q5742SX5546_011.1-mini.jpg?mini&v=3', 
                 check:true,               
             },
+        ],
+        sizeShoes:[
+            {
+                id:0,
+                size:'M',
+                check:false,
+            },
+            {
+                id:1,
+                size:'L',
+                check:false,
+            },
+            {
+                id:2,
+                size:'XL',
+                check:false,
+            },
+            {
+                id:3,
+                size:'XXL',
+                check:false,
+            },         
         ]
     },
     {
@@ -596,6 +1121,28 @@ export const dataProduct = [
         brand:'KD',
         linkImage:'https://sk.basketzone.net/zdjecia/2017/12/04/412/32/NIKE_NBA_GOLDEN_STATE_WARRIORS_KEVIN_DURANT_SWINGMAN_JERSEY_ROAD__RUSH_BLUEs-mini.jpg?mini',
         type:2,
+        sizeShoes:[
+            {
+                id:0,
+                size:'M',
+                check:false,
+            },
+            {
+                id:1,
+                size:'L',
+                check:false,
+            },
+            {
+                id:2,
+                size:'XL',
+                check:false,
+            },
+            {
+                id:3,
+                size:'XXL',
+                check:false,
+            },         
+        ]
     },
     {
         id:22,
@@ -632,6 +1179,34 @@ export const dataProduct = [
                 linkImage:'https://se.basketzone.net/zdjecia/zdjecia/2013/09/24/tn_QQ2163jordanshoes_5589-mini.jpg?mini&v=3', 
                 check:true,               
             },
+        ],
+        sizeShoes:[
+            {
+                id:0,
+                size:39,
+                check:false,
+            },
+            {
+                id:1,
+                size:40,
+                check:false,
+            },
+            {
+                id:2,
+                size:41,
+                check:false,
+            },
+            {
+                id:3,
+                size:42,
+                check:false,
+            },
+            {
+                id:4,
+                size:43,
+                check:false,
+            },
+
         ]
     },
     {
@@ -669,6 +1244,34 @@ export const dataProduct = [
                 linkImage:'https://nl.kicksmaniac.com/zdjecia/2019/05/04/1105/02/tn_QQ9016jordan_shoes5-mini.jpg?mini&v=3', 
                 check:true,               
             },
+        ],
+        sizeShoes:[
+            {
+                id:0,
+                size:39,
+                check:false,
+            },
+            {
+                id:1,
+                size:40,
+                check:false,
+            },
+            {
+                id:2,
+                size:41,
+                check:false,
+            },
+            {
+                id:3,
+                size:42,
+                check:false,
+            },
+            {
+                id:4,
+                size:43,
+                check:false,
+            },
+
         ]
     },
     {
@@ -706,6 +1309,34 @@ export const dataProduct = [
                 linkImage:'https://tr.basketzone.net/zdjecia/2019/04/11/204/44/tn_QQ8873jordan_shoes30-mini.jpg?mini&v=3', 
                 check:true,               
             },
+        ],
+        sizeShoes:[
+            {
+                id:0,
+                size:39,
+                check:false,
+            },
+            {
+                id:1,
+                size:40,
+                check:false,
+            },
+            {
+                id:2,
+                size:41,
+                check:false,
+            },
+            {
+                id:3,
+                size:42,
+                check:false,
+            },
+            {
+                id:4,
+                size:43,
+                check:false,
+            },
+
         ]
     },
     {
@@ -743,6 +1374,34 @@ export const dataProduct = [
                 linkImage:'https://nl.basketzone.net/zdjecia/2019/04/25/404/11/tn_QQ9015jordan_shoes12-mini.jpg?mini&v=3', 
                 check:true,               
             },
+        ],
+        sizeShoes:[
+            {
+                id:0,
+                size:39,
+                check:false,
+            },
+            {
+                id:1,
+                size:40,
+                check:false,
+            },
+            {
+                id:2,
+                size:41,
+                check:false,
+            },
+            {
+                id:3,
+                size:42,
+                check:false,
+            },
+            {
+                id:4,
+                size:43,
+                check:false,
+            },
+
         ]
     },
     {
@@ -780,6 +1439,34 @@ export const dataProduct = [
                 linkImage:'https://sk.basketzone.net/zdjecia/2019/05/04/105/08/tn_QQ9013jordan_shoes26-mini.jpg?mini&v=3', 
                 check:true,               
             },
+        ],
+        sizeShoes:[
+            {
+                id:0,
+                size:39,
+                check:false,
+            },
+            {
+                id:1,
+                size:40,
+                check:false,
+            },
+            {
+                id:2,
+                size:41,
+                check:false,
+            },
+            {
+                id:3,
+                size:42,
+                check:false,
+            },
+            {
+                id:4,
+                size:43,
+                check:false,
+            },
+
         ]
     },
     {
@@ -817,6 +1504,34 @@ export const dataProduct = [
                 linkImage:'https://no.basketzone.net/zdjecia/2019/05/14/1005/11/tn_QQ9049jordan_shoes34-mini.jpg?mini&v=3', 
                 check:true,               
             },
+        ],
+        sizeShoes:[
+            {
+                id:0,
+                size:39,
+                check:false,
+            },
+            {
+                id:1,
+                size:40,
+                check:false,
+            },
+            {
+                id:2,
+                size:41,
+                check:false,
+            },
+            {
+                id:3,
+                size:42,
+                check:false,
+            },
+            {
+                id:4,
+                size:43,
+                check:false,
+            },
+
         ]
     },
     {
@@ -854,6 +1569,34 @@ export const dataProduct = [
                 linkImage:'https://kicksmaniac.com/zdjecia/2019/02/25/402/57/tn_QQ7319jordan_shoes5-mini.jpg?mini&v=3', 
                 check:true,               
             },
+        ],
+        sizeShoes:[
+            {
+                id:0,
+                size:39,
+                check:false,
+            },
+            {
+                id:1,
+                size:40,
+                check:false,
+            },
+            {
+                id:2,
+                size:41,
+                check:false,
+            },
+            {
+                id:3,
+                size:42,
+                check:false,
+            },
+            {
+                id:4,
+                size:43,
+                check:false,
+            },
+
         ]
     },
     {
@@ -891,6 +1634,34 @@ export const dataProduct = [
                 linkImage:'https://dk.basketzone.net/zdjecia/2019/06/01/1106/03/tn_QQ9066jordan_shoes33-mini.jpg?mini&v=3', 
                 check:true,               
             },
+        ],
+        sizeShoes:[
+            {
+                id:0,
+                size:39,
+                check:false,
+            },
+            {
+                id:1,
+                size:40,
+                check:false,
+            },
+            {
+                id:2,
+                size:41,
+                check:false,
+            },
+            {
+                id:3,
+                size:42,
+                check:false,
+            },
+            {
+                id:4,
+                size:43,
+                check:false,
+            },
+
         ]
     },
     {
@@ -928,6 +1699,34 @@ export const dataProduct = [
                 linkImage:'https://de.basketzone.net/zdjecia/2019/05/09/1005/08/tn_QQ9093jordan_shoes28-mini.jpg?mini&v=3', 
                 check:true,               
             },
+        ],
+        sizeShoes:[
+            {
+                id:0,
+                size:39,
+                check:false,
+            },
+            {
+                id:1,
+                size:40,
+                check:false,
+            },
+            {
+                id:2,
+                size:41,
+                check:false,
+            },
+            {
+                id:3,
+                size:42,
+                check:false,
+            },
+            {
+                id:4,
+                size:43,
+                check:false,
+            },
+
         ]
     },
     {
@@ -965,6 +1764,34 @@ export const dataProduct = [
                 linkImage:'https://es.basketzone.net/zdjecia/2016/03/28/603/40/tn_QQ4312jordanshoes_14390-mini.jpg?mini&v=3', 
                 check:true,               
             },
+        ],
+        sizeShoes:[
+            {
+                id:0,
+                size:39,
+                check:false,
+            },
+            {
+                id:1,
+                size:40,
+                check:false,
+            },
+            {
+                id:2,
+                size:41,
+                check:false,
+            },
+            {
+                id:3,
+                size:42,
+                check:false,
+            },
+            {
+                id:4,
+                size:43,
+                check:false,
+            },
+
         ]
     },
     {
@@ -986,6 +1813,34 @@ export const dataProduct = [
         brand:'LEBRON',
         linkImage:'https://es.basketzone.net/zdjecia/2019/10/04/110/26/NIKE_LEBRON_WITNESS_IV_LAKERSs-mini.jpg?mini',
         type:1,
+        sizeShoes:[
+            {
+                id:0,
+                size:39,
+                check:false,
+            },
+            {
+                id:1,
+                size:40,
+                check:false,
+            },
+            {
+                id:2,
+                size:41,
+                check:false,
+            },
+            {
+                id:3,
+                size:42,
+                check:false,
+            },
+            {
+                id:4,
+                size:43,
+                check:false,
+            },
+
+        ]
     },
     {
         id:34,
@@ -996,6 +1851,34 @@ export const dataProduct = [
         brand:'LEBRON',
         linkImage:'https://es.kicksmaniac.com/zdjecia/2020/09/22/1209/36/NIKE_LEBRON_17_LOW_PARTICLE_GREYs-mini.jpg?mini',
         type:1,
+        sizeShoes:[
+            {
+                id:0,
+                size:39,
+                check:false,
+            },
+            {
+                id:1,
+                size:40,
+                check:false,
+            },
+            {
+                id:2,
+                size:41,
+                check:false,
+            },
+            {
+                id:3,
+                size:42,
+                check:false,
+            },
+            {
+                id:4,
+                size:43,
+                check:false,
+            },
+
+        ]
     },
     {
         id:35,
@@ -1006,6 +1889,34 @@ export const dataProduct = [
         brand:'LEBRON',
         linkImage:'https://ro.basketzone.net/zdjecia/2020/11/08/611/20/NIKE_LEBRON_17_LOW_TITANs-mini.jpg?mini',
         type:1,
+        sizeShoes:[
+            {
+                id:0,
+                size:39,
+                check:false,
+            },
+            {
+                id:1,
+                size:40,
+                check:false,
+            },
+            {
+                id:2,
+                size:41,
+                check:false,
+            },
+            {
+                id:3,
+                size:42,
+                check:false,
+            },
+            {
+                id:4,
+                size:43,
+                check:false,
+            },
+
+        ]
     },
     {
         id:36,
@@ -1016,6 +1927,34 @@ export const dataProduct = [
         brand:'LEBRON',
         linkImage:'https://it.basketzone.net/zdjecia/2020/12/06/412/33/NIKE_LEBRON_WITNESS_V_OREOs-mini.jpg?mini',
         type:1,
+        sizeShoes:[
+            {
+                id:0,
+                size:39,
+                check:false,
+            },
+            {
+                id:1,
+                size:40,
+                check:false,
+            },
+            {
+                id:2,
+                size:41,
+                check:false,
+            },
+            {
+                id:3,
+                size:42,
+                check:false,
+            },
+            {
+                id:4,
+                size:43,
+                check:false,
+            },
+
+        ]
     },
     {
         id:37,
@@ -1026,6 +1965,34 @@ export const dataProduct = [
         brand:'LEBRON',
         linkImage:'https://dk.basketzone.net/zdjecia/2021/03/09/603/43/NIKE_LEBRON_WITNESS_V_BLACK_LIGHT_BLUE_FURYs-mini.jpg?mini',
         type:1,
+        sizeShoes:[
+            {
+                id:0,
+                size:39,
+                check:false,
+            },
+            {
+                id:1,
+                size:40,
+                check:false,
+            },
+            {
+                id:2,
+                size:41,
+                check:false,
+            },
+            {
+                id:3,
+                size:42,
+                check:false,
+            },
+            {
+                id:4,
+                size:43,
+                check:false,
+            },
+
+        ]
     },
     {
         id:38,
@@ -1036,6 +2003,28 @@ export const dataProduct = [
         brand:'LEBRON',
         linkImage:'https://nl.kicksmaniac.com/zdjecia/2020/10/05/410/51/NIKE_NBA_LOS_ANGELES_LAKERS_LEBRON_JAMES_ASSOCIATION_EDITION_SWINGMAN_JERSEY_WHITEs-mini.jpg?mini',
         type:2,
+        sizeShoes:[
+            {
+                id:0,
+                size:'M',
+                check:false,
+            },
+            {
+                id:1,
+                size:'L',
+                check:false,
+            },
+            {
+                id:2,
+                size:'XL',
+                check:false,
+            },
+            {
+                id:3,
+                size:'XXL',
+                check:false,
+            },         
+        ]
     },
     {
         id:39,
@@ -1046,6 +2035,34 @@ export const dataProduct = [
         brand:'GRIFFIN',
         linkImage:'https://fr.basketzone.net/zdjecia/2017/04/05/804/26/NIKE_AIR_JORDAN_SUPER.FLY_5_PO_RED_BLAKE_GRIFFINs-mini.jpg?mini',
         type:1,
+        sizeShoes:[
+            {
+                id:0,
+                size:39,
+                check:false,
+            },
+            {
+                id:1,
+                size:40,
+                check:false,
+            },
+            {
+                id:2,
+                size:41,
+                check:false,
+            },
+            {
+                id:3,
+                size:42,
+                check:false,
+            },
+            {
+                id:4,
+                size:43,
+                check:false,
+            },
+
+        ]
     },
     {
         id:40,
@@ -1056,6 +2073,34 @@ export const dataProduct = [
         brand:'GRIFFIN',
         linkImage:'https://nl.kicksmaniac.com/zdjecia/2017/04/25/1204/37/NIKE_AIR_JORDAN_SUPER.FLY_5_PO_BLUE_BLAKE_GRIFFINs-mini.jpg?mini',
         type:1,
+        sizeShoes:[
+            {
+                id:0,
+                size:39,
+                check:false,
+            },
+            {
+                id:1,
+                size:40,
+                check:false,
+            },
+            {
+                id:2,
+                size:41,
+                check:false,
+            },
+            {
+                id:3,
+                size:42,
+                check:false,
+            },
+            {
+                id:4,
+                size:43,
+                check:false,
+            },
+
+        ]
     },
     {
         id:41,
@@ -1066,6 +2111,34 @@ export const dataProduct = [
         brand:'GRIFFIN',
         linkImage:'https://it.basketzone.net/zdjecia/2017/05/06/1105/49/NIKE_AIR_JORDAN_SUPER.FLY_5_PO_BRED_BLAKE_GRIFFINs-mini.jpg?mini',
         type:1,
+        sizeShoes:[
+            {
+                id:0,
+                size:39,
+                check:false,
+            },
+            {
+                id:1,
+                size:40,
+                check:false,
+            },
+            {
+                id:2,
+                size:41,
+                check:false,
+            },
+            {
+                id:3,
+                size:42,
+                check:false,
+            },
+            {
+                id:4,
+                size:43,
+                check:false,
+            },
+
+        ]
     },
     {
         id:42,
@@ -1076,6 +2149,34 @@ export const dataProduct = [
         brand:'GRIFFIN',
         linkImage:'https://de.basketzone.net/zdjecia/2017/03/15/1003/10/NIKE_AIR_JORDAN_SUPER.FLY_5_PO_WHITE_BLAKE_GRIFFINs-mini.jpg?mini',
         type:1,
+        sizeShoes:[
+            {
+                id:0,
+                size:39,
+                check:false,
+            },
+            {
+                id:1,
+                size:40,
+                check:false,
+            },
+            {
+                id:2,
+                size:41,
+                check:false,
+            },
+            {
+                id:3,
+                size:42,
+                check:false,
+            },
+            {
+                id:4,
+                size:43,
+                check:false,
+            },
+
+        ]
     },
     {
         id:43,
@@ -1086,6 +2187,34 @@ export const dataProduct = [
         brand:'GRIFFIN',
         linkImage:'https://dk.basketzone.net/zdjecia/2017/04/24/304/35/NIKE_AIR_JORDAN_SUPER.FLY_5_PO_BULLS_ALTERNATE_BLAKE_GRIFFINs-mini.jpg?mini',
         type:1,
+        sizeShoes:[
+            {
+                id:0,
+                size:39,
+                check:false,
+            },
+            {
+                id:1,
+                size:40,
+                check:false,
+            },
+            {
+                id:2,
+                size:41,
+                check:false,
+            },
+            {
+                id:3,
+                size:42,
+                check:false,
+            },
+            {
+                id:4,
+                size:43,
+                check:false,
+            },
+
+        ]
     },
     {
         id:44,
@@ -1096,6 +2225,34 @@ export const dataProduct = [
         brand:'GRIFFIN',
         linkImage:'https://es.basketzone.net/zdjecia/zdjecia/2015/11/05/NIKE_AIR_JORDAN_SUPER.FLY_4_JACQUARD_BLAKE_GRIFFIN_812870-605-mini.jpg?mini',
         type:1,
+        sizeShoes:[
+            {
+                id:0,
+                size:39,
+                check:false,
+            },
+            {
+                id:1,
+                size:40,
+                check:false,
+            },
+            {
+                id:2,
+                size:41,
+                check:false,
+            },
+            {
+                id:3,
+                size:42,
+                check:false,
+            },
+            {
+                id:4,
+                size:43,
+                check:false,
+            },
+
+        ]
     },
     {
         id:45,
@@ -1106,6 +2263,34 @@ export const dataProduct = [
         brand:'GRIFFIN',
         linkImage:'https://cz.basketzone.net/zdjecia/2016/04/09/804/57/NIKE_AIR_JORDAN_SUPER.FLY_4_PO___RIO_TEAL___BLAKE_GRIFFINs-mini.jpg?mini',
         type:1,
+        sizeShoes:[
+            {
+                id:0,
+                size:39,
+                check:false,
+            },
+            {
+                id:1,
+                size:40,
+                check:false,
+            },
+            {
+                id:2,
+                size:41,
+                check:false,
+            },
+            {
+                id:3,
+                size:42,
+                check:false,
+            },
+            {
+                id:4,
+                size:43,
+                check:false,
+            },
+
+        ]
     },
     {
         id:46,
@@ -1116,6 +2301,34 @@ export const dataProduct = [
         brand:'GRIFFIN',
         linkImage:'https://hu.basketzone.net/zdjecia/2017/02/09/902/50/NIKE_AIR_JORDAN_SUPER.FLY_5_PO_BLACK_METTALIC_GOLD_BLAKE_GRIFFINs-mini.jpg?mini',
         type:1,
+        sizeShoes:[
+            {
+                id:0,
+                size:39,
+                check:false,
+            },
+            {
+                id:1,
+                size:40,
+                check:false,
+            },
+            {
+                id:2,
+                size:41,
+                check:false,
+            },
+            {
+                id:3,
+                size:42,
+                check:false,
+            },
+            {
+                id:4,
+                size:43,
+                check:false,
+            },
+
+        ]
     },
     {
         id:47,
@@ -1126,6 +2339,34 @@ export const dataProduct = [
         brand:'GRIFFIN',
         linkImage:'https://fr.kicksmaniac.com/zdjecia/2017/03/07/903/52/NIKE_AIR_JORDAN_SUPER.FLY_5_PO_s-mini.jpg?minii',
         type:1,
+        sizeShoes:[
+            {
+                id:0,
+                size:39,
+                check:false,
+            },
+            {
+                id:1,
+                size:40,
+                check:false,
+            },
+            {
+                id:2,
+                size:41,
+                check:false,
+            },
+            {
+                id:3,
+                size:42,
+                check:false,
+            },
+            {
+                id:4,
+                size:43,
+                check:false,
+            },
+
+        ]
     },
     {
         id:48,
@@ -1136,6 +2377,34 @@ export const dataProduct = [
         brand:'GRIFFIN',
         linkImage:'https://nl.basketzone.net/zdjecia/2017/05/06/1105/40/NIKE_AIR_JORDAN_SUPER.FLY_5_PO_CONTRAST_BLAKE_GRIFFINs-mini.jpg?mini',
         type:1,
+        sizeShoes:[
+            {
+                id:0,
+                size:39,
+                check:false,
+            },
+            {
+                id:1,
+                size:40,
+                check:false,
+            },
+            {
+                id:2,
+                size:41,
+                check:false,
+            },
+            {
+                id:3,
+                size:42,
+                check:false,
+            },
+            {
+                id:4,
+                size:43,
+                check:false,
+            },
+
+        ]
     },
     {
         id:49,
@@ -1146,6 +2415,34 @@ export const dataProduct = [
         brand:'GEORGE',
         linkImage:'https://es.kicksmaniac.com/zdjecia/2021/03/09/603/18/NIKE_PG_5_LA_DRIP_PAUL_GEORGEs-mini.jpg?mini',
         type:1,
+        sizeShoes:[
+            {
+                id:0,
+                size:39,
+                check:false,
+            },
+            {
+                id:1,
+                size:40,
+                check:false,
+            },
+            {
+                id:2,
+                size:41,
+                check:false,
+            },
+            {
+                id:3,
+                size:42,
+                check:false,
+            },
+            {
+                id:4,
+                size:43,
+                check:false,
+            },
+
+        ]
     },
     {
         id:50,
@@ -1156,6 +2453,34 @@ export const dataProduct = [
         brand:'GEORGE',
         linkImage:'https://se.basketzone.net/zdjecia/2020/09/28/309/31/NIKE_PG_4_DIGI_CAMO_PAUL_GEORGEs-mini.jpg?mini',
         type:1,
+        sizeShoes:[
+            {
+                id:0,
+                size:39,
+                check:false,
+            },
+            {
+                id:1,
+                size:40,
+                check:false,
+            },
+            {
+                id:2,
+                size:41,
+                check:false,
+            },
+            {
+                id:3,
+                size:42,
+                check:false,
+            },
+            {
+                id:4,
+                size:43,
+                check:false,
+            },
+
+        ]
     },
     {
         id:51,
@@ -1166,6 +2491,34 @@ export const dataProduct = [
         brand:'GEORGE',
         linkImage:'https://tr.basketzone.net/zdjecia/2021/04/04/404/19/NIKE_PG_5_WHITE_MULTICOLOR_PAUL_GEORGEs-mini.jpg?mini',
         type:1,
+        sizeShoes:[
+            {
+                id:0,
+                size:39,
+                check:false,
+            },
+            {
+                id:1,
+                size:40,
+                check:false,
+            },
+            {
+                id:2,
+                size:41,
+                check:false,
+            },
+            {
+                id:3,
+                size:42,
+                check:false,
+            },
+            {
+                id:4,
+                size:43,
+                check:false,
+            },
+
+        ]
     },
     {
         id:52,
@@ -1186,6 +2539,34 @@ export const dataProduct = [
         brand:'GEORGE',
         linkImage:'https://fr.kicksmaniac.com/zdjecia/2020/11/05/511/27/NIKE_PG_4_CLIPPERS_PAUL_GEORGEs-mini.jpg?mini',
         type:1,
+        sizeShoes:[
+            {
+                id:0,
+                size:39,
+                check:false,
+            },
+            {
+                id:1,
+                size:40,
+                check:false,
+            },
+            {
+                id:2,
+                size:41,
+                check:false,
+            },
+            {
+                id:3,
+                size:42,
+                check:false,
+            },
+            {
+                id:4,
+                size:43,
+                check:false,
+            },
+
+        ]
     },
     {
         id:54,
@@ -1196,6 +2577,34 @@ export const dataProduct = [
         brand:'GEORGE',
         linkImage:'https://fr.kicksmaniac.com/zdjecia/2021/03/09/603/39/NIKE_PG_5_BLACK_MULTICOLOR_PAUL_GEORGEs-mini.jpg?mini',
         type:1,
+        sizeShoes:[
+            {
+                id:0,
+                size:39,
+                check:false,
+            },
+            {
+                id:1,
+                size:40,
+                check:false,
+            },
+            {
+                id:2,
+                size:41,
+                check:false,
+            },
+            {
+                id:3,
+                size:42,
+                check:false,
+            },
+            {
+                id:4,
+                size:43,
+                check:false,
+            },
+
+        ]
     },
     {
         id:55,
@@ -1206,6 +2615,34 @@ export const dataProduct = [
         brand:'GEORGE',
         linkImage:'https://dk.basketzone.net/zdjecia/2020/09/29/309/45/NIKE_PG_4_TRIPLE_BLACK_PAUL_GEORGEs-mini.jpg?mini',
         type:1,
+        sizeShoes:[
+            {
+                id:0,
+                size:39,
+                check:false,
+            },
+            {
+                id:1,
+                size:40,
+                check:false,
+            },
+            {
+                id:2,
+                size:41,
+                check:false,
+            },
+            {
+                id:3,
+                size:42,
+                check:false,
+            },
+            {
+                id:4,
+                size:43,
+                check:false,
+            },
+
+        ]
     },
     {
         id:56,
@@ -1216,6 +2653,34 @@ export const dataProduct = [
         brand:'GEORGE',
         linkImage:'https://es.kicksmaniac.com/zdjecia/2020/08/11/208/01/NIKE_PG_4_USA_PAUL_GEORGEs-mini.jpg?mini',
         type:1,
+        sizeShoes:[
+            {
+                id:0,
+                size:39,
+                check:false,
+            },
+            {
+                id:1,
+                size:40,
+                check:false,
+            },
+            {
+                id:2,
+                size:41,
+                check:false,
+            },
+            {
+                id:3,
+                size:42,
+                check:false,
+            },
+            {
+                id:4,
+                size:43,
+                check:false,
+            },
+
+        ]
     },
     {
         id:57,
@@ -1226,6 +2691,34 @@ export const dataProduct = [
         brand:'GEORGE',
         linkImage:'https://basketzone.pl/zdjecia/2020/08/11/408/20/NIKE_PG_4_HEATHER_BLACK_BLUE_PAUL_GEORGEs-mini.jpg?mini',
         type:1,
+        sizeShoes:[
+            {
+                id:0,
+                size:39,
+                check:false,
+            },
+            {
+                id:1,
+                size:40,
+                check:false,
+            },
+            {
+                id:2,
+                size:41,
+                check:false,
+            },
+            {
+                id:3,
+                size:42,
+                check:false,
+            },
+            {
+                id:4,
+                size:43,
+                check:false,
+            },
+
+        ]
     },
     {
         id:58,
@@ -1236,6 +2729,34 @@ export const dataProduct = [
         brand:'GEORGE',
         linkImage:'https://sk.basketzone.net/zdjecia/2021/05/01/105/03/NIKE_PG_5_BRED_PAUL_GEORGEs-mini.jpg?mini',
         type:1,
+        sizeShoes:[
+            {
+                id:0,
+                size:39,
+                check:false,
+            },
+            {
+                id:1,
+                size:40,
+                check:false,
+            },
+            {
+                id:2,
+                size:41,
+                check:false,
+            },
+            {
+                id:3,
+                size:42,
+                check:false,
+            },
+            {
+                id:4,
+                size:43,
+                check:false,
+            },
+
+        ]
     },
     {
         id:59,
@@ -1246,6 +2767,28 @@ export const dataProduct = [
         brand:'GEORGE',
         linkImage:'https://fr.kicksmaniac.com/zdjecia/2020/02/13/402/19/NIKE_PG_DRI_FIT_TEE_WHITEs-mini.jpg?mini',
         type:2,
+        sizeShoes:[
+            {
+                id:0,
+                size:'M',
+                check:false,
+            },
+            {
+                id:1,
+                size:'L',
+                check:false,
+            },
+            {
+                id:2,
+                size:'XL',
+                check:false,
+            },
+            {
+                id:3,
+                size:'XXL',
+                check:false,
+            },         
+        ]
     },
     {
         id:60,
@@ -1256,6 +2799,28 @@ export const dataProduct = [
         brand:'GEORGE',
         linkImage:'https://sk.basketzone.net/zdjecia/2019/11/23/1011/08/NIKE_DRI_FIT_PG_BASKETBALL_TEE_BLACKs-mini.jpg?mini',
         type:2,
+        sizeShoes:[
+            {
+                id:0,
+                size:'M',
+                check:false,
+            },
+            {
+                id:1,
+                size:'L',
+                check:false,
+            },
+            {
+                id:2,
+                size:'XL',
+                check:false,
+            },
+            {
+                id:3,
+                size:'XXL',
+                check:false,
+            },         
+        ]
     },
     {
         id:61,
@@ -1266,6 +2831,28 @@ export const dataProduct = [
         brand:'GEORGE',
         linkImage:'https://de.kicksmaniac.com/zdjecia/2019/04/15/1204/36/NIKE_PG_SMOKE_DRY_TEE_BLACKs-mini.jpg?mini',
         type:2,
+        sizeShoes:[
+            {
+                id:0,
+                size:'M',
+                check:false,
+            },
+            {
+                id:1,
+                size:'L',
+                check:false,
+            },
+            {
+                id:2,
+                size:'XL',
+                check:false,
+            },
+            {
+                id:3,
+                size:'XXL',
+                check:false,
+            },         
+        ]
     },
     {
         id:62,
@@ -1276,7 +2863,30 @@ export const dataProduct = [
         brand:'GEORGE',
         linkImage:'https://sk.basketzone.net/zdjecia/2018/10/16/910/03/NIKE_PG_DRY_TEE_WHITEs-mini.jpg?mini',
         type:2,
+        sizeShoes:[
+            {
+                id:0,
+                size:'M',
+                check:false,
+            },
+            {
+                id:1,
+                size:'L',
+                check:false,
+            },
+            {
+                id:2,
+                size:'XL',
+                check:false,
+            },
+            {
+                id:3,
+                size:'XXL',
+                check:false,
+            },         
+        ]
     },
+
     {
         id:63,
         name:'NIKE PG SMOKE DRY TEE WHITE',
@@ -1286,6 +2896,28 @@ export const dataProduct = [
         brand:'GEORGE',
         linkImage:'https://de.kicksmaniac.com/zdjecia/2018/07/11/1007/00/NIKE_PG_DRY_TEE_BLACKs-mini.jpg?mini',
         type:2,
+        sizeShoes:[
+            {
+                id:0,
+                size:'M',
+                check:false,
+            },
+            {
+                id:1,
+                size:'L',
+                check:false,
+            },
+            {
+                id:2,
+                size:'XL',
+                check:false,
+            },
+            {
+                id:3,
+                size:'XXL',
+                check:false,
+            },         
+        ]
     },
     {
         id:64,
@@ -1296,6 +2928,34 @@ export const dataProduct = [
         brand:'KYRIE',
         linkImage:'https://kicksmaniac.com/zdjecia/2020/12/16/312/24/NIKE_KYRIE_LOW_3_ORCHIDs-mini.jpg?mini',
         type:1,
+        sizeShoes:[
+            {
+                id:0,
+                size:39,
+                check:false,
+            },
+            {
+                id:1,
+                size:40,
+                check:false,
+            },
+            {
+                id:2,
+                size:41,
+                check:false,
+            },
+            {
+                id:3,
+                size:42,
+                check:false,
+            },
+            {
+                id:4,
+                size:43,
+                check:false,
+            },
+
+        ]
     },
 
     {
@@ -1307,6 +2967,34 @@ export const dataProduct = [
         brand:'KYRIE',
         linkImage:'https://sk.basketzone.net/zdjecia/2020/07/04/307/38/NIKE_KYRIE_6_ASIA___COMING_SOONs-mini.jpg?mini',
         type:1,
+        sizeShoes:[
+            {
+                id:0,
+                size:39,
+                check:false,
+            },
+            {
+                id:1,
+                size:40,
+                check:false,
+            },
+            {
+                id:2,
+                size:41,
+                check:false,
+            },
+            {
+                id:3,
+                size:42,
+                check:false,
+            },
+            {
+                id:4,
+                size:43,
+                check:false,
+            },
+
+        ]
     },
     {
         id:66,
@@ -1317,6 +3005,34 @@ export const dataProduct = [
         brand:'KYRIE',
         linkImage:'https://fr.basketzone.net/zdjecia/2020/11/01/511/30/NIKE_KYRIE_LOW_3_BROOKLYN_NETS_CLASSIC_EDITIONs-mini.jpg?mini',
         type:1,
+        sizeShoes:[
+            {
+                id:0,
+                size:39,
+                check:false,
+            },
+            {
+                id:1,
+                size:40,
+                check:false,
+            },
+            {
+                id:2,
+                size:41,
+                check:false,
+            },
+            {
+                id:3,
+                size:42,
+                check:false,
+            },
+            {
+                id:4,
+                size:43,
+                check:false,
+            },
+
+        ]
     },
     {
         id:67,
@@ -1327,6 +3043,34 @@ export const dataProduct = [
         brand:'KYRIE',
         linkImage:'https://tr.basketzone.net/zdjecia/2020/07/22/507/09/NIKE_KYRIE_FLYTRAP_III_BLACK_METALLIC_GOLDs-mini.jpg?mini',
         type:1,
+        sizeShoes:[
+            {
+                id:0,
+                size:39,
+                check:false,
+            },
+            {
+                id:1,
+                size:40,
+                check:false,
+            },
+            {
+                id:2,
+                size:41,
+                check:false,
+            },
+            {
+                id:3,
+                size:42,
+                check:false,
+            },
+            {
+                id:4,
+                size:43,
+                check:false,
+            },
+
+        ]
     },
     {
         id:68,
@@ -1337,6 +3081,34 @@ export const dataProduct = [
         brand:'KYRIE',
         linkImage:'https://hu.basketzone.net/zdjecia/2020/05/19/505/03/NIKE_KYRIE_6_ALLSTAR_TROPHIESs-mini.jpg?mini',
         type:1,
+        sizeShoes:[
+            {
+                id:0,
+                size:39,
+                check:false,
+            },
+            {
+                id:1,
+                size:40,
+                check:false,
+            },
+            {
+                id:2,
+                size:41,
+                check:false,
+            },
+            {
+                id:3,
+                size:42,
+                check:false,
+            },
+            {
+                id:4,
+                size:43,
+                check:false,
+            },
+
+        ]
     },
     {
         id:69,
@@ -1347,6 +3119,34 @@ export const dataProduct = [
         brand:'KYRIE',
         linkImage:'https://fr.kicksmaniac.com/zdjecia/2021/02/04/402/25/NIKE_KYRIE_FLYTRAP_IV_CRIMSONs-mini.jpg?mini',
         type:1,
+        sizeShoes:[
+            {
+                id:0,
+                size:39,
+                check:false,
+            },
+            {
+                id:1,
+                size:40,
+                check:false,
+            },
+            {
+                id:2,
+                size:41,
+                check:false,
+            },
+            {
+                id:3,
+                size:42,
+                check:false,
+            },
+            {
+                id:4,
+                size:43,
+                check:false,
+            },
+
+        ]
     },
     {
         id:70,
@@ -1357,6 +3157,28 @@ export const dataProduct = [
         brand:'BUTLER',
         linkImage:'https://se.basketzone.net/zdjecia/2021/05/11/205/27/NIKE_NBA_MIAMI_HEAT_JIMMY_BUTLER_CITY_EDITION_SWINGMAN_JERSEY_LASER_FUCHSIAs-mini.jpg?mini',
         type:2,
+        sizeShoes:[
+            {
+                id:0,
+                size:'M',
+                check:false,
+            },
+            {
+                id:1,
+                size:'L',
+                check:false,
+            },
+            {
+                id:2,
+                size:'XL',
+                check:false,
+            },
+            {
+                id:3,
+                size:'XXL',
+                check:false,
+            },         
+        ]
     },
     {
         id:71,
@@ -1367,6 +3189,28 @@ export const dataProduct = [
         brand:'BUTLER',
         linkImage:'https://dk.basketzone.net/zdjecia/2018/09/18/809/42/NIKE_NBA_MINNESOTA_TIMBERWOLVES_JIMMY_BUTLER_SWINGMAN_JERSEY_ACTION_GREENs-mini.jpg?mini',
         type:2,
+        sizeShoes:[
+            {
+                id:0,
+                size:'M',
+                check:false,
+            },
+            {
+                id:1,
+                size:'L',
+                check:false,
+            },
+            {
+                id:2,
+                size:'XL',
+                check:false,
+            },
+            {
+                id:3,
+                size:'XXL',
+                check:false,
+            },         
+        ]
     },
     {
         id:72,
@@ -1377,6 +3221,28 @@ export const dataProduct = [
         brand:'BUTLER',
         linkImage:'https://ro.basketzone.net/zdjecia/2018/09/13/509/31/NIKE_NBA_MINNESOTA_TIMBERWOLVES_JIMMY_BUTLER_ROAD_SWINGMAN_JERSEY_COLLEGE_NAVYs-mini.jpg?mini',
         type:2,
+        sizeShoes:[
+            {
+                id:0,
+                size:'M',
+                check:false,
+            },
+            {
+                id:1,
+                size:'L',
+                check:false,
+            },
+            {
+                id:2,
+                size:'XL',
+                check:false,
+            },
+            {
+                id:3,
+                size:'XXL',
+                check:false,
+            },         
+        ]
     },
     {
         id:73,
@@ -1387,6 +3253,28 @@ export const dataProduct = [
         brand:'BUTLER',
         linkImage:'https://hu.basketzone.net/zdjecia/2020/10/02/1110/33/NIKE_NBA_MIAMI_HEAT_JIMMY_BUTLER_STATEMENT_EDITION_SWINGMAN_JERSEY_TOUGH_REDs-mini.jpg?mini',
         type:2,
+        sizeShoes:[
+            {
+                id:0,
+                size:'M',
+                check:false,
+            },
+            {
+                id:1,
+                size:'L',
+                check:false,
+            },
+            {
+                id:2,
+                size:'XL',
+                check:false,
+            },
+            {
+                id:3,
+                size:'XXL',
+                check:false,
+            },         
+        ]
     },
     {
         id:74,
@@ -1397,6 +3285,34 @@ export const dataProduct = [
         brand:'BUTLER',
         linkImage:'https://basketzone.net/zdjecia/2017/04/11/504/41/NIKE_AIR_JORDAN_ULTRA.FLY_2_OREOs-mini.jpg?mini',
         type:1,
+        sizeShoes:[
+            {
+                id:0,
+                size:39,
+                check:false,
+            },
+            {
+                id:1,
+                size:40,
+                check:false,
+            },
+            {
+                id:2,
+                size:41,
+                check:false,
+            },
+            {
+                id:3,
+                size:42,
+                check:false,
+            },
+            {
+                id:4,
+                size:43,
+                check:false,
+            },
+
+        ]
     },
     {
         id:75,
@@ -1407,6 +3323,34 @@ export const dataProduct = [
         brand:'BUTLER',
         linkImage:'https://es.basketzone.net/zdjecia/2017/07/06/1107/55/NIKE_AIR_JORDAN_ULTRA.FLY_2_BRED_REVERSE_JIMMY_BUTLERs-mini.jpg?mini',
         type:1,
+        sizeShoes:[
+            {
+                id:0,
+                size:39,
+                check:false,
+            },
+            {
+                id:1,
+                size:40,
+                check:false,
+            },
+            {
+                id:2,
+                size:41,
+                check:false,
+            },
+            {
+                id:3,
+                size:42,
+                check:false,
+            },
+            {
+                id:4,
+                size:43,
+                check:false,
+            },
+
+        ]
     },
     {
         id:76,
@@ -1417,6 +3361,34 @@ export const dataProduct = [
         brand:'BUTLER',
         linkImage:'https://dk.basketzone.net/zdjecia/2017/04/05/804/07/NIKE_AIR_JORDAN_ULTRA.FLY_2_PHOTO_BLUEs-mini.jpg?mini',
         type:1,
+        sizeShoes:[
+            {
+                id:0,
+                size:39,
+                check:false,
+            },
+            {
+                id:1,
+                size:40,
+                check:false,
+            },
+            {
+                id:2,
+                size:41,
+                check:false,
+            },
+            {
+                id:3,
+                size:42,
+                check:false,
+            },
+            {
+                id:4,
+                size:43,
+                check:false,
+            },
+
+        ]
     },
     {
         id:77,
@@ -1427,6 +3399,34 @@ export const dataProduct = [
         brand:'BUTLER',
         linkImage:'https://basketzone.pl/zdjecia/2017/05/15/205/53/NIKE_AIR_JORDAN_ULTRA.FLY_2_BREDs-mini.jpg?minii',
         type:1,
+        sizeShoes:[
+            {
+                id:0,
+                size:39,
+                check:false,
+            },
+            {
+                id:1,
+                size:40,
+                check:false,
+            },
+            {
+                id:2,
+                size:41,
+                check:false,
+            },
+            {
+                id:3,
+                size:42,
+                check:false,
+            },
+            {
+                id:4,
+                size:43,
+                check:false,
+            },
+
+        ]
     },
     {
         id:78,
@@ -1437,6 +3437,34 @@ export const dataProduct = [
         brand:'BUTLER',
         linkImage:'https://tr.basketzone.net/zdjecia/2017/04/11/504/22/NIKE_AIR_JORDAN_ULTRA.FLY_2_HOMEs-mini.jpg?mini',
         type:1,
+        sizeShoes:[
+            {
+                id:0,
+                size:39,
+                check:false,
+            },
+            {
+                id:1,
+                size:40,
+                check:false,
+            },
+            {
+                id:2,
+                size:41,
+                check:false,
+            },
+            {
+                id:3,
+                size:42,
+                check:false,
+            },
+            {
+                id:4,
+                size:43,
+                check:false,
+            },
+
+        ]
     },
     {
         id:79,
@@ -1447,6 +3475,34 @@ export const dataProduct = [
         brand:'BUTLER',
         linkImage:'https://de.basketzone.net/zdjecia/2016/07/08/707/15/NIKE_AIR_JORDAN_ULTRA.FLY_JIMMY_BUTLER_BLACK_METALLIC_HERMALITEs-mini.jpg?mini',
         type:1,
+        sizeShoes:[
+            {
+                id:0,
+                size:39,
+                check:false,
+            },
+            {
+                id:1,
+                size:40,
+                check:false,
+            },
+            {
+                id:2,
+                size:41,
+                check:false,
+            },
+            {
+                id:3,
+                size:42,
+                check:false,
+            },
+            {
+                id:4,
+                size:43,
+                check:false,
+            },
+
+        ]
     },
     {
         id:80,
@@ -1457,6 +3513,34 @@ export const dataProduct = [
         brand:'WESTBROOK',
         linkImage:'https://sk.basketzone.net/zdjecia/2021/02/15/202/34/NIKE_AIR_JORDAN_WESTBROOK_ONE_TAKE_2_MARBLEs-mini.jpg?mini',
         type:1,
+        sizeShoes:[
+            {
+                id:0,
+                size:39,
+                check:false,
+            },
+            {
+                id:1,
+                size:40,
+                check:false,
+            },
+            {
+                id:2,
+                size:41,
+                check:false,
+            },
+            {
+                id:3,
+                size:42,
+                check:false,
+            },
+            {
+                id:4,
+                size:43,
+                check:false,
+            },
+
+        ]
     },
     {
         id:81,
@@ -1467,6 +3551,34 @@ export const dataProduct = [
         brand:'WESTBROOK',
         linkImage:'https://nl.basketzone.net/zdjecia/2020/12/16/412/58/NIKE_AIR_JORDAN_WESTBROOK_ONE_TAKE_BLACK_VOLTs-mini.jpg?mini',
         type:1,
+        sizeShoes:[
+            {
+                id:0,
+                size:39,
+                check:false,
+            },
+            {
+                id:1,
+                size:40,
+                check:false,
+            },
+            {
+                id:2,
+                size:41,
+                check:false,
+            },
+            {
+                id:3,
+                size:42,
+                check:false,
+            },
+            {
+                id:4,
+                size:43,
+                check:false,
+            },
+
+        ]
     },
     {
         id:82,
@@ -1477,6 +3589,34 @@ export const dataProduct = [
         brand:'WESTBROOK',
         linkImage:'https://es.basketzone.net/zdjecia/2021/02/06/102/38/NIKE_AIR_JORDAN_WHY_NOT_ZER0.4_THE_FAMILY_R._WESTBROOKs-mini.jpg?mini',
         type:1,
+        sizeShoes:[
+            {
+                id:0,
+                size:39,
+                check:false,
+            },
+            {
+                id:1,
+                size:40,
+                check:false,
+            },
+            {
+                id:2,
+                size:41,
+                check:false,
+            },
+            {
+                id:3,
+                size:42,
+                check:false,
+            },
+            {
+                id:4,
+                size:43,
+                check:false,
+            },
+
+        ]
     },
     {
         id:83,
@@ -1487,6 +3627,34 @@ export const dataProduct = [
         brand:'WESTBROOK',
         linkImage:'https://es.kicksmaniac.com/zdjecia/2020/10/12/310/56/NIKE_AIR_JORDAN_WESTBROOK_ONE_TAKE_QUAI_54s-mini.jpg?mini',
         type:1,
+        sizeShoes:[
+            {
+                id:0,
+                size:39,
+                check:false,
+            },
+            {
+                id:1,
+                size:40,
+                check:false,
+            },
+            {
+                id:2,
+                size:41,
+                check:false,
+            },
+            {
+                id:3,
+                size:42,
+                check:false,
+            },
+            {
+                id:4,
+                size:43,
+                check:false,
+            },
+
+        ]
     },
     {
         id:84,
@@ -1497,6 +3665,34 @@ export const dataProduct = [
         brand:'WESTBROOK',
         linkImage:'https://fr.kicksmaniac.com/zdjecia/2021/02/10/102/25/NIKE_AIR_JORDAN_WHY_NOT_ZER0.4_GRAFFITI_R._WESTBROOKs-mini.jpg?mini',
         type:1,
+        sizeShoes:[
+            {
+                id:0,
+                size:39,
+                check:false,
+            },
+            {
+                id:1,
+                size:40,
+                check:false,
+            },
+            {
+                id:2,
+                size:41,
+                check:false,
+            },
+            {
+                id:3,
+                size:42,
+                check:false,
+            },
+            {
+                id:4,
+                size:43,
+                check:false,
+            },
+
+        ]
     },
     {
         id:85,
@@ -1507,6 +3703,34 @@ export const dataProduct = [
         brand:'WESTBROOK',
         linkImage:'https://de.kicksmaniac.com/zdjecia/2020/07/22/307/40/NIKE_AIR_JORDAN_WHY_NOT_ZER0.3_SE_ATOMIC_ORANGE_R._WESTBROOKs-mini.jpg?mini',
         type:1,
+        sizeShoes:[
+            {
+                id:0,
+                size:39,
+                check:false,
+            },
+            {
+                id:1,
+                size:40,
+                check:false,
+            },
+            {
+                id:2,
+                size:41,
+                check:false,
+            },
+            {
+                id:3,
+                size:42,
+                check:false,
+            },
+            {
+                id:4,
+                size:43,
+                check:false,
+            },
+
+        ]
     },
     {
         id:86,
@@ -1517,6 +3741,34 @@ export const dataProduct = [
         brand:'WESTBROOK',
         linkImage:'https://sk.basketzone.net/zdjecia/2020/03/10/203/45/NIKE_AIR_JORDAN_WHY_NOT_ZER0.3_HEARTBEAT_R._WESTBROOKs-mini.jpg?mini',
         type:1,
+        sizeShoes:[
+            {
+                id:0,
+                size:39,
+                check:false,
+            },
+            {
+                id:1,
+                size:40,
+                check:false,
+            },
+            {
+                id:2,
+                size:41,
+                check:false,
+            },
+            {
+                id:3,
+                size:42,
+                check:false,
+            },
+            {
+                id:4,
+                size:43,
+                check:false,
+            },
+
+        ]
     },
     {
         id:87,
@@ -1527,6 +3779,34 @@ export const dataProduct = [
         brand:'WESTBROOK',
         linkImage:'https://fr.kicksmaniac.com/zdjecia/2020/06/29/606/21/NIKE_AIR_JORDAN_WHY_NOT_ZER0.3_WASHED_CORAL_R._WESTBROOKs-mini.jpg?mini',
         type:1,
+        sizeShoes:[
+            {
+                id:0,
+                size:39,
+                check:false,
+            },
+            {
+                id:1,
+                size:40,
+                check:false,
+            },
+            {
+                id:2,
+                size:41,
+                check:false,
+            },
+            {
+                id:3,
+                size:42,
+                check:false,
+            },
+            {
+                id:4,
+                size:43,
+                check:false,
+            },
+
+        ]
     },
     {
         id:88,
@@ -1537,6 +3817,34 @@ export const dataProduct = [
         brand:'WESTBROOK',
         linkImage:'https://basketzone.net/zdjecia/2020/07/30/507/12/NIKE_AIR_JORDAN_WHY_NOT_ZER0.3_SE_FLASH_CRIMSON_R._WESTBROOKs-mini.jpg?mini',
         type:1,
+        sizeShoes:[
+            {
+                id:0,
+                size:39,
+                check:false,
+            },
+            {
+                id:1,
+                size:40,
+                check:false,
+            },
+            {
+                id:2,
+                size:41,
+                check:false,
+            },
+            {
+                id:3,
+                size:42,
+                check:false,
+            },
+            {
+                id:4,
+                size:43,
+                check:false,
+            },
+
+        ]
     },
     {
         id:89,
@@ -1547,6 +3855,34 @@ export const dataProduct = [
         brand:'WESTBROOK',
         linkImage:'https://nl.basketzone.net/zdjecia/2021/05/01/1105/43/NIKE_AIR_JORDAN_WESTBROOK_ONE_TAKE_2_TROPICAL_TWISTs-mini.jpg?mini',
         type:1,
+        sizeShoes:[
+            {
+                id:0,
+                size:39,
+                check:false,
+            },
+            {
+                id:1,
+                size:40,
+                check:false,
+            },
+            {
+                id:2,
+                size:41,
+                check:false,
+            },
+            {
+                id:3,
+                size:42,
+                check:false,
+            },
+            {
+                id:4,
+                size:43,
+                check:false,
+            },
+
+        ]
     },
     {
         id:90,
@@ -1557,6 +3893,34 @@ export const dataProduct = [
         brand:'ANTETOKOUNMPO',
         linkImage:'https://nl.kicksmaniac.com/zdjecia/2021/02/24/902/37/NIKE_ZOOM_FREAK_2_LETTER_BRO_GIANNIS_ANTETOKOUNMPOs-mini.jpg?mini',
         type:1,
+        sizeShoes:[
+            {
+                id:0,
+                size:39,
+                check:false,
+            },
+            {
+                id:1,
+                size:40,
+                check:false,
+            },
+            {
+                id:2,
+                size:41,
+                check:false,
+            },
+            {
+                id:3,
+                size:42,
+                check:false,
+            },
+            {
+                id:4,
+                size:43,
+                check:false,
+            },
+
+        ]
     },
     {
         id:91,
@@ -1567,6 +3931,34 @@ export const dataProduct = [
         brand:'ANTETOKOUNMPO',
         linkImage:'https://no.basketzone.net/zdjecia/2020/10/14/110/23/NIKE_ZOOM_FREAK_2_ASHIKOs-mini.jpg?mini',
         type:1,
+        sizeShoes:[
+            {
+                id:0,
+                size:39,
+                check:false,
+            },
+            {
+                id:1,
+                size:40,
+                check:false,
+            },
+            {
+                id:2,
+                size:41,
+                check:false,
+            },
+            {
+                id:3,
+                size:42,
+                check:false,
+            },
+            {
+                id:4,
+                size:43,
+                check:false,
+            },
+
+        ]
     },
     {
         id:92,
@@ -1577,6 +3969,34 @@ export const dataProduct = [
         brand:'ANTETOKOUNMPO',
         linkImage:'https://it.kicksmaniac.com/zdjecia/2019/11/20/511/42/NIKE_ZOOM_FREAK_1_ATMOSPHERE_GREYs-mini.jpg?mini',
         type:1,
+        sizeShoes:[
+            {
+                id:0,
+                size:39,
+                check:false,
+            },
+            {
+                id:1,
+                size:40,
+                check:false,
+            },
+            {
+                id:2,
+                size:41,
+                check:false,
+            },
+            {
+                id:3,
+                size:42,
+                check:false,
+            },
+            {
+                id:4,
+                size:43,
+                check:false,
+            },
+
+        ]
     },
     {
         id:93,
@@ -1587,6 +4007,34 @@ export const dataProduct = [
         brand:'ANTETOKOUNMPO',
         linkImage:'https://cz.basketzone.net/zdjecia/2021/02/15/202/38/NIKE_ZOOM_FREAK_2_TAXI_GIANNIS_ANTETOKOUNMPOs-mini.jpg?mini',
         type:1,
+        sizeShoes:[
+            {
+                id:0,
+                size:39,
+                check:false,
+            },
+            {
+                id:1,
+                size:40,
+                check:false,
+            },
+            {
+                id:2,
+                size:41,
+                check:false,
+            },
+            {
+                id:3,
+                size:42,
+                check:false,
+            },
+            {
+                id:4,
+                size:43,
+                check:false,
+            },
+
+        ]
     },
     {
         id:94,
@@ -1597,6 +4045,34 @@ export const dataProduct = [
         brand:'ANTETOKOUNMPO',
         linkImage:'https://fr.basketzone.net/zdjecia/2019/09/02/1209/11/NIKE_ZOOM_FREAK_1_ROSESs-mini.jpg?mini',
         type:1,
+        sizeShoes:[
+            {
+                id:0,
+                size:39,
+                check:false,
+            },
+            {
+                id:1,
+                size:40,
+                check:false,
+            },
+            {
+                id:2,
+                size:41,
+                check:false,
+            },
+            {
+                id:3,
+                size:42,
+                check:false,
+            },
+            {
+                id:4,
+                size:43,
+                check:false,
+            },
+
+        ]
     },
     {
         id:95,
@@ -1607,6 +4083,34 @@ export const dataProduct = [
         brand:'ANTETOKOUNMPO',
         linkImage:'https://sk.basketzone.net/zdjecia/2021/01/25/201/06/NIKE_ZOOM_FREAK_2_BRED_GIANNIS_ANTETOKOUNMPOs-mini.jpg?mini',
         type:1,
+        sizeShoes:[
+            {
+                id:0,
+                size:39,
+                check:false,
+            },
+            {
+                id:1,
+                size:40,
+                check:false,
+            },
+            {
+                id:2,
+                size:41,
+                check:false,
+            },
+            {
+                id:3,
+                size:42,
+                check:false,
+            },
+            {
+                id:4,
+                size:43,
+                check:false,
+            },
+
+        ]
     },
  
     {
@@ -1618,6 +4122,34 @@ export const dataProduct = [
         brand:'ANTETOKOUNMPO',
         linkImage:'https://fr.kicksmaniac.com/zdjecia/2020/09/22/1209/17/NIKE_ZOOM_FREAK_2_WHITE_CEMENTs-mini.jpg?mini',
         type:1,
+        sizeShoes:[
+            {
+                id:0,
+                size:39,
+                check:false,
+            },
+            {
+                id:1,
+                size:40,
+                check:false,
+            },
+            {
+                id:2,
+                size:41,
+                check:false,
+            },
+            {
+                id:3,
+                size:42,
+                check:false,
+            },
+            {
+                id:4,
+                size:43,
+                check:false,
+            },
+
+        ]
     },
     {
         id:97,
@@ -1628,6 +4160,34 @@ export const dataProduct = [
         brand:'ANTETOKOUNMPO',
         linkImage:'https://cz.basketzone.net/zdjecia/2020/02/03/502/08/NIKE_ZOOM_FREAK_1_ROOTSs-mini.jpg?minii',
         type:1,
+        sizeShoes:[
+            {
+                id:0,
+                size:39,
+                check:false,
+            },
+            {
+                id:1,
+                size:40,
+                check:false,
+            },
+            {
+                id:2,
+                size:41,
+                check:false,
+            },
+            {
+                id:3,
+                size:42,
+                check:false,
+            },
+            {
+                id:4,
+                size:43,
+                check:false,
+            },
+
+        ]
     },
     {
         id:98,
@@ -1638,6 +4198,34 @@ export const dataProduct = [
         brand:'BRYANT',
         linkImage:'https://it.basketzone.net/zdjecia/2020/07/31/1207/18/NIKE_KOBE_MAMBA_FURY_LAKERS_AWAYs-mini.jpg?mini',
         type:1,
+        sizeShoes:[
+            {
+                id:0,
+                size:39,
+                check:false,
+            },
+            {
+                id:1,
+                size:40,
+                check:false,
+            },
+            {
+                id:2,
+                size:41,
+                check:false,
+            },
+            {
+                id:3,
+                size:42,
+                check:false,
+            },
+            {
+                id:4,
+                size:43,
+                check:false,
+            },
+
+        ]
     },
     {
         id:99,
@@ -1648,6 +4236,34 @@ export const dataProduct = [
         brand:'BRYANT',
         linkImage:'https://basketzone.pl/zdjecia/2020/07/31/207/34/NIKE_KOBE_MAMBA_FURY_LAKERS_HOMEs-mini.jpg?mini',
         type:1,
+        sizeShoes:[
+            {
+                id:0,
+                size:39,
+                check:false,
+            },
+            {
+                id:1,
+                size:40,
+                check:false,
+            },
+            {
+                id:2,
+                size:41,
+                check:false,
+            },
+            {
+                id:3,
+                size:42,
+                check:false,
+            },
+            {
+                id:4,
+                size:43,
+                check:false,
+            },
+
+        ]
     },
     {
         id:100,
@@ -1658,6 +4274,34 @@ export const dataProduct = [
         brand:'BRYANT',
         linkImage:'https://no.basketzone.net/zdjecia/2020/06/24/106/11/NIKE_KOBE_MAMBA_FURY_BLACK_MAMBAs-mini.jpg?mini',
         type:1,
+        sizeShoes:[
+            {
+                id:0,
+                size:39,
+                check:false,
+            },
+            {
+                id:1,
+                size:40,
+                check:false,
+            },
+            {
+                id:2,
+                size:41,
+                check:false,
+            },
+            {
+                id:3,
+                size:42,
+                check:false,
+            },
+            {
+                id:4,
+                size:43,
+                check:false,
+            },
+
+        ]
     },
     {
         id:101,
@@ -1668,6 +4312,34 @@ export const dataProduct = [
         brand:'BRYANT',
         linkImage:'https://cz.basketzone.net/zdjecia/2020/06/03/506/29/NIKE_KOBE_MAMBA_FURY_WHITE_WOLF_GREYs-mini.jpg?mini',
         type:1,
+        sizeShoes:[
+            {
+                id:0,
+                size:39,
+                check:false,
+            },
+            {
+                id:1,
+                size:40,
+                check:false,
+            },
+            {
+                id:2,
+                size:41,
+                check:false,
+            },
+            {
+                id:3,
+                size:42,
+                check:false,
+            },
+            {
+                id:4,
+                size:43,
+                check:false,
+            },
+
+        ]
     },
     {
         id:102,
@@ -1678,6 +4350,34 @@ export const dataProduct = [
         brand:'BRYANT',
         linkImage:'https://es.kicksmaniac.com/zdjecia/2017/11/02/511/26/NIKE_KOBE_12_A.D._MID_GENESIS_BLACK_GUM_LIGHT_BROWNs-mini.jpg?mini',
         type:1,
+        sizeShoes:[
+            {
+                id:0,
+                size:39,
+                check:false,
+            },
+            {
+                id:1,
+                size:40,
+                check:false,
+            },
+            {
+                id:2,
+                size:41,
+                check:false,
+            },
+            {
+                id:3,
+                size:42,
+                check:false,
+            },
+            {
+                id:4,
+                size:43,
+                check:false,
+            },
+
+        ]
     },
     {
         id:103,
@@ -1688,6 +4388,34 @@ export const dataProduct = [
         brand:'BRYANT',
         linkImage:'https://ro.basketzone.net/zdjecia/2019/10/30/1110/07/NIKE_KOBE_MAMBA_FOCUS_LAKERSs-mini.jpg?mini',
         type:1,
+        sizeShoes:[
+            {
+                id:0,
+                size:39,
+                check:false,
+            },
+            {
+                id:1,
+                size:40,
+                check:false,
+            },
+            {
+                id:2,
+                size:41,
+                check:false,
+            },
+            {
+                id:3,
+                size:42,
+                check:false,
+            },
+            {
+                id:4,
+                size:43,
+                check:false,
+            },
+
+        ]
     },
     {
         id:104,
@@ -1698,6 +4426,34 @@ export const dataProduct = [
         brand:'BRYANT',
         linkImage:'https://dk.basketzone.net/zdjecia/2019/07/04/1107/58/NIKE_KOBE_MAMBA_FOCUS_METALLIC_GOLDs-mini.jpg?mini',
         type:1,
+        sizeShoes:[
+            {
+                id:0,
+                size:39,
+                check:false,
+            },
+            {
+                id:1,
+                size:40,
+                check:false,
+            },
+            {
+                id:2,
+                size:41,
+                check:false,
+            },
+            {
+                id:3,
+                size:42,
+                check:false,
+            },
+            {
+                id:4,
+                size:43,
+                check:false,
+            },
+
+        ]
     },
     {
         id:105,
@@ -1708,6 +4464,34 @@ export const dataProduct = [
         brand:'BRYANT',
         linkImage:'https://nl.basketzone.net/zdjecia/2017/11/17/511/39/NIKE_KOBE_A.D._GENESIS_GREY_SNAKEs-mini.jpg?mini',
         type:1,
+        sizeShoes:[
+            {
+                id:0,
+                size:39,
+                check:false,
+            },
+            {
+                id:1,
+                size:40,
+                check:false,
+            },
+            {
+                id:2,
+                size:41,
+                check:false,
+            },
+            {
+                id:3,
+                size:42,
+                check:false,
+            },
+            {
+                id:4,
+                size:43,
+                check:false,
+            },
+
+        ]
     },
     {
         id:106,
@@ -1718,6 +4502,34 @@ export const dataProduct = [
         brand:'BRYANT',
         linkImage:'https://es.kicksmaniac.com/zdjecia/2019/10/15/1110/54/NIKE_KOBE_AD_NXT_FF_VAST_GREYs-mini.jpg?mini',
         type:1,
+        sizeShoes:[
+            {
+                id:0,
+                size:39,
+                check:false,
+            },
+            {
+                id:1,
+                size:40,
+                check:false,
+            },
+            {
+                id:2,
+                size:41,
+                check:false,
+            },
+            {
+                id:3,
+                size:42,
+                check:false,
+            },
+            {
+                id:4,
+                size:43,
+                check:false,
+            },
+
+        ]
     },
     {
         id:107,
@@ -1728,6 +4540,34 @@ export const dataProduct = [
         brand:'BRYANT',
         linkImage:'https://cz.basketzone.net/zdjecia/2017/10/13/810/49/NIKE_KOBE_12_A.D._GENESIS_WHITEs-mini.jpg?mini',
         type:1,
+        sizeShoes:[
+            {
+                id:0,
+                size:39,
+                check:false,
+            },
+            {
+                id:1,
+                size:40,
+                check:false,
+            },
+            {
+                id:2,
+                size:41,
+                check:false,
+            },
+            {
+                id:3,
+                size:42,
+                check:false,
+            },
+            {
+                id:4,
+                size:43,
+                check:false,
+            },
+
+        ]
     },
     {
         id:108,
@@ -1738,6 +4578,34 @@ export const dataProduct = [
         brand:'KD',
         linkImage:'https://dk.basketzone.net/zdjecia/2020/09/30/509/03/NIKE_ZOOM_KD_13_EYBLs-mini.jpg?minii',
         type:1,
+        sizeShoes:[
+            {
+                id:0,
+                size:39,
+                check:false,
+            },
+            {
+                id:1,
+                size:40,
+                check:false,
+            },
+            {
+                id:2,
+                size:41,
+                check:false,
+            },
+            {
+                id:3,
+                size:42,
+                check:false,
+            },
+            {
+                id:4,
+                size:43,
+                check:false,
+            },
+
+        ]
     },
     {
         id:109,
@@ -1748,6 +4616,34 @@ export const dataProduct = [
         brand:'KD',
         linkImage:'https://nl.basketzone.net/zdjecia/2020/09/10/109/38/NIKE_ZOOM_KD_13_USA_OLYMPIC_TEAMs-mini.jpg?mini',
         type:1,
+        sizeShoes:[
+            {
+                id:0,
+                size:39,
+                check:false,
+            },
+            {
+                id:1,
+                size:40,
+                check:false,
+            },
+            {
+                id:2,
+                size:41,
+                check:false,
+            },
+            {
+                id:3,
+                size:42,
+                check:false,
+            },
+            {
+                id:4,
+                size:43,
+                check:false,
+            },
+
+        ]
     },
     {
         id:110,
@@ -1758,6 +4654,34 @@ export const dataProduct = [
         brand:'KD',
         linkImage:'https://nl.basketzone.net/zdjecia/2020/09/04/309/23/NIKE_ZOOM_KD_13_BREDs-mini.jpg?mini',
         type:1,
+        sizeShoes:[
+            {
+                id:0,
+                size:39,
+                check:false,
+            },
+            {
+                id:1,
+                size:40,
+                check:false,
+            },
+            {
+                id:2,
+                size:41,
+                check:false,
+            },
+            {
+                id:3,
+                size:42,
+                check:false,
+            },
+            {
+                id:4,
+                size:43,
+                check:false,
+            },
+
+        ]
     },
     {
         id:111,
@@ -1768,6 +4692,34 @@ export const dataProduct = [
         brand:'KD',
         linkImage:'https://nl.basketzone.net/zdjecia/2020/09/04/1209/45/NIKE_ZOOM_KD_13_OREOs-mini.jpg?mini',
         type:1,
+        sizeShoes:[
+            {
+                id:0,
+                size:39,
+                check:false,
+            },
+            {
+                id:1,
+                size:40,
+                check:false,
+            },
+            {
+                id:2,
+                size:41,
+                check:false,
+            },
+            {
+                id:3,
+                size:42,
+                check:false,
+            },
+            {
+                id:4,
+                size:43,
+                check:false,
+            },
+
+        ]
     },
     {
         id:112,
@@ -1778,6 +4730,34 @@ export const dataProduct = [
         brand:'KD',
         linkImage:'https://basketzone.pl/zdjecia/2020/10/05/110/34/NIKE_KD_TREY_5_VIII_BLACK_ILLUSION_GREENs-mini.jpg?mini',
         type:1,
+        sizeShoes:[
+            {
+                id:0,
+                size:39,
+                check:false,
+            },
+            {
+                id:1,
+                size:40,
+                check:false,
+            },
+            {
+                id:2,
+                size:41,
+                check:false,
+            },
+            {
+                id:3,
+                size:42,
+                check:false,
+            },
+            {
+                id:4,
+                size:43,
+                check:false,
+            },
+
+        ]
     },
     {
         id:113,
@@ -1788,6 +4768,34 @@ export const dataProduct = [
         brand:'KD',
         linkImage:'https://no.basketzone.net/zdjecia/2020/07/31/207/41/NIKE_KD_TREY_5_VIII_BLUE_VOIDs-mini.jpg?mini',
         type:1,
+        sizeShoes:[
+            {
+                id:0,
+                size:39,
+                check:false,
+            },
+            {
+                id:1,
+                size:40,
+                check:false,
+            },
+            {
+                id:2,
+                size:41,
+                check:false,
+            },
+            {
+                id:3,
+                size:42,
+                check:false,
+            },
+            {
+                id:4,
+                size:43,
+                check:false,
+            },
+
+        ]
     },
     {
         id:114,
@@ -1798,6 +4806,20 @@ export const dataProduct = [
         brand:'KD',
         linkImage:'https://no.basketzone.net/zdjecia/2019/09/12/909/40/NIKE_KD_FULL_COURT_8P_AMBERs-mini.jpg?mini',
         type:2,
+        sizeShoes:[
+            {
+                id:0,
+                size:6,
+                check:false,
+            },
+            {
+                id:1,
+                size:7,
+                check:false,
+            }
+         
+
+        ]
     },
     {
         id:115,
@@ -1808,6 +4830,34 @@ export const dataProduct = [
         brand:'ANTETOKOUNMPO',
         linkImage:'https://es.kicksmaniac.com/zdjecia/2019/10/03/310/06/NIKE_ZOOM_FREAK_1_GREECEs-mini.jpg?mini',
         type:1,
+        sizeShoes:[
+            {
+                id:0,
+                size:39,
+                check:false,
+            },
+            {
+                id:1,
+                size:40,
+                check:false,
+            },
+            {
+                id:2,
+                size:41,
+                check:false,
+            },
+            {
+                id:3,
+                size:42,
+                check:false,
+            },
+            {
+                id:4,
+                size:43,
+                check:false,
+            },
+
+        ]
     },
 ];
 

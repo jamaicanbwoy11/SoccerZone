@@ -7,6 +7,7 @@ import ShoesBrand from './Pages/ShoesBrand/ShoesBrand';
 import { useEffect,useState } from 'react';
 import ShoeDetail from './Pages/ShoeDetail/ShoeDetail';
 import Search from './Pages/Search/Search';
+import Cart from './Pages/Cart/Cart';
 function App() {
   const [backToTop,setBackToTop] = useState(false);
 
@@ -28,9 +29,10 @@ function App() {
       <Header/>
       <Switch> 
         <Route path="/search" component={Search} />
+        <Route path="/cart" component={Cart}/>
         <Route path="/shoe-detail/:id" component={ShoeDetail} />
         <Route path="/:id" component={ShoesBrand}/>
-   
+
         <Route exact path="/" component={HomePages} />
       </Switch>
       { 

@@ -6,6 +6,9 @@ import StorefrontIcon from '@material-ui/icons/Storefront';
 import './ShoeDetail.scss';
 import ShoppingCartIcon from '@material-ui/icons/ShoppingCart';
 import { ADD_TO_CART, ITEM_DETAIL } from '../../Redux/Constants';
+// import { Button } from '@material-ui/core';
+import NavigateNextIcon from '@material-ui/icons/NavigateNext';
+import NavigateBeforeIcon from '@material-ui/icons/NavigateBefore';
 // import StorefrontIcon from '@material-ui/icons/Storefront';
 function ShoeDetail(props) {
   const shoeDetail = useSelector((item) => item.ShoesReducer.shoe);
@@ -107,13 +110,34 @@ function ShoeDetail(props) {
                   )}
                 </span>
               </p>
-              <div
-                className="shoeDetail__items__item__name__addToCart"
-                onClick={() => handleAddToCart(item)}
-              >
-                <p>ADD TO CART</p>
-                <div>
-                  <ShoppingCartIcon />
+              <div className="shoeDetail__items__item__name__size">
+                <h2>Size : </h2>
+                {item.sizeShoes?.map((item2) => {
+                  return (
+                    <button className="" variant="outlined" key={item2.id}>
+                      {item2.size}
+                    </button>
+                  );
+                })}
+              </div>
+              <div className="shoeDetail__items__item__name__addAndAmount">
+                <div className="shoeDetail__items__item__name__amount">
+                  <div>
+                    <NavigateBeforeIcon />
+                  </div>
+                  <span>1</span>
+                  <div>
+                    <NavigateNextIcon />
+                  </div>
+                </div>
+                <div
+                  className="shoeDetail__items__item__name__addToCart"
+                  onClick={() => handleAddToCart(item)}
+                >
+                  <p>ADD TO CART</p>
+                  <div>
+                    <ShoppingCartIcon />
+                  </div>
                 </div>
               </div>
             </div>

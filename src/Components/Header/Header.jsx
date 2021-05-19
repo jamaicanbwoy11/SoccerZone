@@ -110,7 +110,15 @@ function Header() {
             >
               <path d="M68.56 4L18.4 25.36Q12.16 28 7.92 28q-4.8 0-6.96-3.36-1.36-2.16-.8-5.48t2.96-7.08q2-3.04 6.56-8-1.6 2.56-2.24 5.28-1.2 5.12 2.16 7.52Q11.2 18 14 18q2.24 0 5.04-.72z"></path>
             </svg>
-            <Link to="/">
+            <Link
+              to="/"
+              onClick={() =>
+                window.scrollTo({
+                  top: 0,
+                  behavior: `smooth`,
+                })
+              }
+            >
               <img src={Logo} alt="logo" />
             </Link>
           </div>
@@ -152,10 +160,26 @@ function Header() {
             </div>
             <div className="header__mid__searchAndStore__store">
               <FavoriteBorderIcon />
-              <div className="header__mid__searchAndStore__store__cart">
-                <StorefrontIcon />
-                {cart.length > 0 && <span> ({cart.length})</span>}
-              </div>
+              {cart.length > 0 ? (
+                <Link
+                  to="/cart"
+                  onClick={() =>
+                    window.scrollTo({
+                      top: 0,
+                      behavior: 'smooth',
+                    })
+                  }
+                >
+                  <div className="header__mid__searchAndStore__store__cart">
+                    <StorefrontIcon />
+                    {cart.length > 0 && <span> ({cart.length})</span>}
+                  </div>
+                </Link>
+              ) : (
+                <div className="header__mid__searchAndStore__store__cart">
+                  <StorefrontIcon />
+                </div>
+              )}
             </div>
           </div>
         </div>

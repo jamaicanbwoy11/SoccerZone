@@ -62,9 +62,14 @@ function Shoe() {
                   </div>
                 )}
               </div>
-              <div className="shoe__items__item__price__iconCard">
-                <StorefrontIcon />
-              </div>
+              <Link
+                to={`/shoe-detail/${item.id}`}
+                onClick={() => handleShoeDetail(item)}
+              >
+                <div className="shoe__items__item__price__iconCard">
+                  <StorefrontIcon />
+                </div>
+              </Link>
             </div>
           </div>
         );
@@ -116,9 +121,14 @@ function Shoe() {
                   </div>
                 )}
               </div>
-              <div className="shoe__items__item__price__iconCard">
-                <StorefrontIcon />
-              </div>
+              <Link
+                to={`/shoe-detail/${item.id}`}
+                onClick={() => handleShoeDetail(item)}
+              >
+                <div className="shoe__items__item__price__iconCard">
+                  <StorefrontIcon />
+                </div>
+              </Link>
             </div>
           </div>
         );
@@ -170,9 +180,14 @@ function Shoe() {
                   </div>
                 )}
               </div>
-              <div className="shoe__items__item__price__iconCard">
-                <StorefrontIcon />
-              </div>
+              <Link
+                to={`/shoe-detail/${item.id}`}
+                onClick={() => handleShoeDetail(item)}
+              >
+                <div className="shoe__items__item__price__iconCard">
+                  <StorefrontIcon />
+                </div>
+              </Link>
             </div>
           </div>
         );

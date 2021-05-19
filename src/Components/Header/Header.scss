@@ -91,6 +91,10 @@ $bg-linear: linear-gradient(to right, #c9aaff, #f4ff97);
         &__searchAndStore{
             display: flex;
             align-items: center;
+            a{
+                text-decoration: none;
+                color:#111;
+            }
             &__search{
                 cursor: pointer;
                 position: relative;
@@ -116,7 +120,7 @@ $bg-linear: linear-gradient(to right, #c9aaff, #f4ff97);
                 }
             }
             &__store{
-                margin-left: 20px;
+                margin-left:20px;
                 cursor: pointer;
                 display: flex;
                 &__cart{
