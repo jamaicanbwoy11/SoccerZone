@@ -20,7 +20,13 @@ function Cart() {
               <h1>{item.name}</h1>
             </td>
             <td>Grey</td>
-            <td>43</td>
+            <td>
+              {item.sizeShoes
+                .filter((item) => item.check === true)
+                .map((sizeTrue) => {
+                  return <React.Fragment>{sizeTrue.size}</React.Fragment>;
+                })}
+            </td>
             <td className="cart__items__item__amount">
               <div>
                 <NavigateBeforeIcon />

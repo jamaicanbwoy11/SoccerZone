@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { Link } from 'react-router-dom';
 import { createAction } from '../../Redux/Action';
@@ -9,13 +9,18 @@ import { ADD_TO_CART, ITEM_DETAIL } from '../../Redux/Constants';
 // import { Button } from '@material-ui/core';
 import NavigateNextIcon from '@material-ui/icons/NavigateNext';
 import NavigateBeforeIcon from '@material-ui/icons/NavigateBefore';
+import Notification from '../../Components/Notification/Notification';
 // import StorefrontIcon from '@material-ui/icons/Storefront';
 function ShoeDetail(props) {
   const shoeDetail = useSelector((item) => item.ShoesReducer.shoe);
   const player = useSelector((state) => state.ShoesReducer.player);
   const shoeDetailRedux = useSelector((state) => state.ShoesReducer.shoeDetail);
   const idParams = props.match.params.id;
-
+  //Choose Size Shoe
+  const [sizeShoe, setSizeShoe] = useState(false);
+  const [changeSize, setChangeSize] = useState(false);
+  //Notification
+  const [popupSuccess, setPopupSuccess] = useState(false);
   const dispatch = useDispatch();
   //Dispatch Shoe In Store Redux
   const handleShoeDetail = (item) => {
@@ -23,6 +28,7 @@ function ShoeDetail(props) {
       top: 0,
       behavior: `smooth`,
     });
+    setSizeShoe(false);
     dispatch(createAction(ITEM_DETAIL, item));
   };
   //Render Player
@@ -50,8 +56,24 @@ function ShoeDetail(props) {
 
   //Handle Add To Cart
   const handleAddToCart = (item) => {
-    dispatch(createAction(ADD_TO_CART, item));
+    if (sizeShoe === false) {
+      alert('CHOOSE SIZE BRO!!');
+    } else {
+      // If Choose Size We add to cart and Alert Custumer
+      dispatch(createAction(ADD_TO_CART, item));
+      setPopupSuccess(true);
+      setTimeout(() => {
+        setPopupSuccess(false);
+      }, 2500);
+    }
   };
+  //Handle Choose Size
+  const handleChooseSize = (idCheck, idItem) => {
+    dispatch(createAction('CHOOSE_SIZE', idCheck, idItem));
+    setSizeShoe(true);
+    setChangeSize(!changeSize);
+  };
+
   //Render Shoe Detail
   const renderShoeDetail = () => {
     return shoeDetail
@@ -111,10 +133,26 @@ function ShoeDetail(props) {
                 </span>
               </p>
               <div className="shoeDetail__items__item__name__size">
-                <h2>Size : </h2>
+                <h2>
+                  Size :
+                  {item.sizeShoes
+                    ?.filter((item) => item.check === true)
+                    .map((item2) => {
+                      return (
+                        <span className="" variant="outlined" key={item2.id}>
+                          {item2.size}
+                        </span>
+                      );
+                    })}
+                </h2>
                 {item.sizeShoes?.map((item2) => {
                   return (
-                    <button className="" variant="outlined" key={item2.id}>
+                    <button
+                      className=""
+                      variant="outlined"
+                      key={item2.id}
+                      onClick={() => handleChooseSize(item2.id, item.id)}
+                    >
                       {item2.size}
                     </button>
                   );
@@ -209,6 +247,11 @@ function ShoeDetail(props) {
       <div className="shoeDetail__other">{renderOtherShoes()}</div>
       <h1 className="shoeDetail__titlePlayer">SELECT YOUR PLAYER</h1>
       <div className="shoeDetail__player">{renderPlayer()}</div>
+      {popupSuccess && (
+        <div>
+          <Notification />
+        </div>
+      )}
     </div>
   );
 }

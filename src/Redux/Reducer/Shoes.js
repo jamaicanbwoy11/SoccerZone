@@ -42,7 +42,28 @@ export const ShoesReducer = (state = initailState,action) =>{
                 ...state,
                 cart:[...state.cart,action.data]
             }
-
+        case 'CHOOSE_SIZE':
+            let cloneShoesArr = [...state.shoe];
+           
+            // console.log(action.data,action.id);
+            cloneShoesArr = cloneShoesArr.map(item=>{
+                if(item.id === action.id){
+                    return item?.sizeShoes.map(item2=>{
+                        if(item2.id === action.data){
+                            item2.check = true;
+                            return {...state}
+                        }else{
+                            item2.check = false;
+                            return {...state}
+                        }
+                       
+                    })
+                }
+                return {...state};
+            })
+            return {
+                ...state
+            }
         default :return {...state};
     }
 }

@@ -1,6 +1,7 @@
-export const createAction = (type,data) => {
+export const createAction = (type,data,id) => {
     return {
         type,
-        data
+        data,
+        id:id
     }
 }
