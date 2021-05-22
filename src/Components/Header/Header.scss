@@ -215,6 +215,30 @@ $bg-linear: linear-gradient(to right, #c9aaff, #f4ff97);
         }
     }
 }
+@media screen and (max-width:360px) {
+    .header{
+    
+        &__mid{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-evenly;
+        
+            position: fixed;
+            top:0;
+            left:0;
+            z-index: 9999;
+          
+            // top:50%;
+            // left:0%;
+            // transform:translate(0%,-50%);
+            width:220px;
+            height:100%;
+            border-right:1px solid #ccc;
+         
+        }
+    }
+}
 
 @keyframes headerMidDown {
     0%{

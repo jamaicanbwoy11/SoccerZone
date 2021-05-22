@@ -23,6 +23,9 @@
            &__image{
                img{
                    transition: all .4s;
+                   width:100%;
+                   height:100%;
+                   object-fit: cover;
                    &:hover{
                        transform: scale(1.1);
                    }
@@ -102,6 +105,54 @@
                 }
             }
          
+        }
+    }
+}
+@media only screen and (max-width:530px){
+    .shoe{
+        &__items{
+            align-items: center;
+            justify-content: center;
+            &__item{
+                width:420px;
+                &__image{
+                    width: 420px;
+                }
+            }
+            &__player{
+                margin:20px 0;
+                &__image{
+
+                }
+            }
+        }
+    }
+}
+@media only screen and (max-width:435px){
+    .shoe{
+        &__items{
+            align-items: center;
+            justify-content: center;
+            &__item{
+                width:350px;
+                &__image{
+                    width:350px;
+                }
+            }
+        }
+    }
+}
+@media only screen and (max-width:345px){
+    .shoe{
+        &__items{
+            align-items: center;
+            justify-content: center;
+            &__item{
+                width:270px;
+                &__image{
+                    width:270px;
+                }
+            }
         }
     }
 }

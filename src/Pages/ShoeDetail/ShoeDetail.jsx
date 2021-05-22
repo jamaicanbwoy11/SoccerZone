@@ -10,6 +10,7 @@ import { ADD_TO_CART, ITEM_DETAIL } from '../../Redux/Constants';
 import NavigateNextIcon from '@material-ui/icons/NavigateNext';
 import NavigateBeforeIcon from '@material-ui/icons/NavigateBefore';
 import Notification from '../../Components/Notification/Notification';
+import NotificationErr from '../../Components/NotificationErr/NotificationErr';
 // import StorefrontIcon from '@material-ui/icons/Storefront';
 function ShoeDetail(props) {
   const shoeDetail = useSelector((item) => item.ShoesReducer.shoe);
@@ -19,6 +20,8 @@ function ShoeDetail(props) {
   //Choose Size Shoe
   const [sizeShoe, setSizeShoe] = useState(false);
   const [changeSize, setChangeSize] = useState(false);
+  //Notification Error
+  const [err, setErr] = useState(false);
   //Notification
   const [popupSuccess, setPopupSuccess] = useState(false);
   const dispatch = useDispatch();
@@ -57,7 +60,11 @@ function ShoeDetail(props) {
   //Handle Add To Cart
   const handleAddToCart = (item) => {
     if (sizeShoe === false) {
-      alert('CHOOSE SIZE BRO!!');
+      // alert('CHOOSE SIZE BRO!!');
+      setErr(true);
+      setTimeout(() => {
+        setErr(false);
+      }, 2000);
     } else {
       // If Choose Size We add to cart and Alert Custumer
       dispatch(createAction(ADD_TO_CART, item));
@@ -250,6 +257,11 @@ function ShoeDetail(props) {
       {popupSuccess && (
         <div>
           <Notification />
+        </div>
+      )}
+      {err && (
+        <div>
+          <NotificationErr />
         </div>
       )}
     </div>

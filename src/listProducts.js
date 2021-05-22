@@ -733,24 +733,30 @@ export const dataProduct = [
         sizeShoes:[
             {
                 id:0,
-                size:'M',
+                size:39,
                 check:false,
             },
             {
                 id:1,
-                size:'L',
+                size:40,
                 check:false,
             },
             {
                 id:2,
-                size:'XL',
+                size:41,
                 check:false,
             },
             {
                 id:3,
-                size:'XXL',
+                size:42,
                 check:false,
-            },         
+            },
+            {
+                id:4,
+                size:43,
+                check:false,
+            },
+
         ]
     },
     {
