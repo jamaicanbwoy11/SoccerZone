@@ -237,7 +237,7 @@
                     &__imageDetail{
                         width: 100%;
                         max-width:139px;
-                        height: 100px;
+                        height: auto;
                      
                         margin-right: 5px;
                         img{
@@ -249,5 +249,178 @@
                 }
             }
         }
+    }
+}
+@media screen and (max-width:1325px) {
+    .shoeDetail{
+        &__other{
+            &__item{
+                margin-bottom: 80px;
+            }
+        }
+    }
+}
+@media screen and (max-width:1035px) {
+    .shoeDetail{
+        &__items{
+            &__item{
+                &__image{
+                    width: 500px;
+                    height: 300px;
+                }
+            }
+        }
+    }
+}
+@media screen and (max-width:860px) {
+    .shoeDetail{
+        &__items{
+            &__item{
+                &__image{
+                    // width: 600px;
+                    height:200px;
+                }
+            }
+        }
+    }
+}
+@media screen and (max-width:840px) {
+    .shoeDetail{
+        &__items{
+            &__item{
+                flex-direction: column;
+                align-items: center;
+                &__image{
+                    width: 700px;
+                    height:400px;
+                    // margin-top:100px;
+                }
+                &__name{
+                    margin-top: 150px;
+                }
+            }
+        }
+    }
+}
+@media screen and (max-width:730px) {
+    .shoeDetail{
+        &__items{
+            &__item{
+                flex-direction: column;
+                align-items: center;
+                &__image{
+                    width: 600px;
+                    height:auto;
+                    // margin-top:100px;
+                }
+                &__name{
+                    margin-top: 100px;
+                }
+            }
+        }
+    }
+}
+@media screen and (max-width:660px) {
+    .shoeDetail{
+        &__items{
+            &__item{
+                &__image{
+                    width: 500px;
+                    height:auto;
+                    // margin-top:100px;
+                }
+            }
+        }
+        &__titleOther{
+            text-align: center;
+        }
+        &__other{
+            display:flex;
+            justify-content:center;
+            align-items:center;
+            &__item{
+                width:450px;
+                max-width: 450px;
+                height: auto;
+                &__image{
+                    width:450px;
+                    max-width: 450px;
+                    height: auto;
+                }
+            }
+        }
+    }
+}
+@media screen and (max-width:545px) {
+    .shoeDetail{
+        &__titleOther{
+            text-align: center;
+        }
+        &__other{
+            display:flex;
+            justify-content:center;
+            align-items:center;
+            &__item{
+                width:350px;
+                max-width: 350px;
+               
+                &__image{
+                    width:350px;
+                    max-width: 350px;   
+                    
+                }
+            }
+        }
+        &__player{
+            display:flex;
+            justify-content:center;
+            align-items:center;
+        }
+    }
+}
+@media screen and (max-width:512px) {
+    .shoeDetail{
+        &__items{
+            &__item{
+                flex-direction: column;
+                align-items: center;
+
+                &__image{
+                    width: 400px;
+                    height:auto;
+                    // margin-top:100px;
+                }
+                &__name{
+                    margin:50px 0 0 50px;
+                    &__amount{
+                        margin-bottom: 20px;
+                    }
+                    &__addAndAmount{
+                        flex-direction: column;
+                        align-items: flex-start;
+                        margin-top: 20px;
+                    }
+                }
+            }
+        }
+        &__titleOther{
+            text-align: center;
+        }
+        &__other{
+            display:flex;
+            justify-content:center;
+            align-items:center;
+            &__item{
+                width:350px;
+                max-width: 350px;
+               
+                &__image{
+                    width:350px;
+                    max-width: 350px;   
+                    
+                }
+            }
+        }
+   
     }
 }
