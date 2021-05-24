@@ -424,3 +424,114 @@
    
     }
 }
+@media screen and (max-width:425px) {
+    .shoeDetail{
+        &__items{
+            &__item{
+             
+                &__image{
+                    width: 300px;
+                    height:auto;
+                    // margin-top:100px;
+                }
+                &__name{
+                    margin: 50px 0 0 20px;
+                    h1{
+                        font-size:1.5rem;
+                    }
+                    &__size{
+                        button{
+                            padding:4px 10px;
+                        }
+                    }
+                    &__addAndAmount{
+
+                    }
+                    &__addToCart{
+                        width:200px;
+                    }
+                }
+            }
+        }
+        &__titleOther{
+            text-align: center;
+        }
+        &__other{
+            display:flex;
+            justify-content:center;
+            align-items:center;
+            margin-left:15px;
+            &__item{
+                width:270px;
+                max-width: 270px;
+               
+                &__image{
+                    width:270px;
+                    max-width: 270px;   
+                    
+                }
+            }
+        }
+        &__player{
+            display:flex;
+            justify-content:center;
+            align-items:center;
+        }
+    }
+}
+@media screen and (max-width:335px) {
+    .shoeDetail{
+        &__items{
+            &__item{
+             
+                &__image{
+                    width: 250px;
+                    height:auto;
+                    // margin-top:100px;
+                }
+                &__name{
+                    margin: 50px 0 0 10px;
+                    h1{
+                        font-size:1.5rem;
+                    }
+                    &__size{
+                        button:not(:first-child){
+                            padding:4px 10px;
+                            margin-left:5px;
+                        }
+                    }
+                    &__addAndAmount{
+
+                    }
+                    &__addToCart{
+                        width:200px;
+                    }
+                }
+            }
+        }
+        &__titleOther{
+            text-align: center;
+        }
+        &__other{
+            display:flex;
+            justify-content:center;
+            align-items:center;
+            margin-left:5px;
+            &__item{
+                width:250px;
+                max-width: 250px;
+               
+                &__image{
+                    width:250px;
+                    max-width: 250px;   
+                    
+                }
+            }
+        }
+        &__player{
+            display:flex;
+            justify-content:center;
+            align-items:center;
+        }
+    }
+}

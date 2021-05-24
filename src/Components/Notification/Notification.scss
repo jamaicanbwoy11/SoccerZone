@@ -84,6 +84,42 @@
     }
 
 }
+@media screen and (max-width:420px) {
+  .notification{
+    &__content{
+      width: 200px;
+      height: 200px;
+    }
+  }
+}
+@media screen and (max-width:315px) {
+  .notification{
+    &__content{
+      width: 150px;
+      height: 150px;
+      & > .MuiSvgIcon-root{
+        font-size:4rem;
+        color:#ffffeb;
+
+
+      } 
+      h1{
+        color:rgb(224, 224, 224);
+        font-size:1.2rem;
+        letter-spacing: 8px;
+        text-align: center;
+
+        // margin:20px 0;
+      }
+      h2{
+        color:rgb(70, 70, 70);
+        font-size:1rem;
+        text-align: center;
+
+      }
+    }
+  }
+}
 @keyframes changeColorGray {
   0%{
     position: absolute;
