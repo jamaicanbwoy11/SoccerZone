@@ -10,12 +10,24 @@
             color:#8694a4;
             font-weight: bolder;
         }
+        a{
+            text-decoration: none;
+        }
         button{
+            color:#1d77ff;
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+        
+            .MuiSvgIcon-root{
+                font-size:1rem;
+                margin-right:10px;
+            }
             border:none;
             cursor: pointer;
             padding:10px 20px;
             background-color: #DADFE6;
-            color:#8E9AAC;
+            // color:#8E9AAC;
             font-weight: bolder;
             transition: all .5s;
             box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
@@ -28,11 +40,12 @@
     }
     &__items{
         display: flex;
-        align-items: center;
-        justify-content: flex-start;
-
+        // align-items: center;
+        // justify-content: flex-start;
+        align-items: flex-start;
+        justify-content: space-around;
         width: 90%;
-        margin:40px auto;
+        margin:50px auto;
    
      
         #products{

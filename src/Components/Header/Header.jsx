@@ -28,13 +28,15 @@ function Header() {
           setHeaderMid(true);
           headerMid.setAttribute(
             'style',
-            'border-bottom:1px solid #d8d5d5;transition:all .5s; animation: headerMidDown 0.4s linear 0s 1;'
+            // 'border-bottom:1px solid #d8d5d5;transition:all .5s; animation: headerMidDown 0.4s linear 0s 1;',
+            'border-bottom:1px solid #d8d5d5;'
           );
         } else {
           setHeaderMid(false);
           headerMid.setAttribute(
             'style',
-            'border-bottom:none;transition:all .5s;animation: headerMidUp 0.4s linear 0s 1;'
+            // 'border-bottom:none;transition:all .5s;animation: headerMidUp 0.4s linear 0s 1;',
+            'border-bottom:none'
           );
         }
       });

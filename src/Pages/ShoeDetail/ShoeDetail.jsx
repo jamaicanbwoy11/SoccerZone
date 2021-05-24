@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { Link } from 'react-router-dom';
 import { createAction } from '../../Redux/Action';
@@ -25,6 +25,24 @@ function ShoeDetail(props) {
   //Notification
   const [popupSuccess, setPopupSuccess] = useState(false);
   const dispatch = useDispatch();
+  //Amount State
+  const [amount, setAmount] = useState(1);
+  //Handle Up and Down Amount
+  const handleUpAndDownAmount = (check) => {
+    if (check === 'plus' && amount < 6) {
+      setAmount(amount + 1);
+    }
+    if (check === 'minus' && amount > 1) {
+      setAmount(amount - 1);
+    }
+  };
+  useEffect(() => {
+    if (amount === 6) {
+      setTimeout(() => {
+        setAmount(5);
+      }, 2000);
+    }
+  }, [amount]);
   //Dispatch Shoe In Store Redux
   const handleShoeDetail = (item) => {
     window.scrollTo({
@@ -167,11 +185,11 @@ function ShoeDetail(props) {
               </div>
               <div className="shoeDetail__items__item__name__addAndAmount">
                 <div className="shoeDetail__items__item__name__amount">
-                  <div>
+                  <div onClick={() => handleUpAndDownAmount('minus')}>
                     <NavigateBeforeIcon />
                   </div>
-                  <span>1</span>
-                  <div>
+                  <span>{amount}</span>
+                  <div onClick={() => handleUpAndDownAmount('plus')}>
                     <NavigateNextIcon />
                   </div>
                 </div>
@@ -261,7 +279,12 @@ function ShoeDetail(props) {
       )}
       {err && (
         <div>
-          <NotificationErr />
+          <NotificationErr text="You need to choose the size before adding to cart!" />
+        </div>
+      )}
+      {amount >= 6 && (
+        <div>
+          <NotificationErr text="You can only order up to 5 products!" />
         </div>
       )}
     </div>

@@ -3,64 +3,67 @@ import { useSelector } from 'react-redux';
 import { Link } from 'react-router-dom';
 import NavigateNextIcon from '@material-ui/icons/NavigateNext';
 import NavigateBeforeIcon from '@material-ui/icons/NavigateBefore';
+import ArrowBackIcon from '@material-ui/icons/ArrowBack';
 // import HighlightOffIcon from '@material-ui/icons/HighlightOff';
 import './Cart.scss';
 function Cart() {
   const cartArr = useSelector((item) => item.ShoesReducer.cart);
   //Render Cart
   const renderCart = () => {
-    return cartArr.map((item) => {
-      return (
-        <React.Fragment>
-          <tr className="cart__items__item" key={item.id}>
-            <td className="cart__items__item__product">
-              <div className="cart__items__item__product__image">
-                <img src={item.linkImage} alt={`cart-${item.id}`} />
-              </div>
-              <h1>{item.name}</h1>
-            </td>
-            <td>Grey</td>
-            <td>
-              {item.sizeShoes
-                .filter((item) => item.check === true)
-                .map((sizeTrue) => {
-                  return <React.Fragment>{sizeTrue.size}</React.Fragment>;
-                })}
-            </td>
-            <td className="cart__items__item__amount">
-              <div>
-                <NavigateBeforeIcon />
-              </div>
-              <span>1</span>
-              <div>
-                <NavigateNextIcon />
-              </div>
-            </td>
+    return cartArr
+      .map((item) => {
+        return (
+          <React.Fragment>
+            <tr className="cart__items__item" key={item.id}>
+              <td className="cart__items__item__product">
+                <div className="cart__items__item__product__image">
+                  <img src={item.linkImage} alt={`cart-${item.id}`} />
+                </div>
+                <h1>{item.name}</h1>
+              </td>
+              <td>Grey</td>
+              <td>
+                {item.sizeShoes
+                  .filter((item) => item.check === true)
+                  .map((sizeTrue) => {
+                    return <React.Fragment>{sizeTrue.size}</React.Fragment>;
+                  })}
+              </td>
+              <td className="cart__items__item__amount">
+                <div>
+                  <NavigateBeforeIcon />
+                </div>
+                <span>1</span>
+                <div>
+                  <NavigateNextIcon />
+                </div>
+              </td>
 
-            <td>
-              {item.priceDiscount === null ? (
-                <div>
-                  {item.price.toLocaleString('en-US', {
-                    style: 'currency',
-                    currency: 'USD',
-                  })}
-                </div>
-              ) : (
-                <div>
-                  {item.priceDiscount.toLocaleString('en-US', {
-                    style: 'currency',
-                    currency: 'USD',
-                  })}
-                </div>
-              )}
-            </td>
-            {/* <div className="cart__items__item__remove">
+              <td>
+                {item.priceDiscount === null ? (
+                  <div>
+                    {item.price.toLocaleString('en-US', {
+                      style: 'currency',
+                      currency: 'USD',
+                    })}
+                  </div>
+                ) : (
+                  <div>
+                    {item.priceDiscount.toLocaleString('en-US', {
+                      style: 'currency',
+                      currency: 'USD',
+                    })}
+                  </div>
+                )}
+              </td>
+              {/* <div className="cart__items__item__remove">
               <HighlightOffIcon />
             </div> */}
-          </tr>
-        </React.Fragment>
-      );
-    });
+            </tr>
+          </React.Fragment>
+        );
+      })
+      .reverse();
   };
   return (
     <div className="cart">
@@ -75,7 +78,10 @@ function Cart() {
             })
           }
         >
-          <button>Continue Shopping</button>
+          <button>
+            <ArrowBackIcon />
+            <p>Continue Shopping</p>
+          </button>
         </Link>
       </div>
       <div className="cart__items">
@@ -91,6 +97,28 @@ function Cart() {
           </thead>
           <tbody>{renderCart()}</tbody>
         </table>
+        <div>
+          <h1>Order Summary</h1>
+          <div>
+            <h2>ITEMS: {cartArr?.length}</h2>
+          </div>
+          <div>
+            <h2>SHIPPING</h2>
+            <select>
+              <option>Standord Delivery - $5.00</option>
+            </select>
+          </div>
+          <div>
+            <h2>PROMO CODE</h2>
+            <input placeholder="Enter your code" />
+          </div>
+          <button>APPLY</button>
+          <div>
+            <h2>TOTAL COST</h2>
+            <span>$462.98</span>
+          </div>
+          <button>CHECKOUT</button>
+        </div>
       </div>
     </div>
   );
