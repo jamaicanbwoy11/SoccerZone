@@ -97,27 +97,32 @@ function Cart() {
           </thead>
           <tbody>{renderCart()}</tbody>
         </table>
-        <div>
-          <h1>Order Summary</h1>
-          <div>
-            <h2>ITEMS: {cartArr?.length}</h2>
+        <div className="cart__order">
+          <h1 className="cart__order__title">Order Summary</h1>
+          <div className="cart__order__items">
+            <h2>
+              ITEMS:{' '}
+              <span className="cart__order__items__length">
+                {cartArr?.length}
+              </span>
+            </h2>
           </div>
-          <div>
+          <div className="cart__order__shipping">
             <h2>SHIPPING</h2>
             <select>
               <option>Standord Delivery - $5.00</option>
             </select>
           </div>
-          <div>
+          <div className="cart__order__promo">
             <h2>PROMO CODE</h2>
             <input placeholder="Enter your code" />
           </div>
-          <button>APPLY</button>
-          <div>
+          <button className="cart__order__apply">APPLY</button>
+          <div className="cart__order__total">
             <h2>TOTAL COST</h2>
             <span>$462.98</span>
           </div>
-          <button>CHECKOUT</button>
+          <button className="cart__order__checkout">CHECKOUT</button>
         </div>
       </div>
     </div>
