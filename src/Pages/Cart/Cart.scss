@@ -91,7 +91,9 @@
 
         }
         &__item{ 
-
+            &__totalPrice{
+                font-weight: bolder;
+            }
             &__amount{
                 // display: flex;
                 // align-items: center;

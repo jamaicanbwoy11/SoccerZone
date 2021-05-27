@@ -85,7 +85,16 @@ function ShoeDetail(props) {
       }, 2000);
     } else {
       // If Choose Size We add to cart and Alert Custumer
-      dispatch(createAction(ADD_TO_CART, item));
+      dispatch(
+        createAction(
+          ADD_TO_CART,
+          {
+            ...item,
+            amount: parseInt(amount),
+          },
+          amount
+        )
+      );
       setPopupSuccess(true);
       setTimeout(() => {
         setPopupSuccess(false);

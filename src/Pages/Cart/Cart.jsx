@@ -1,13 +1,27 @@
 import React from 'react';
-import { useSelector } from 'react-redux';
+import { useDispatch, useSelector } from 'react-redux';
 import { Link } from 'react-router-dom';
 import NavigateNextIcon from '@material-ui/icons/NavigateNext';
 import NavigateBeforeIcon from '@material-ui/icons/NavigateBefore';
 import ArrowBackIcon from '@material-ui/icons/ArrowBack';
 // import HighlightOffIcon from '@material-ui/icons/HighlightOff';
 import './Cart.scss';
+import { createAction } from '../../Redux/Action';
+import { ITEM_DETAIL } from '../../Redux/Constants';
 function Cart() {
   const cartArr = useSelector((item) => item.ShoesReducer.cart);
+  //Total Cart In Redux
+  const cart = useSelector((item) => item.ShoesReducer.cart);
+  const dispatch = useDispatch();
+  //Dispatch Shoe In Store Redux
+  const handleShoeDetail = (item) => {
+    window.scrollTo({
+      top: 0,
+      behavior: `smooth`,
+    });
+    // setSizeShoe(false);
+    dispatch(createAction(ITEM_DETAIL, item));
+  };
   //Render Cart
   const renderCart = () => {
     return cartArr
@@ -16,9 +30,14 @@ function Cart() {
           <React.Fragment>
             <tr className="cart__items__item" key={item.id}>
               <td className="cart__items__item__product">
-                <div className="cart__items__item__product__image">
-                  <img src={item.linkImage} alt={`cart-${item.id}`} />
-                </div>
+                <Link
+                  to={`/shoe-detail/${item.id}`}
+                  onClick={() => handleShoeDetail(item)}
+                >
+                  <div className="cart__items__item__product__image">
+                    <img src={item.linkImage} alt={`cart-${item.id}`} />
+                  </div>
+                </Link>
                 <h1>{item.name}</h1>
               </td>
               <td>Grey</td>
@@ -33,7 +52,7 @@ function Cart() {
                 <div>
                   <NavigateBeforeIcon />
                 </div>
-                <span>1</span>
+                <span>{item?.amount}</span>
                 <div>
                   <NavigateNextIcon />
                 </div>
@@ -53,6 +72,23 @@ function Cart() {
                       style: 'currency',
                       currency: 'USD',
                     })}
+                  </div>
+                )}
+              </td>
+              <td>
+                {item.priceDiscount === null ? (
+                  <div className="cart__items__item__totalPrice">
+                    {(item.price * item.amount).toLocaleString('en-US', {
+                      style: 'currency',
+                      currency: 'USD',
+                    })}
+                  </div>
+                ) : (
+                  <div className="cart__items__item__totalPrice">
+                    {(item.priceDiscount * item.amount).toLocaleString(
+                      'en-US',
+                      { style: 'currency', currency: 'USD' }
+                    )}
                   </div>
                 )}
               </td>
@@ -93,6 +129,7 @@ function Cart() {
               <th>Size</th>
               <th>Amount</th>
               <th>Price</th>
+              <th>Total Price</th>
             </tr>
           </thead>
           <tbody>{renderCart()}</tbody>
@@ -120,7 +157,12 @@ function Cart() {
           <button className="cart__order__apply">APPLY</button>
           <div className="cart__order__total">
             <h2>TOTAL COST</h2>
-            <span>$462.98</span>
+            <span>
+              {cart.toLocaleString('en-US', {
+                style: 'currency',
+                currency: 'USD',
+              })}
+            </span>
           </div>
           <button className="cart__order__checkout">CHECKOUT</button>
         </div>

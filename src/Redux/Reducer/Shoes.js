@@ -7,7 +7,8 @@ let initailState = {
     shoeDetail:{},
     search:'',
     cart:[],
-    listSearch :[]
+    listSearch :[],
+    totalCart:0
 }
 export const ShoesReducer = (state = initailState,action) =>{
     switch(action.type){
@@ -21,23 +22,30 @@ export const ShoesReducer = (state = initailState,action) =>{
        
             return {...state,listSearch:[...state.listSearch,action.data]};
         case ADD_TO_CART:
-            // let cloneCart = [...state.cart];
-            // const index = cloneCart.findIndex(item=>item.id === action.data.id);
-
-            // if(index >= 0){
-            //    let newArr = cloneCart.map(item=>{
-            //        if((item.id === action.data.id)){
-            //            return {...item,amount:item.amount +1}
-            //        }else{
-            //            return {...item};
-            //        }
-            //    })
-            //    state.cart = newArr;
-            //    return{
-            //        ...state
-            //    }
-            // }
-        
+            let cloneCart = [...state.cart];
+            const index = cloneCart.findIndex(item=>item.id === action.data.id);
+            //Amount in shoesDetail
+            let amount = action.id;
+            if(index >= 0){
+               let newArr = cloneCart.map(item=>{
+                   if((item.id === action.data.id )){
+                       if(item.amount === null){
+                        return {...item,amount:item.amount +1}
+                       }else{
+                        //ACTION ID IS AMOUNT IN SHOES DETAIL
+                        return {...item,amount:item.amount + amount}
+                       }
+                   }
+                   else{
+                       return {...item};
+                   }
+               })
+               state.cart = newArr;
+               return{
+                   ...state
+               }
+            }
+     
             return{
                 ...state,
                 cart:[...state.cart,action.data]
