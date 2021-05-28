@@ -176,7 +176,15 @@ function Header() {
                 >
                   <div className="header__mid__searchAndStore__store__cart">
                     <StorefrontIcon />
-                    {cart.length > 0 && <span> ({cart.length})</span>}
+                    {cart.length > 0 && (
+                      <span>
+                        {/* ({cart.length}) */}(
+                        {cart?.reduce((amount, item) => {
+                          return item.amount + amount;
+                        }, 0)}
+                        )
+                      </span>
+                    )}
                   </div>
                 </Link>
               ) : (

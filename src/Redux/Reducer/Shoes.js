@@ -1,6 +1,6 @@
 import {dataProduct} from "../../listProducts";
 import {dataPlayer} from "../../listProducts";
-import { ADD_TO_CART, ITEM_DETAIL, LIST_SEARCH } from "../Constants";
+import { ADD_TO_CART, ITEM_DETAIL, LIST_SEARCH, REMOVE_ITEM, UP_AND_DOWN_CART } from "../Constants";
 let initailState = {
     shoe:dataProduct,
     player:dataPlayer,
@@ -50,6 +50,37 @@ export const ShoesReducer = (state = initailState,action) =>{
                 ...state,
                 cart:[...state.cart,action.data]
             }
+        case REMOVE_ITEM:
+            let cloneCartDele = [...state.cart];
+            let idItem = action.data;
+            
+            const inde = cloneCartDele.findIndex(item=>item.id === idItem);
+
+            if(inde >= 0){
+                cloneCartDele.splice(inde,1);
+            }else{
+                console.warn(`Cant remove product (id: ${idItem}) as its not working`)
+            }
+            state.cart = cloneCartDele;
+            return{...state};
+        case UP_AND_DOWN_CART:
+            let arrCartUpDown = [...state.cart];
+
+            let idItemUpDown = action.data;
+
+            const upAndDown = arrCartUpDown.map(item=>{
+                if(action.id === 'up' && item.id === idItemUpDown){
+                    return {...item,amount:item.amount + 1}
+                }
+                if(action.id==='down' && item.id === idItemUpDown && item.amount > 1){
+                    return {...item, amount:item.amount - 1}
+                }else{
+                    return {...item};
+                }
+            });
+            // state.cart = upAndDown;
+            return {...state,cart:[...upAndDown]};
+ 
         case 'CHOOSE_SIZE':
             let cloneShoesArr = [...state.shoe];
            

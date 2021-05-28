@@ -9,6 +9,11 @@ $bg-linear: linear-gradient(to right, #c9aaff, #f4ff97);
         top:5px;
         left:10px;
         z-index: 99999;
+        cursor: pointer;
+        transition: all .3s;
+        &:hover{
+            transform: scale(1.1);
+        }
     }
     &__top{
         display: flex;
