@@ -165,15 +165,7 @@ function Header() {
             <div className="header__mid__searchAndStore__store">
               <FavoriteBorderIcon />
               {cart.length > 0 ? (
-                <Link
-                  to="/cart"
-                  onClick={() =>
-                    window.scrollTo({
-                      top: 0,
-                      behavior: 'smooth',
-                    })
-                  }
-                >
+                <Link to="/cart" onClick={() => handleBackHomePage()}>
                   <div className="header__mid__searchAndStore__store__cart">
                     <StorefrontIcon />
                     {cart.length > 0 && (

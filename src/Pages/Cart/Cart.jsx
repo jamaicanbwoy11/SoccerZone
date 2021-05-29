@@ -48,7 +48,7 @@ function Cart() {
         return (
           <React.Fragment>
             <tr className="cart__items__item" key={item.id}>
-              <td className="cart__items__item__product">
+              <td data-label="Products" className="cart__items__item__product">
                 <Link
                   to={`/shoe-detail/${item.id}`}
                   onClick={() => handleShoeDetail(item)}
@@ -59,15 +59,15 @@ function Cart() {
                 </Link>
                 <h1>{item.name}</h1>
               </td>
-              <td>Grey</td>
-              <td>
+              <td data-label="Color">Grey</td>
+              <td data-label="Size">
                 {item.sizeShoes
                   .filter((item) => item.check === true)
                   .map((sizeTrue) => {
                     return <React.Fragment>{sizeTrue.size}</React.Fragment>;
                   })}
               </td>
-              <td className="cart__items__item__amount">
+              <td data-label="Amount" className="cart__items__item__amount">
                 <div onClick={() => handleUpAndDownAmountCart(item.id, 'up')}>
                   <NavigateBeforeIcon />
                 </div>
@@ -77,7 +77,7 @@ function Cart() {
                 </div>
               </td>
 
-              <td>
+              <td data-label="Price">
                 {item.priceDiscount === null ? (
                   <div>
                     {item.price.toLocaleString('en-US', {
@@ -94,7 +94,7 @@ function Cart() {
                   </div>
                 )}
               </td>
-              <td>
+              <td data-label="Total Price">
                 {item.priceDiscount === null ? (
                   <div className="cart__items__item__totalPrice">
                     {(item.price * item.amount).toLocaleString('en-US', {
@@ -114,7 +114,7 @@ function Cart() {
               {/* <div className="cart__items__item__remove">
               <HighlightOffIcon />
             </div> */}
-              <td className="cart__items__item__removeItem">
+              <td data-label="Remove" className="cart__items__item__removeItem">
                 {/* <CloseIcon /> */}
                 <img
                   src="https://cdn0.iconfinder.com/data/icons/check-out-vol-1-2/48/Check_Out-13-512.png"
