@@ -9,6 +9,8 @@ import rootReducer from './Redux/Reducer/index';
 import thunk from 'redux-thunk';
 import { Provider } from 'react-redux';
 
+import SimpleReactLightbox from 'simple-react-lightbox'
+
 const composeEnhancers = window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__ || compose;
 
 const store =createStore(
@@ -22,7 +24,9 @@ const store =createStore(
 ReactDOM.render(
   <Provider store={store}>
     <React.StrictMode>
-      <App />
+      <SimpleReactLightbox>
+        <App />
+      </SimpleReactLightbox>
     </React.StrictMode>
   </Provider>,
   document.getElementById('root')

@@ -236,8 +236,14 @@
             border:none;
             cursor: pointer;
             color:rgb(102, 101, 101);
+
+            transition: all .4s;
             &:focus{
                 outline: none;
+            }
+            &:hover{
+                background:rgb(75, 75, 75);
+                color:#fff;
             }
         }
     }

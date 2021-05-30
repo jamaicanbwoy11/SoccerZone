@@ -1,6 +1,6 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
-import { Link } from 'react-router-dom';
+import { Link, useHistory } from 'react-router-dom';
 import NavigateNextIcon from '@material-ui/icons/NavigateNext';
 import NavigateBeforeIcon from '@material-ui/icons/NavigateBefore';
 import ArrowBackIcon from '@material-ui/icons/ArrowBack';
@@ -13,6 +13,7 @@ import {
   REMOVE_ITEM,
   UP_AND_DOWN_CART,
 } from '../../Redux/Constants';
+import NotificationErr from '../../Components/NotificationErr/NotificationErr';
 
 function Cart() {
   const cartArr = useSelector((item) => item.ShoesReducer.cart);
@@ -64,15 +65,19 @@ function Cart() {
                 {item.sizeShoes
                   .filter((item) => item.check === true)
                   .map((sizeTrue) => {
-                    return <React.Fragment>{sizeTrue.size}</React.Fragment>;
+                    return (
+                      <React.Fragment key={sizeTrue.id}>
+                        {sizeTrue.size}
+                      </React.Fragment>
+                    );
                   })}
               </td>
               <td data-label="Amount" className="cart__items__item__amount">
-                <div onClick={() => handleUpAndDownAmountCart(item.id, 'up')}>
+                <div onClick={() => handleUpAndDownAmountCart(item.id, 'down')}>
                   <NavigateBeforeIcon />
                 </div>
                 <span>{item?.amount}</span>
-                <div onClick={() => handleUpAndDownAmountCart(item.id, 'down')}>
+                <div onClick={() => handleUpAndDownAmountCart(item.id, 'up')}>
                   <NavigateNextIcon />
                 </div>
               </td>
@@ -127,86 +132,111 @@ function Cart() {
       })
       .reverse();
   };
+  //Define History And Return Page Home If cart < 0 items
+  const history = useHistory();
+  const handleReturnHome = () => {
+    return history.push('/');
+  };
+  //Handle Check Out
+  const [err, setErr] = useState(false);
+  const handleCheckOut = () => {
+    setErr(true);
+    setTimeout(() => {
+      setErr(false);
+    }, 2000);
+  };
   return (
-    <div className="cart">
-      <div className="cart__title">
-        <h1>Your Shoppping Cart</h1>
-        <Link
-          to="/"
-          onClick={() =>
-            window.scrollTo({
-              top: 0,
-              behavior: 'smooth',
-            })
-          }
-        >
-          <button>
-            <ArrowBackIcon />
-            <p>Continue Shopping</p>
-          </button>
-        </Link>
-      </div>
-      <div className="cart__items">
-        <table id="products">
-          <thead>
-            <tr>
-              <th>Products</th>
-              <th>Color</th>
-              <th>Size</th>
-              <th>Amount</th>
-              <th>Price</th>
-              <th>Total Price</th>
-              <th>Remove</th>
-            </tr>
-          </thead>
-          <tbody>{renderCart()}</tbody>
-        </table>
-        <div className="cart__order">
-          <h1 className="cart__order__title">Order Summary</h1>
-          <div className="cart__order__items">
-            <h2>
-              ITEMS:{' '}
-              <span className="cart__order__items__length">
-                {/* {cartArr?.length} */}
-                {cart?.reduce((amount, item) => {
-                  return item.amount + amount;
-                }, 0)}
-              </span>
-            </h2>
+    <>
+      {cartArr?.length > 0 ? (
+        <div className="cart">
+          <div className="cart__title">
+            <h1>Your Shoppping Cart</h1>
+            <Link
+              to="/"
+              onClick={() =>
+                window.scrollTo({
+                  top: 0,
+                  behavior: 'smooth',
+                })
+              }
+            >
+              <button>
+                <ArrowBackIcon />
+                <p>Continue Shopping</p>
+              </button>
+            </Link>
           </div>
-          <div className="cart__order__shipping">
-            <h2>SHIPPING</h2>
-            <select>
-              <option>Standord Delivery - $5.00</option>
-            </select>
+          <div className="cart__items">
+            <table id="products">
+              <thead>
+                <tr>
+                  <th>Products</th>
+                  <th>Color</th>
+                  <th>Size</th>
+                  <th>Amount</th>
+                  <th>Price</th>
+                  <th>Total Price</th>
+                  <th>Remove</th>
+                </tr>
+              </thead>
+              <tbody>{renderCart()}</tbody>
+            </table>
+            <div className="cart__order">
+              <h1 className="cart__order__title">Order Summary</h1>
+              <div className="cart__order__items">
+                <h2>
+                  ITEMS:{' '}
+                  <span className="cart__order__items__length">
+                    {/* {cartArr?.length} */}
+                    {cart?.reduce((amount, item) => {
+                      return item.amount + amount;
+                    }, 0)}
+                  </span>
+                </h2>
+              </div>
+              <div className="cart__order__shipping">
+                <h2>SHIPPING</h2>
+                <select>
+                  <option>Standord Delivery - $5.00</option>
+                </select>
+              </div>
+              <div className="cart__order__promo">
+                <h2>PROMO CODE</h2>
+                <input placeholder="Enter your code" />
+              </div>
+              <button className="cart__order__apply">APPLY</button>
+              <div className="cart__order__total">
+                <h2>TOTAL COST</h2>
+                <span>
+                  {/* Calculator Cart  */}
+                  {cart
+                    .reduce((amount, item) => {
+                      if (item.priceDiscount === null) {
+                        return item.price * item.amount + amount;
+                      } else {
+                        return item.priceDiscount * item.amount + amount;
+                      }
+                    }, 0)
+                    .toLocaleString('en-US', {
+                      style: 'currency',
+                      currency: 'USD',
+                    })}
+                </span>
+              </div>
+              <button
+                onClick={() => handleCheckOut()}
+                className="cart__order__checkout"
+              >
+                CHECKOUT
+              </button>
+            </div>
           </div>
-          <div className="cart__order__promo">
-            <h2>PROMO CODE</h2>
-            <input placeholder="Enter your code" />
-          </div>
-          <button className="cart__order__apply">APPLY</button>
-          <div className="cart__order__total">
-            <h2>TOTAL COST</h2>
-            <span>
-              {/* Calculator Cart  */}
-              {cart
-                .reduce((amount, item) => {
-                  if (item.priceDiscount === null) {
-                    return item.price * item.amount + amount;
-                  } else {
-                    return item.priceDiscount * item.amount + amount;
-                  }
-                }, 0)
-                .toLocaleString('en-US', {
-                  style: 'currency',
-                  currency: 'USD',
-                })}
-            </span>
-          </div>
-          <button className="cart__order__checkout">CHECKOUT</button>
+          {err && <NotificationErr text="You need to login before paying!" />}
         </div>
-      </div>
-    </div>
+      ) : (
+        <div>{handleReturnHome()}</div>
+      )}
+    </>
   );
 }
 

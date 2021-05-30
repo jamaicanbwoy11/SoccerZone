@@ -12,6 +12,18 @@ import NavigateBeforeIcon from '@material-ui/icons/NavigateBefore';
 import Notification from '../../Components/Notification/Notification';
 import NotificationErr from '../../Components/NotificationErr/NotificationErr';
 // import StorefrontIcon from '@material-ui/icons/Storefront';
+
+import { SRLWrapper } from 'simple-react-lightbox';
+
+const options = {
+  caption: {
+    // captionColor: '#101110',
+    captionFontFamily: 'Raleway, sans-serif',
+    captionFontWeight: '300',
+    captionTextTransform: 'uppercase',
+  },
+};
+
 function ShoeDetail(props) {
   const shoeDetail = useSelector((item) => item.ShoesReducer.shoe);
   const player = useSelector((state) => state.ShoesReducer.player);
@@ -50,6 +62,7 @@ function ShoeDetail(props) {
       behavior: `smooth`,
     });
     setSizeShoe(false);
+    setAmount(1);
     dispatch(createAction(ITEM_DETAIL, item));
   };
   //Render Player
@@ -116,20 +129,26 @@ function ShoeDetail(props) {
         return (
           <div key={item.id} className="shoeDetail__items__item">
             <div className="shoeDetail__items__item__image">
-              <img src={item.linkImage} alt={`img-shoe${item.id}`} />
+              <SRLWrapper options={options}>
+                <img src={item.linkImage} alt={`img-shoe${item.id}`} />{' '}
+              </SRLWrapper>
               <div className="shoeDetail__items__item__image__detail">
                 {/* if Image Detail DEFINE MAP  */}
                 {item.imageDetail?.map((imageDetail) => {
                   return (
-                    <div
-                      key={imageDetail.id}
-                      className="shoeDetail__items__item__image__detail__imageDetail"
-                    >
-                      <img
-                        src={imageDetail.linkImage}
-                        alt={`detail-${imageDetail.id}`}
-                      />
-                    </div>
+                    <SRLWrapper options={options}>
+                      <div
+                        key={imageDetail.id}
+                        className="shoeDetail__items__item__image__detail__imageDetail"
+                      >
+                        <a href={imageDetail.linkImage}>
+                          <img
+                            src={imageDetail.linkImage}
+                            alt={`${item.name}-${imageDetail.id}`}
+                          />
+                        </a>
+                      </div>
+                    </SRLWrapper>
                   );
                 })}
               </div>
