@@ -9,10 +9,14 @@ import Logo from '../../Assets/Images/Logo Thai Vipng1.png';
 import { Link } from 'react-router-dom';
 import { useDispatch, useSelector } from 'react-redux';
 import { createAction } from '../../Redux/Action';
+import { ITEM_DETAIL } from '../../Redux/Constants';
+
 function Header() {
   const [headerMid, setHeaderMid] = useState(false);
   const inputEl = useRef(null);
 
+  //Data Shoes
+  const shoes = useSelector((item) => item.ShoesReducer.shoe);
   const [closeHeader, setCloseHeader] = useState(true);
 
   //Store Cart
@@ -44,10 +48,16 @@ function Header() {
   }, []);
 
   const [valueInput, setValueInput] = useState('');
+  //Handle Clear Value Input
+  const handleClearValueInput = () => {
+    setValueInput('');
+    inputEl.current.value = '';
+  };
   //Handle Onchange Search
   const handleOnChangeSearch = (e) => {
     let value = e.target.value;
     setValueInput(value);
+    handleLoadDataShoes();
   };
 
   const handleSearch = (e) => {
@@ -80,6 +90,61 @@ function Header() {
       behavior: `smooth`,
     });
     setCloseHeader(false);
+  };
+  //Handle Load Content Search
+  const loadContentSearch = () => {
+    console.log(inputEl);
+    let contentSearchEl = document.querySelector(
+      '.header__mid__searchAndStore__contentSearch'
+    );
+    contentSearchEl.setAttribute('style', 'display:inline-block;');
+  };
+  const leaveContentSearch = () => {
+    let contentSearchEl = document.querySelector(
+      '.header__mid__searchAndStore__contentSearch'
+    );
+    contentSearchEl.setAttribute('style', 'display:none;');
+  };
+  //Dispatch Shoe In Store Redux
+  const handleShoeDetail = (item) => {
+    window.scrollTo({
+      top: 0,
+      behavior: `smooth`,
+    });
+    // setSizeShoe(false);
+    dispatch(createAction(ITEM_DETAIL, item));
+  };
+  //Handle Loading Data Content Search
+  const handleLoadDataShoes = () => {
+    return shoes
+      .filter((val) => {
+        if (valueInput === '') {
+          return val;
+        } else if (val.name.toLowerCase().includes(valueInput.toLowerCase())) {
+          return val;
+        }
+      })
+      .slice(0, 3)
+      .map((item) => {
+        return (
+          <div
+            key={item.id}
+            className="header__mid__searchAndStore__contentSearch__item"
+          >
+            <Link
+              to={`/shoe-detail/${item.id}`}
+              onClick={() => handleShoeDetail(item)}
+            >
+              <div className="header__mid__searchAndStore__contentSearch__item__image">
+                <img src={item.linkImage} alt={`shoe-${item.name}`} />
+              </div>
+            </Link>
+            <h1 className="header__mid__searchAndStore__contentSearch__item__name">
+              {item.name}
+            </h1>
+          </div>
+        );
+      });
   };
   return (
     <div className="header">
@@ -149,7 +214,10 @@ function Header() {
             </ul>
           </nav>
           <div className="header__mid__searchAndStore">
-            <div className="header__mid__searchAndStore__search">
+            <div
+              className="header__mid__searchAndStore__search"
+              onMouseLeave={() => leaveContentSearch()}
+            >
               <Link to="/search" onClick={(e) => handleSearch(e)}>
                 <div className="header__mid__searchAndStore__search__icon">
                   <SearchIcon />
@@ -160,7 +228,20 @@ function Header() {
                 placeholder="Search"
                 onChange={(e) => handleOnChangeSearch(e)}
                 ref={inputEl}
+                onMouseMove={() => loadContentSearch()}
               />
+              {valueInput !== '' && (
+                <div
+                  className="header__mid__searchAndStore__clearValueIp"
+                  onClick={() => handleClearValueInput()}
+                >
+                  <HighlightOffIcon />
+                </div>
+              )}
+              <div class="header__mid__searchAndStore__contentSearch">
+                {/* <h1>CONTENT SEARCH</h1> */}
+                {handleLoadDataShoes()}
+              </div>
             </div>
             <div className="header__mid__searchAndStore__store">
               <FavoriteBorderIcon />

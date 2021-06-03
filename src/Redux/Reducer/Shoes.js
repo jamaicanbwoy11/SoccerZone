@@ -28,8 +28,9 @@ export const ShoesReducer = (state = initailState,action) =>{
             let amount = action.id;
             if(index >= 0){
                let newArr = cloneCart.map(item=>{
-                   if((item.id === action.data.id )){
-                       if(item.amount === null){
+                // && item.sizeShoes[item.id].size === action.data.sizeShoes[action.data.id].size
+                   if((item.id === action.data.id)){
+                       if(item.amount === null ){
                         return {...item,amount:item.amount +1}
                        }else{
                         //ACTION ID IS AMOUNT IN SHOES DETAIL
