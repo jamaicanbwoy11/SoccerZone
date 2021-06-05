@@ -25,13 +25,13 @@ function Search() {
         } else if (val.name.toLowerCase().includes(search.toLowerCase())) {
           //Send List Item Search Redux
           dispatch(createAction(LIST_SEARCH, val));
-          console.log('val', val);
+          // console.log('val', val);
           return val;
         }
       })
       .map((item) => {
         return (
-          <React.Fragment>
+          <React.Fragment key={item.id}>
             <div className="search__items__item">
               <Link
                 to={`/shoe-detail/${item.id}`}
@@ -86,14 +86,31 @@ function Search() {
   };
   return (
     <div className="search">
-      <h1 className="search__title">
-        You are looking for:
-        {search === '' ? (
-          '...'
-        ) : (
-          <span className="search__title__found">{search}</span>
-        )}
-      </h1>
+      <div className="search__select">
+        <h1 className="search__title">
+          You are looking for:
+          {search === '' ? (
+            '...'
+          ) : (
+            <span className="search__title__found">{search}</span>
+          )}
+        </h1>
+        {/* <select>
+          <option value="" selected disabled hidden>
+            Choose here
+          </option>
+          <option>LEBRON JAMES</option>
+          <option>BLAKE GRIFFIN</option>
+          <option>PAUL GEORGE</option>
+          <option>KYRIE IRVING</option>
+          <option>JIMMY BUTLER</option>
+          <option>RUSSELL WESTBROOK</option>
+          <option>GIANNIS ANTETOKOUNMPO</option>
+          <option>KOBE BRYANT</option>
+          <option>MICHAEL JORDAN</option>
+          <option>KEVIN DURANT</option>
+        </select> */}
+      </div>
 
       <div className="search__items">{renderShoeSearch()}</div>
     </div>

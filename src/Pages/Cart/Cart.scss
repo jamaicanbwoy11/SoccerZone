@@ -348,6 +348,11 @@
             flex-direction: column;
             justify-content:center;
             align-items:flex-start;
+            &__promo{
+                input{
+                    width: 80%;
+                }
+            }
         }
 
     }

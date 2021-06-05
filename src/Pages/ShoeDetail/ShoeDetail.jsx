@@ -136,7 +136,7 @@ function ShoeDetail(props) {
                 {/* if Image Detail DEFINE MAP  */}
                 {item.imageDetail?.map((imageDetail) => {
                   return (
-                    <SRLWrapper options={options}>
+                    <SRLWrapper key={imageDetail.id} options={options}>
                       <div
                         key={imageDetail.id}
                         className="shoeDetail__items__item__image__detail__imageDetail"

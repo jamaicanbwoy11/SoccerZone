@@ -93,7 +93,7 @@ function Header() {
   };
   //Handle Load Content Search
   const loadContentSearch = () => {
-    console.log(inputEl);
+    // console.log(inputEl);
     let contentSearchEl = document.querySelector(
       '.header__mid__searchAndStore__contentSearch'
     );
@@ -115,12 +115,14 @@ function Header() {
     dispatch(createAction(ITEM_DETAIL, item));
   };
   //Handle Loading Data Content Search
+  const [waiting, setWaiting] = useState(false);
   const handleLoadDataShoes = () => {
     return shoes
       .filter((val) => {
         if (valueInput === '') {
           return val;
         } else if (val.name.toLowerCase().includes(valueInput.toLowerCase())) {
+          // setWaiting(true);
           return val;
         }
       })
@@ -139,9 +141,15 @@ function Header() {
                 <img src={item.linkImage} alt={`shoe-${item.name}`} />
               </div>
             </Link>
-            <h1 className="header__mid__searchAndStore__contentSearch__item__name">
-              {item.name}
-            </h1>
+            <Link
+              to={`/shoe-detail/${item.id}`}
+              onClick={() => handleShoeDetail(item)}
+            >
+              <h1 className="header__mid__searchAndStore__contentSearch__item__name">
+                {item.name}
+              </h1>
+            </Link>
+            {waiting && <div>...LOADING</div>}
           </div>
         );
       });

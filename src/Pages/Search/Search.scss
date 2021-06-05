@@ -1,5 +1,21 @@
 .search{
     margin-top:40px;
+    &__select{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+
+        margin-bottom: 40px;
+        select{
+            padding:5px 10px;
+            cursor: pointer;
+            font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            border:1px solid rgb(206, 206, 206);
+            &:focus{
+                outline: none;
+            }
+        }
+    }
     &__title{
         font-size: 1.1rem;
         margin:20px;

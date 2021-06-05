@@ -47,8 +47,8 @@ function Cart() {
     return cartArr
       ?.map((item) => {
         return (
-          <React.Fragment>
-            <tr className="cart__items__item" key={item.id}>
+          <React.Fragment key={item.id}>
+            <tr className="cart__items__item">
               <td data-label="Products" className="cart__items__item__product">
                 <Link
                   to={`/shoe-detail/${item.id}`}
