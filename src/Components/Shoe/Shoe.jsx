@@ -217,9 +217,9 @@ function Shoe() {
   };
   return (
     <div className="shoe">
-      <h1>BASKETBALL SHOES</h1>
+      <h1>SOCCER CLEATS</h1>
       <div className="shoe__items">{renderListShoe()}</div>
-      <h1 className="shoe__titleClothes">BASKETBALL CLOTHES</h1>
+      <h1 className="shoe__titleClothes">SOCCER CLOTHES</h1>
       <div className="shoe__items">{renderListClothes()}</div>
       <h1 className="shoe__titleClothes">SPORTS SHOES</h1>
       <div className="shoe__items">{renderListSportShoe()}</div>

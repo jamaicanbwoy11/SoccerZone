@@ -5,7 +5,7 @@ import FavoriteBorderIcon from '@material-ui/icons/FavoriteBorder';
 import StorefrontIcon from '@material-ui/icons/Storefront';
 import HighlightOffIcon from '@material-ui/icons/HighlightOff';
 import ListIcon from '@material-ui/icons/List';
-import Logo from '../../Assets/Images/Logo Thai Vipng1.png';
+import Logo from '../../Assets/Images/trans.png';
 import { Link } from 'react-router-dom';
 import { useDispatch, useSelector } from 'react-redux';
 import { createAction } from '../../Redux/Action';
@@ -217,7 +217,7 @@ function Header() {
                 <a href="#a">Sale</a>
               </li>
               <li>
-                <a href="#a">SNKRS</a>
+                <a href="#a">Cleats</a>
               </li>
             </ul>
           </nav>
