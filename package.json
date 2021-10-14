@@ -1,7 +1,7 @@
 {
   "name": "shoe-app",
   "version": "0.1.0",
-  "homepage": "https://jamaicanbwoy11.github.io/soccer",
+  "homepage": "https://soccerzone.site",
   "private": true,
   "dependencies": {
     "@material-ui/core": "^4.11.4",
