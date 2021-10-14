@@ -1,0 +1,43 @@
+{
+  "files": {
+    "main.css": "/static/css/main.e9c482ff.chunk.css",
+    "main.js": "/static/js/main.73920051.chunk.js",
+    "main.js.map": "/static/js/main.73920051.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.b49d2689.js",
+    "runtime-main.js.map": "/static/js/runtime-main.b49d2689.js.map",
+    "static/css/2.19627560.chunk.css": "/static/css/2.19627560.chunk.css",
+    "static/js/2.ca7bb1db.chunk.js": "/static/js/2.ca7bb1db.chunk.js",
+    "static/js/2.ca7bb1db.chunk.js.map": "/static/js/2.ca7bb1db.chunk.js.map",
+    "static/js/3.0a9431d5.chunk.js": "/static/js/3.0a9431d5.chunk.js",
+    "static/js/3.0a9431d5.chunk.js.map": "/static/js/3.0a9431d5.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/2.19627560.chunk.css.map": "/static/css/2.19627560.chunk.css.map",
+    "static/css/main.e9c482ff.chunk.css.map": "/static/css/main.e9c482ff.chunk.css.map",
+    "static/js/2.ca7bb1db.chunk.js.LICENSE.txt": "/static/js/2.ca7bb1db.chunk.js.LICENSE.txt",
+    "static/media/1b.daa987a3.jpg": "/static/media/1b.daa987a3.jpg",
+    "static/media/Kyrie2.c38f4d9f.jpg": "/static/media/Kyrie2.c38f4d9f.jpg",
+    "static/media/LEBRON.ab53265f.jpg": "/static/media/LEBRON.ab53265f.jpg",
+    "static/media/NBA2.73449947.jpg": "/static/media/NBA2.73449947.jpg",
+    "static/media/WESTBROOK2.74581005.jpg": "/static/media/WESTBROOK2.74581005.jpg",
+    "static/media/freak-baner.3dba7e2b.jpg": "/static/media/freak-baner.3dba7e2b.jpg",
+    "static/media/koszykarze_1.5d548a2e.png": "/static/media/koszykarze_1.5d548a2e.png",
+    "static/media/koszykarze_10.77f03f16.png": "/static/media/koszykarze_10.77f03f16.png",
+    "static/media/koszykarze_11.6f230d14.png": "/static/media/koszykarze_11.6f230d14.png",
+    "static/media/koszykarze_2.ececf264.png": "/static/media/koszykarze_2.ececf264.png",
+    "static/media/koszykarze_3.e08fb08f.png": "/static/media/koszykarze_3.e08fb08f.png",
+    "static/media/koszykarze_4.73c1aa70.png": "/static/media/koszykarze_4.73c1aa70.png",
+    "static/media/koszykarze_5.ae732afb.png": "/static/media/koszykarze_5.ae732afb.png",
+    "static/media/koszykarze_6.3b0d2c89.png": "/static/media/koszykarze_6.3b0d2c89.png",
+    "static/media/koszykarze_8.63bfa27b.png": "/static/media/koszykarze_8.63bfa27b.png",
+    "static/media/koszykarze_9.a9b0db66.png": "/static/media/koszykarze_9.a9b0db66.png",
+    "static/media/lebron18.8ac9adcf.jpg": "/static/media/lebron18.8ac9adcf.jpg",
+    "static/media/slick-theme.css": "/static/media/slick.c94f7671.ttf"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b49d2689.js",
+    "static/css/2.19627560.chunk.css",
+    "static/js/2.ca7bb1db.chunk.js",
+    "static/css/main.e9c482ff.chunk.css",
+    "static/js/main.73920051.chunk.js"
+  ]
+}
